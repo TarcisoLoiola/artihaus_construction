@@ -1,0 +1,78 @@
+.gallery-container {
+    padding: 30px 0 0 0;
+    margin: auto;
+    /* max-width: 1200px; */
+}
+
+/* Masonry Grid Layout */
+.my-masonry-grid {
+    display: flex;
+    margin-left: -30px;
+    width: auto;
+}
+
+.my-masonry-grid_column {
+    padding-left: 30px;
+    background-clip: padding-box;
+}
+
+.media-card {
+    position: relative;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.media-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.media-card:hover {
+    cursor: pointer;
+}
+
+.media-card:hover img {
+    transform: scale(1.1);
+}
+
+.media-card video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.media-card:hover video {
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+}
+
+.media-info {
+    position: absolute;
+    bottom: -15px;
+    left: 105px;
+    min-width: 200px;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.media-info h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.media-info p {
+    margin: 5px 0;
+}
+
+video {
+    display: block;
+    margin: auto;
+  }

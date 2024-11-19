@@ -1,0 +1,55 @@
+/* Global box-sizing and font import */
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  line-height: 27px;
+}
+
+body {
+  font-family: 'Syncopate', sans-serif;
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #fff;
+  color: #294E99;
+}
+
+input, textarea, a {
+  color: #294E99;
+  text-decoration: none;
+  font-family: 'Syncopate';
+}
+
+/* Header styles */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 105px;
+  background-color: #fff;
+  z-index: 1000;
+}
+
+/* Main content */
+main {
+  flex: 1;
+  margin-top: 102px; /* Space for header */
+  /* padding-bottom: 20px; Optional padding above footer */
+}
+
+/* Footer styles */
+footer {
+  background-color: #f7f7f7;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  margin-top: auto; /* Ensures footer stays at the bottom */
+}

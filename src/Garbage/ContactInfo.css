@@ -1,0 +1,30 @@
+/* 
+#gradient {
+  height: 150px;
+  background: linear-gradient(to right, rgba(255, 122, 89,1), rgba(255, 122, 89,0));
+} */
+
+.contact-info {
+    flex: 1;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    color:#294E99;
+    box-shadow: 0 4px 8px #294e9945;
+}
+
+.contact-info h2,
+.contact-info h3 {
+    margin-top: 0;
+    color: #294E99;
+}
+
+.contact-info p {
+    /* color: #555; */
+    line-height: 1.5;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+}

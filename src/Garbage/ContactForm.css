@@ -1,0 +1,70 @@
+/* Container styling */
+.contact-form-container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    background-color: #fff;
+    padding: 10px 40px 40px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #294e9945;
+    color: #294E99;
+}
+
+/* Heading */
+.contact-form-container h4 {
+    padding: 10px;
+    margin-bottom: 20px;
+    /* font-size: 24px; */
+    color: #294E99;
+}
+
+/* Form styling */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Label styling */
+.contact-form label {
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: #294E99;
+}
+
+/* Input and textarea styling */
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    /* width: 100%; */
+    color: #294E99;
+    font-size: large;
+}
+
+/* Button styling */
+.contact-form button {
+    align-self: center;
+    background-color: #294E99;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    width: fit-content;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #2f62c9;
+}
+
+/* Textarea height */
+.contact-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}

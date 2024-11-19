@@ -1,0 +1,482 @@
+[
+    {
+        "date": "10/03/22",
+        "description": "Zelle Transfer Conf# bubyru9fe; Paulo Henrique",
+        "amount": "800.00",
+        "category": "unknown"
+    },
+    {
+        "date": "10/03/22",
+        "description": "GA DIR ACH DES:CONTRIB ID:000022031279145 INDN:565 98445722601 CO",
+        "amount": "500.00",
+        "category": "unknown"
+    },
+    {
+        "date": "10/05/22",
+        "description": "Zelle Transfer Conf# cyg49gh2q; Paulo Henrique",
+        "amount": "300.00",
+        "category": "unknown"
+    },
+    {
+        "date": "10/05/22",
+        "description": "TOMORROWS HOPE M DES:6784468465 ID:XXXXXXXXX INDN:Rocio Castillo CO",
+        "amount": "517.50",
+        "category": "unknown"
+    },
+    {
+        "date": "10/07/22",
+        "description": "Zelle Transfer Conf# caz8duc0z; FLAVIA",
+        "amount": "380.00",
+        "category": "unknown"
+    },
+    {
+        "date": "10/07/22",
+        "description": "Zelle Transfer Conf# b34irc6k1; Paulo Henrique",
+        "amount": "400.00",
+        "category": "unknown"
+    },
+    {
+        "date": "10/07/22",
+        "description": "PNC BANK-IL-FL DES:LOAN PYMT ID:242005096755170 INDN:ARTIHAUS CONSTRUCTION",
+        "amount": "605.82",
+        "category": "unknown"
+    },
+    {
+        "date": "10/12/22",
+        "description": "Zelle Transfer Conf# njavdqfss; Paulo Henrique",
+        "amount": "600.00",
+        "category": "unknown"
+    },
+    {
+        "date": "10/14/22",
+        "description": "Zelle Transfer Conf# erq9s94nm; FLAVIA",
+        "amount": "300.00",
+        "category": "unknown"
+    },
+    {
+        "date": "10/14/22",
+        "description": "Subscription DES:Acorns ID:K6TP74 INDN:Tarciso Loiola Sousa CO ID:9000142694 WEB",
+        "amount": "5.00",
+        "category": "unknown"
+    },
+    {
+        "date": "10/17/22",
+        "description": "Zelle Transfer Conf# imn1bnipb; Claudia Castillo",
+        "amount": "20.00",
+        "category": "unknown"
+    },
+    {
+        "date": "10/21/22",
+        "description": "Zelle Transfer Conf# ibryu1czh; Paulo Henrique",
+        "amount": "900.00",
+        "category": "unknown"
+    },
+    {
+        "date": "10/24/22",
+        "description": "Zelle Transfer Conf# rrr14xosl; FLAVIA",
+        "amount": "400.00",
+        "category": "unknown"
+    },
+    {
+        "date": "10/24/22",
+        "description": "Zelle Transfer Conf# j2t4rscfu; Paulo Henrique",
+        "amount": "240.00",
+        "category": "unknown"
+    },
+    {
+        "date": "10/24/22",
+        "description": "Zelle Transfer Conf# p3vaqn8qw; Paola",
+        "amount": "5,000.00",
+        "category": "unknown"
+    },
+    {
+        "date": "10/28/22",
+        "description": "Zelle Transfer Conf# pn5eual14; Paulo Henrique",
+        "amount": "1,060.00",
+        "category": "unknown"
+    },
+    {
+        "date": "10/03/22",
+        "description": "CHECKCARD 1002 TRACKI 8002204999 NY 55429502275717501886849 RECURRING CKCD",
+        "amount": "19.95",
+        "category": "unknown"
+    },
+    {
+        "date": "10/05/22",
+        "description": "CHECKCARD 1003 CHICK-FIL-A #0400 BRASELTON GA 05140482277710023743560 CKCD",
+        "amount": "10.21",
+        "category": "unknown"
+    },
+    {
+        "date": "10/05/22",
+        "description": "INGLES MARKETS 10/05 #000717600 PURCHASE 4260 WINDER HWY FLOWERY BR GA",
+        "amount": "8.56",
+        "category": "unknown"
+    },
+    {
+        "date": "10/06/22",
+        "description": "INGLES MARKETS 10/06 #000704300 PURCHASE 4260 WINDER HWY FLOWERY BR GA",
+        "amount": "3.15",
+        "category": "unknown"
+    },
+    {
+        "date": "10/07/22",
+        "description": "CHECKCARD 1006 INGLES MARKETS #4 FLOWERY BR GA 05140482279720202077126 CKCD",
+        "amount": "11.79",
+        "category": "unknown"
+    },
+    {
+        "date": "10/11/22",
+        "description": "CHECKCARD 1006 QT 824 BUFORD GA 55432862280200718424270 CKCD 5542",
+        "amount": "84.14",
+        "category": "unknown"
+    },
+    {
+        "date": "10/11/22",
+        "description": "MOBILE PURCHASE 1007 QT 824 BUFORD GA",
+        "amount": "6.40",
+        "category": "unknown"
+    },
+    {
+        "date": "10/11/22",
+        "description": "MOBILE PURCHASE 1007 QT 771 GAINESVILLE GA",
+        "amount": "11.74",
+        "category": "unknown"
+    },
+    {
+        "date": "10/11/22",
+        "description": "TARGET T- 5865 10/08 #000302180 PURCHASE TARGET T- 5865 Sp Flowery Branc GA",
+        "amount": "139.08",
+        "category": "unknown"
+    },
+    {
+        "date": "10/11/22",
+        "description": "TARGET T- 5865 10/08 #000352473 PURCHASE TARGET T- 5865 Sp Flowery Branc GA",
+        "amount": "3.39",
+        "category": "unknown"
+    },
+    {
+        "date": "10/11/22",
+        "description": "CHECKCARD 1009 MARKETPLACE DININ STONE MTN GA 55457022283968480990029 CKCD",
+        "amount": "34.19",
+        "category": "unknown"
+    },
+    {
+        "date": "10/11/22",
+        "description": "RACETRAC 2307 10/10 #000675900 MOBILE PURCHASE 1944 HWY 211 NW HOSCHTON",
+        "amount": "5.66",
+        "category": "unknown"
+    },
+    {
+        "date": "10/11/22",
+        "description": "NNT IPANEMA BR 10/10 #000572449 PURCHASE 4005 OLD MILTON P ALPHARETTA GA",
+        "amount": "47.23",
+        "category": "unknown"
+    },
+    {
+        "date": "10/11/22",
+        "description": "RACETRAC2424 10/11 #000376500 MOBILE PURCHASE 4930 NELSON BROGD SUGAR HILL",
+        "amount": "3.79",
+        "category": "unknown"
+    },
+    {
+        "date": "10/11/22",
+        "description": "CHECKCARD 1011 WENDY'S #05 WINDER GA CKCD 5814 XXXXXXXXXXXX4304 XXXX XXXX",
+        "amount": "13.26",
+        "category": "unknown"
+    },
+    {
+        "date": "10/11/22",
+        "description": "PUBLIX SUPER M 10/11 #000612072 PURCHASE 4806 FRIENDSHIP R BUFORD GA",
+        "amount": "27.25",
+        "category": "unknown"
+    },
+    {
+        "date": "10/12/22",
+        "description": "CHECKCARD 1010 RACETRAC 2544 000 BETHLEHEM GA 15410192284974667352843 CKCD",
+        "amount": "78.99",
+        "category": "unknown"
+    },
+    {
+        "date": "10/12/22",
+        "description": "CHECKCARD 1011 ACE HARDWARE EATONTON GA 55310202285091808000083 CKCD 5251",
+        "amount": "9.69",
+        "category": "unknown"
+    },
+    {
+        "date": "10/12/22",
+        "description": "MOBILE PURCHASE 1011 PUBLIX #706 BUFORD GA",
+        "amount": "7.71",
+        "category": "unknown"
+    },
+    {
+        "date": "10/12/22",
+        "description": "RACETRAC2424 10/12 #000135600 MOBILE PURCHASE 4930 NELSON BROGD SUGAR HILL",
+        "amount": "7.27",
+        "category": "unknown"
+    },
+    {
+        "date": "10/12/22",
+        "description": "CHECKCARD 1012 HIMS & HERS HEALT SAN FRANCISCOCA 82711162285000008540231 CKCD",
+        "amount": "84.00",
+        "category": "unknown"
+    },
+    {
+        "date": "10/13/22",
+        "description": "CHECKCARD 1012 ARBY'S 8139 BRASELTON GA 05436842286500100007485 CKCD 5814",
+        "amount": "32.60",
+        "category": "unknown"
+    },
+    {
+        "date": "10/14/22",
+        "description": "MOBILE PURCHASE 1013 PUBLIX #706 BUFORD GA",
+        "amount": "11.46",
+        "category": "unknown"
+    },
+    {
+        "date": "10/17/22",
+        "description": "MOBILE PURCHASE 1013 QT 841 CUMMING GA",
+        "amount": "106.84",
+        "category": "unknown"
+    },
+    {
+        "date": "10/17/22",
+        "description": "MOBILE PURCHASE 1013 QT 841 CUMMING GA",
+        "amount": "12.79",
+        "category": "unknown"
+    },
+    {
+        "date": "10/17/22",
+        "description": "MOBILE PURCHASE 1014 CHICK-FIL-A #0400 BRASELTON GA",
+        "amount": "9.32",
+        "category": "unknown"
+    },
+    {
+        "date": "10/17/22",
+        "description": "PURCHASE 1014 CHILI'S 1444 ECOM 8009834637 GA",
+        "amount": "21.57",
+        "category": "unknown"
+    },
+    {
+        "date": "10/17/22",
+        "description": "OMO Carniceria 10/16 #000124147 PURCHASE 115 E MAIN ST STE BUFORD GA",
+        "amount": "77.66",
+        "category": "unknown"
+    },
+    {
+        "date": "10/17/22",
+        "description": "RACETRAC2424 10/16 #000942700 MOBILE PURCHASE 4930 NELSON BROGD SUGAR HILL",
+        "amount": "7.13",
+        "category": "unknown"
+    },
+    {
+        "date": "10/17/22",
+        "description": "RACETRAC2424 10/17 #000833400 MOBILE PURCHASE 4930 NELSON BROGD SUGAR HILL",
+        "amount": "13.47",
+        "category": "unknown"
+    },
+    {
+        "date": "10/17/22",
+        "description": "CHEVRON/LAKE O 10/17 #000170300 PURCHASE 6001 BOLLINGER CA EATONTON GA",
+        "amount": "2.27",
+        "category": "unknown"
+    },
+    {
+        "date": "10/18/22",
+        "description": "MOBILE PURCHASE 1017 PUBLIX #853 GREENSBORO GA",
+        "amount": "14.41",
+        "category": "unknown"
+    },
+    {
+        "date": "10/18/22",
+        "description": "CHECKCARD 1017 SUPERTRAVEL THELO 8777782321 CA 55429502290719724800186 CKCD",
+        "amount": "148.99",
+        "category": "unknown"
+    },
+    {
+        "date": "10/18/22",
+        "description": "NST THE HOME D 10/18 #000937801 PURCHASE 2490 MEADOW CREST GREENSBORO GA",
+        "amount": "26.84",
+        "category": "unknown"
+    },
+    {
+        "date": "10/19/22",
+        "description": "MOBILE PURCHASE 1018 PUBLIX #853 GREENSBORO GA",
+        "amount": "8.33",
+        "category": "unknown"
+    },
+    {
+        "date": "10/19/22",
+        "description": "CHECKCARD 1018 SUPERTRAVEL THELO 8777782321 CA 55429502291713855723506 CKCD",
+        "amount": "142.34",
+        "category": "unknown"
+    },
+    {
+        "date": "10/19/22",
+        "description": "CHECKCARD 1018 AMAZON.COM*H83 SEATTLE WA CKCD 4816 XXXXXXXXXXXX4304 XXXX",
+        "amount": "142.29",
+        "category": "unknown"
+    },
+    {
+        "date": "10/19/22",
+        "description": "RACETRAC 2544 10/19 #000888100 MOBILE PURCHASE 839 LOGANVILLE HW BETHLEHEM",
+        "amount": "5.66",
+        "category": "unknown"
+    },
+    {
+        "date": "10/20/22",
+        "description": "CHECKCARD 1017 Pedros Taco Shack Greensboro GA 85544022292001461687751 CKCD 5812",
+        "amount": "71.66",
+        "category": "unknown"
+    },
+    {
+        "date": "10/20/22",
+        "description": "RACETRAC75 10/20 #000304900 MOBILE PURCHASE 9665 KNOX BRIDGE CANTON GA",
+        "amount": "5.28",
+        "category": "unknown"
+    },
+    {
+        "date": "10/20/22",
+        "description": "LOWE'S #2838 10/20 #000626995 PURCHASE 2044 CUMMING HIGH CANTON GA",
+        "amount": "2.22",
+        "category": "unknown"
+    },
+    {
+        "date": "10/21/22",
+        "description": "CHECKCARD 1018 Pedros Taco Shack Greensboro GA 85544022293001479829147 CKCD 5812",
+        "amount": "75.03",
+        "category": "unknown"
+    },
+    {
+        "date": "10/21/22",
+        "description": "MOBILE PURCHASE 1019 RACETRAC 2544 000 BETHLEHEM GA",
+        "amount": "91.20",
+        "category": "unknown"
+    },
+    {
+        "date": "10/21/22",
+        "description": "RACETRAC2424 10/21 #000193500 MOBILE PURCHASE 4930 NELSON BROGD SUGAR HILL",
+        "amount": "4.54",
+        "category": "unknown"
+    },
+    {
+        "date": "10/24/22",
+        "description": "CHECKCARD 1020 FAZOLIS 5311 CARTERSVILLE GA 75428552294936801962008 CKCD 5812",
+        "amount": "27.78",
+        "category": "unknown"
+    },
+    {
+        "date": "10/24/22",
+        "description": "MOBILE PURCHASE 1021 PUBLIX #1188 HOSCHTON GA",
+        "amount": "10.39",
+        "category": "unknown"
+    },
+    {
+        "date": "10/24/22",
+        "description": "MOBILE PURCHASE 1022 QT 841 CUMMING GA",
+        "amount": "96.76",
+        "category": "unknown"
+    },
+    {
+        "date": "10/24/22",
+        "description": "CHECKCARD 1022 QT 841 CUMMING GA 55432862296205243775007 CKCD 5541",
+        "amount": "14.11",
+        "category": "unknown"
+    },
+    {
+        "date": "10/24/22",
+        "description": "CHECKCARD 1022 CHILI'S FLOWERY B FLOWERY BRANCGA 55263522296722070161709 CKCD",
+        "amount": "46.99",
+        "category": "unknown"
+    },
+    {
+        "date": "10/24/22",
+        "description": "RACETRAC2424 10/24 #000724800 MOBILE PURCHASE 4930 NELSON BROGD SUGAR HILL",
+        "amount": "4.54",
+        "category": "unknown"
+    },
+    {
+        "date": "10/24/22",
+        "description": "CHECKCARD 1024 NNT BURGER KIN JEFFERSON GA",
+        "amount": "5.35",
+        "category": "unknown"
+    },
+    {
+        "date": "10/24/22",
+        "description": "CHECKCARD 1024 WENDY'S #21 JEFFERSON GA",
+        "amount": "15.68",
+        "category": "unknown"
+    },
+    {
+        "date": "10/25/22",
+        "description": "CHECKCARD 1024 S & S ACE HARDWAR BUFORD GA",
+        "amount": "23.00",
+        "category": "unknown"
+    },
+    {
+        "date": "10/25/22",
+        "description": "RACETRAC2424 10/25 #000198800 MOBILE PURCHASE 4930 NELSON BROGD SUGAR HILL",
+        "amount": "4.54",
+        "category": "unknown"
+    },
+    {
+        "date": "10/26/22",
+        "description": "CHECKCARD 1024 QT 737 JEFFERSON GA",
+        "amount": "14.11",
+        "category": "unknown"
+    },
+    {
+        "date": "10/26/22",
+        "description": "CHECKCARD 1026 SUPERTRAVEL TRUBY 8777782321 CA",
+        "amount": "269.99",
+        "category": "unknown"
+    },
+    {
+        "date": "10/27/22",
+        "description": "CHECKCARD 1025 RACETRAC2424 000 SUGAR HILL GA",
+        "amount": "20.40",
+        "category": "unknown"
+    },
+    {
+        "date": "10/28/22",
+        "description": "CHECKCARD 1025 Pedros Taco Shack Greensboro GA 85544022300001626096500 CKCD 5812",
+        "amount": "60.03",
+        "category": "unknown"
+    },
+    {
+        "date": "10/28/22",
+        "description": "CHECKCARD 1026 JC MART # 3 GREENSBORO GA 22303792300001951614440 CKCD 5541",
+        "amount": "8.23",
+        "category": "unknown"
+    },
+    {
+        "date": "10/28/22",
+        "description": "CHECKCARD 1028 SUPERTRAVEL TRUBY 8777782321 CA 55429502301713181181047 CKCD",
+        "amount": "145.39",
+        "category": "unknown"
+    },
+    {
+        "date": "10/31/22",
+        "description": "CHECKCARD 1026 Pedros Taco Shack Greensboro GA 85544022301001645791361 CKCD 5812",
+        "amount": "60.36",
+        "category": "unknown"
+    },
+    {
+        "date": "10/28/22",
+        "description": "MOBILE PURCHASE 1028 WENDY'S #05 WINDER GA",
+        "amount": "7.99",
+        "category": "unknown"
+    },
+    {
+        "date": "10/31/22",
+        "description": "WALGREENS 5963 10/30 #000002920 MOBILE PURCHASE WALGREENS 5963 SP FLOWERY",
+        "amount": "41.41",
+        "category": "unknown"
+    },
+    {
+        "date": "10/31/22",
+        "description": "RACETRAC75 10/31 #000341900 MOBILE PURCHASE 9665 KNOX BRIDGE CANTON GA",
+        "amount": "9.52",
+        "category": "unknown"
+    }
+]

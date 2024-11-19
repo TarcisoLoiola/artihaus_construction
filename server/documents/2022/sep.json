@@ -1,0 +1,584 @@
+[
+    {
+        "date": "09/01/22",
+        "description": "GA DIR ACH DES:CONTRIB ID:000021876775124 INDN:775 98445722601 CO",
+        "amount": "500.00",
+        "category": "unknown"
+    },
+    {
+        "date": "09/01/22",
+        "description": "Acorns Invest DES:Transfer ID:1Q9B721 INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "24.10",
+        "category": "unknown"
+    },
+    {
+        "date": "09/02/22",
+        "description": "Zelle Transfer Conf# he7ds1h7x; Paulo Henrique",
+        "amount": "990.00",
+        "category": "unknown"
+    },
+    {
+        "date": "09/02/22",
+        "description": "Acorns Invest DES:Transfer ID:5L13821 INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "5.10",
+        "category": "unknown"
+    },
+    {
+        "date": "09/06/22",
+        "description": "Zelle Transfer Conf# jprko7985; Paola",
+        "amount": "12,000.00",
+        "category": "unknown"
+    },
+    {
+        "date": "09/06/22",
+        "description": "TOMORROWS HOPE M DES:6784468465 ID:XXXXXXXXX INDN:Rocio Castillo CO",
+        "amount": "1,035.00",
+        "category": "unknown"
+    },
+    {
+        "date": "09/06/22",
+        "description": "Acorns Invest DES:Transfer ID:DQS0921 INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "32.40",
+        "category": "unknown"
+    },
+    {
+        "date": "09/06/22",
+        "description": "Acorns Invest DES:Transfer ID:23NG921 INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "9.60",
+        "category": "unknown"
+    },
+    {
+        "date": "09/07/22",
+        "description": "Zelle Transfer Conf# goyqqjx1b; Paulo Henrique",
+        "amount": "200.00",
+        "category": "unknown"
+    },
+    {
+        "date": "09/07/22",
+        "description": "PNC BANK-IL-FL DES:LOAN PYMT ID:242005096755170 INDN:ARTIHAUS CONSTRUCTION",
+        "amount": "605.82",
+        "category": "unknown"
+    },
+    {
+        "date": "09/09/22",
+        "description": "Zelle Transfer Conf# rdykuu9q3; Paulo Henrique",
+        "amount": "500.00",
+        "category": "unknown"
+    },
+    {
+        "date": "09/14/22",
+        "description": "Subscription DES:Acorns ID:WKFT34 INDN:Tarciso Loiola Sousa CO ID:9000142694 WEB",
+        "amount": "5.00",
+        "category": "unknown"
+    },
+    {
+        "date": "09/15/22",
+        "description": "Zelle Transfer Conf# ftqr5cre3; Paola",
+        "amount": "10,000.00",
+        "category": "unknown"
+    },
+    {
+        "date": "09/16/22",
+        "description": "Zelle Transfer Conf# cdig5qxlo; Paulo Henrique",
+        "amount": "800.00",
+        "category": "unknown"
+    },
+    {
+        "date": "09/19/22",
+        "description": "Zelle Transfer Conf# rhiuywznc; Paulo Henrique",
+        "amount": "220.00",
+        "category": "unknown"
+    },
+    {
+        "date": "09/22/22",
+        "description": "Zelle Transfer Conf# iz4fsxa3v; Paulo Henrique",
+        "amount": "200.00",
+        "category": "unknown"
+    },
+    {
+        "date": "09/23/22",
+        "description": "Acorns DES:Transfer ID:12166649604 INDN:Tarciso Loiola Sousa CO ID:9000000001",
+        "amount": "1,000.00",
+        "category": "unknown"
+    },
+    {
+        "date": "09/01/22",
+        "description": "MOBILE PURCHASE 0830 RACETRAC 2544 000 BETHLEHEM GA",
+        "amount": "81.15",
+        "category": "unknown"
+    },
+    {
+        "date": "09/01/22",
+        "description": "MOBILE PURCHASE 0831 QT 823 LITHONIA GA",
+        "amount": "6.57",
+        "category": "unknown"
+    },
+    {
+        "date": "09/01/22",
+        "description": "MOBILE PURCHASE 0831 PUBLIX #853 GREENSBORO GA",
+        "amount": "8.99",
+        "category": "unknown"
+    },
+    {
+        "date": "09/01/22",
+        "description": "CHECKCARD 0831 SNAPTRAVEL TRUBY 8777782321 CA 55429502243743953032525 CKCD",
+        "amount": "129.95",
+        "category": "unknown"
+    },
+    {
+        "date": "09/01/22",
+        "description": "CHECKCARD 0901 RACETRAC2424 SUGAR HILL GA CKCD 5542 XXXXXXXXXXXX4304 XXXX",
+        "amount": "83.05",
+        "category": "unknown"
+    },
+    {
+        "date": "09/02/22",
+        "description": "CHECKCARD 0901 DAIRY QUEEN #4449 GREENSBORO GA 55263522245400100000799 CKCD",
+        "amount": "10.48",
+        "category": "unknown"
+    },
+    {
+        "date": "09/02/22",
+        "description": "CHECKCARD 0901 AMAZON.COM*1V8 SEATTLE WA CKCD 4816 XXXXXXXXXXXX4304 XXXX",
+        "amount": "24.56",
+        "category": "unknown"
+    },
+    {
+        "date": "09/06/22",
+        "description": "CHECKCARD 0827 U-HAUL MOVING & S 800-789-3638 GA 02305372246500352807055 CKCD",
+        "amount": "315.65",
+        "category": "unknown"
+    },
+    {
+        "date": "09/06/22",
+        "description": "CHECKCARD 0831 Pedros Taco Shack Greensboro GA 85544022245001452301451 CKCD 5812",
+        "amount": "74.50",
+        "category": "unknown"
+    },
+    {
+        "date": "09/06/22",
+        "description": "CHECKCARD 0901 RACETRAC2424 000 SUGAR HILL GA 15410192245974709062457 CKCD",
+        "amount": "3.71",
+        "category": "unknown"
+    },
+    {
+        "date": "09/06/22",
+        "description": "PURCHASE 0902 Amazon.com*1V7CL1 Amzn.com/billWA",
+        "amount": "59.80",
+        "category": "unknown"
+    },
+    {
+        "date": "09/06/22",
+        "description": "MOBILE PURCHASE 0902 QT 824 BUFORD GA",
+        "amount": "6.40",
+        "category": "unknown"
+    },
+    {
+        "date": "09/06/22",
+        "description": "CHECKCARD 0902 TRACKI 8002204999 NY 55429502245743225526179 RECURRING CKCD",
+        "amount": "19.95",
+        "category": "unknown"
+    },
+    {
+        "date": "09/06/22",
+        "description": "CHECKCARD 0902 CHEVRON 0204591 FLOWERY BRANCGA 55432862245201064501236 CKCD",
+        "amount": "20.67",
+        "category": "unknown"
+    },
+    {
+        "date": "09/06/22",
+        "description": "PURCHASE 0904 CARPARTSCOM * 866-529-0412 CA",
+        "amount": "151.24",
+        "category": "unknown"
+    },
+    {
+        "date": "09/06/22",
+        "description": "MOBILE PURCHASE 0902 CHIPOTLE 2262 CUMMING GA",
+        "amount": "13.78",
+        "category": "unknown"
+    },
+    {
+        "date": "09/06/22",
+        "description": "CHECKCARD 0903 TIDAL WAVE LANIER 7069380991 GA 55506292246726847239779",
+        "amount": "34.98",
+        "category": "unknown"
+    },
+    {
+        "date": "09/06/22",
+        "description": "PURCHASE 0904 AMZN Mktp US*V965 Amzn.com/billWA",
+        "amount": "64.19",
+        "category": "unknown"
+    },
+    {
+        "date": "09/06/22",
+        "description": "PURCHASE 0905 AMZN Mktp US*1F4X Amzn.com/billWA",
+        "amount": "66.32",
+        "category": "unknown"
+    },
+    {
+        "date": "09/06/22",
+        "description": "CHECKCARD 0903 PUBLIX #706 BUFORD GA 02305372247500265361074 CKCD 5411",
+        "amount": "46.55",
+        "category": "unknown"
+    },
+    {
+        "date": "09/06/22",
+        "description": "PURCHASE 0905 Amazon.com*1F60I8 Amzn.com/billWA",
+        "amount": "20.97",
+        "category": "unknown"
+    },
+    {
+        "date": "09/06/22",
+        "description": "PURCHASE 0905 AMZN Mktp US*1F8X Amzn.com/billWA",
+        "amount": "9.62",
+        "category": "unknown"
+    },
+    {
+        "date": "09/06/22",
+        "description": "PURCHASE 0905 APPLE.COM/BILL 866-712-7753 CA",
+        "amount": "9.99",
+        "category": "unknown"
+    },
+    {
+        "date": "09/06/22",
+        "description": "PUBLIX SUPER M 09/04 #000746517 PURCHASE 5900 SPOUT SPRING FLOWERY BRANC GA",
+        "amount": "20.86",
+        "category": "unknown"
+    },
+    {
+        "date": "09/06/22",
+        "description": "CHECKCARD 0905 QT 824 OUT BUFORD GA CKCD 5542 XXXXXXXXXXXX4304 XXXX XXXX",
+        "amount": "42.81",
+        "category": "unknown"
+    },
+    {
+        "date": "09/06/22",
+        "description": "CHECKCARD 0905 PULSEWORKS LLC GA SMYRNA GA 55310202249091935000449 CKCD",
+        "amount": "18.00",
+        "category": "unknown"
+    },
+    {
+        "date": "09/07/22",
+        "description": "CHECKCARD 0907 WENDY'S #05 WINDER GA CKCD 5814 XXXXXXXXXXXX4304 XXXX XXXX",
+        "amount": "10.05",
+        "category": "unknown"
+    },
+    {
+        "date": "09/08/22",
+        "description": "MOBILE PURCHASE 0907 QT 824 BUFORD GA",
+        "amount": "16.10",
+        "category": "unknown"
+    },
+    {
+        "date": "09/08/22",
+        "description": "CHECKCARD 0907 S & S ACE HARDWAR BRASELTON GA 55506292251400913000208 CKCD",
+        "amount": "32.08",
+        "category": "unknown"
+    },
+    {
+        "date": "09/08/22",
+        "description": "RACETRAC2566 09/08 #000332228 MOBILE PURCHASE 4855 ATLANTA HWY ALPHARETTA",
+        "amount": "5.11",
+        "category": "unknown"
+    },
+    {
+        "date": "09/08/22",
+        "description": "RACETRAC2566 09/08 #000132129 MOBILE PURCHASE 4855 ATLANTA HWY ALPHARETTA",
+        "amount": "9.38",
+        "category": "unknown"
+    },
+    {
+        "date": "09/09/22",
+        "description": "MOBILE PURCHASE 0907 QT 824 BUFORD GA",
+        "amount": "61.28",
+        "category": "unknown"
+    },
+    {
+        "date": "09/09/22",
+        "description": "CHECKCARD 0908 ACE HARDWARE MIDW ALPHARETTA GA 55310202252400990000737",
+        "amount": "7.06",
+        "category": "unknown"
+    },
+    {
+        "date": "09/09/22",
+        "description": "RACETRAC396 09/09 #000213659 MOBILE PURCHASE 888 BUFORD ROAD CUMMING",
+        "amount": "4.58",
+        "category": "unknown"
+    },
+    {
+        "date": "09/09/22",
+        "description": "CHECKCARD 0909 BUFORD DAM MAR CUMMING GA CKCD 5542 XXXXXXXXXXXX4304 XXXX",
+        "amount": "76.57",
+        "category": "unknown"
+    },
+    {
+        "date": "09/12/22",
+        "description": "CHECKCARD 0902 U-HAUL MOVING & S 800-789-3638 GA 02305372253500333998049 CKCD",
+        "amount": "239.63",
+        "category": "unknown"
+    },
+    {
+        "date": "09/12/22",
+        "description": "CHECKCARD 0909 MARATHON PETRO112 CUMMING GA 22303792253000645188800 CKCD",
+        "amount": "10.28",
+        "category": "unknown"
+    },
+    {
+        "date": "09/12/22",
+        "description": "CHECKCARD 0909 TST* BETO'S TACOS SUWANEE GA 02305372252300299454066 CKCD",
+        "amount": "49.79",
+        "category": "unknown"
+    },
+    {
+        "date": "09/12/22",
+        "description": "CHECKCARD 0911 PUBLIX #706 BUFORD GA 02305372255000449520264 CKCD 5411",
+        "amount": "51.80",
+        "category": "unknown"
+    },
+    {
+        "date": "09/12/22",
+        "description": "TARGET T- 5865 09/11 #000253857 PURCHASE TARGET T- 5865 Sp Flowery Branc GA",
+        "amount": "28.62",
+        "category": "unknown"
+    },
+    {
+        "date": "09/12/22",
+        "description": "KROGER FU 5550 09/12 #000247289 PURCHASE KROGER FU 5550 BE CUMMING GA",
+        "amount": "6.16",
+        "category": "unknown"
+    },
+    {
+        "date": "09/12/22",
+        "description": "RACETRAC2566 09/12 #000358902 MOBILE PURCHASE 4855 ATLANTA HWY ALPHARETTA",
+        "amount": "4.82",
+        "category": "unknown"
+    },
+    {
+        "date": "09/12/22",
+        "description": "CHECKCARD 0912 KROGER FUEL #1 CUMMING GA CKCD 5542 XXXXXXXXXXXX4304 XXXX",
+        "amount": "15.14",
+        "category": "unknown"
+    },
+    {
+        "date": "09/13/22",
+        "description": "RACETRAC2566 09/13 #000587446 MOBILE PURCHASE 4855 ATLANTA HWY ALPHARETTA",
+        "amount": "7.58",
+        "category": "unknown"
+    },
+    {
+        "date": "09/14/22",
+        "description": "CHECKCARD 0912 RACETRAC2566 000 ALPHARETTA GA 15410192256974460522562 CKCD",
+        "amount": "4.48",
+        "category": "unknown"
+    },
+    {
+        "date": "09/14/22",
+        "description": "CHECKCARD 0913 ACE HARDWARE MIDW ALPHARETTA GA 55310202257400990000914",
+        "amount": "7.06",
+        "category": "unknown"
+    },
+    {
+        "date": "09/14/22",
+        "description": "RACETRAC396 09/14 #000457517 MOBILE PURCHASE 888 BUFORD ROAD CUMMING",
+        "amount": "5.65",
+        "category": "unknown"
+    },
+    {
+        "date": "09/14/22",
+        "description": "RACETRAC2566 09/14 #000652406 MOBILE PURCHASE 4855 ATLANTA HWY ALPHARETTA",
+        "amount": "4.48",
+        "category": "unknown"
+    },
+    {
+        "date": "09/14/22",
+        "description": "RACETRAC2566 09/14 #000687088 MOBILE PURCHASE 4855 ATLANTA HWY ALPHARETTA",
+        "amount": "2.66",
+        "category": "unknown"
+    },
+    {
+        "date": "09/15/22",
+        "description": "CHECKCARD 0913 RACETRAC2566 000 ALPHARETTA GA 15410192257974460522579 CKCD",
+        "amount": "2.66",
+        "category": "unknown"
+    },
+    {
+        "date": "09/15/22",
+        "description": "RACETRAC396 09/15 #000905431 MOBILE PURCHASE 888 BUFORD ROAD CUMMING",
+        "amount": "5.66",
+        "category": "unknown"
+    },
+    {
+        "date": "09/15/22",
+        "description": "TARGET T- 235 09/15 #000063355 PURCHASE TARGET T- 235 Rob Augusta GA",
+        "amount": "19.97",
+        "category": "unknown"
+    },
+    {
+        "date": "09/16/22",
+        "description": "CHECKCARD 0915 QT 824 BUFORD GA 55432862259204866525018 CKCD 5542",
+        "amount": "96.62",
+        "category": "unknown"
+    },
+    {
+        "date": "09/16/22",
+        "description": "CHECKCARD 0916 SNAPTRAVEL HOME2 8777782321 CA 55429502259745095043386 CKCD",
+        "amount": "132.99",
+        "category": "unknown"
+    },
+    {
+        "date": "09/16/22",
+        "description": "CHECKCARD 0915 CHILI'S #104 AUGUSTA GA 55263522259091000300265 CKCD 5812",
+        "amount": "68.24",
+        "category": "unknown"
+    },
+    {
+        "date": "09/16/22",
+        "description": "WAL Wal-Mart S 09/16 #000883234 PURCHASE 1293 WAL-SAMS AUGUSTA GA",
+        "amount": "70.03",
+        "category": "unknown"
+    },
+    {
+        "date": "09/16/22",
+        "description": "RACETRAC 2307 09/16 #000586900 MOBILE PURCHASE 1944 HWY 211 NW HOSCHTON",
+        "amount": "8.01",
+        "category": "unknown"
+    },
+    {
+        "date": "09/19/22",
+        "description": "CHECKCARD 0909 U-HAUL MOVING & S 800-789-3638 GA 02305372261100231444202 CKCD",
+        "amount": "106.73",
+        "category": "unknown"
+    },
+    {
+        "date": "09/19/22",
+        "description": "CHECKCARD 0915 QT 824 BUFORD GA 55432862259204868013658 CKCD 5541",
+        "amount": "10.06",
+        "category": "unknown"
+    },
+    {
+        "date": "09/19/22",
+        "description": "CHECKCARD 0916 ET CARHIRE DUBLIN 15276322262004751633650 CKCD 4722",
+        "amount": "168.35",
+        "category": "unknown"
+    },
+    {
+        "date": "09/19/22",
+        "description": "CHECKCARD 0917 SHELL OIL 5754550 FLOWERY BRANCGA 55308762261547642488151",
+        "amount": "50.65",
+        "category": "unknown"
+    },
+    {
+        "date": "09/19/22",
+        "description": "MARTA TVM 09/17 #000903057 PURCHASE 2424 PIEDMONT ROA ATLANTA GA",
+        "amount": "6.00",
+        "category": "unknown"
+    },
+    {
+        "date": "09/19/22",
+        "description": "CHECKCARD 0917 U-HAUL MOVING & S 800-789-3638 GA 02305372261100231444384 CKCD",
+        "amount": "284.94",
+        "category": "unknown"
+    },
+    {
+        "date": "09/19/22",
+        "description": "CHECKCARD 0917 COPA COPAAIR.COM FL 05272452262910005058579 CKCD 3219",
+        "amount": "35.00",
+        "category": "unknown"
+    },
+    {
+        "date": "09/19/22",
+        "description": "CHECKCARD 0918 HN34 GUARULHOS GUARULHOS 05265952261185741897437 CKCD",
+        "amount": "6.05",
+        "category": "unknown"
+    },
+    {
+        "date": "09/19/22",
+        "description": "CHECKCARD 0918 CASA PAO DE QUEIJCONFINS 05480872262165297890026 CKCD 5814",
+        "amount": "5.22",
+        "category": "unknown"
+    },
+    {
+        "date": "09/20/22",
+        "description": "CHECKCARD 0919 UNIDAS LOCADORA I IPATINGA 05480872263339292850017 CKCD",
+        "amount": "79.25",
+        "category": "unknown"
+    },
+    {
+        "date": "09/28/22",
+        "description": "KROGER FU 2325 09/28 #000333721 PURCHASE KROGER FU 2325 BE CUMMING GA",
+        "amount": "6.16",
+        "category": "unknown"
+    },
+    {
+        "date": "09/28/22",
+        "description": "RACETRAC2331 09/28 #000276000 MOBILE PURCHASE 110 OLD DOSS DRIV CANTON GA",
+        "amount": "11.53",
+        "category": "unknown"
+    },
+    {
+        "date": "09/28/22",
+        "description": "CHECKCARD 0928 KROGER FU 2325 CUMMING GA CKCD 5542 XXXXXXXXXXXX4304 XXXX",
+        "amount": "78.48",
+        "category": "unknown"
+    },
+    {
+        "date": "09/28/22",
+        "description": "KROGER 62 125 09/28 #000551649 PURCHASE KROGER 62 125 E. CARTERSVILLE GA",
+        "amount": "2.66",
+        "category": "unknown"
+    },
+    {
+        "date": "09/29/22",
+        "description": "RACETRAC2582 09/29 #000552400 MOBILE PURCHASE 7984 CUMMING HWY CANTON",
+        "amount": "1.90",
+        "category": "unknown"
+    },
+    {
+        "date": "09/29/22",
+        "description": "RACETRAC2512 09/29 #000112300 MOBILE PURCHASE 1328 E MAIN ST CARTERSVILLE",
+        "amount": "3.75",
+        "category": "unknown"
+    },
+    {
+        "date": "09/30/22",
+        "description": "MOBILE PURCHASE 0928 TACO BELL 3214003 CARTERSVILLE GA",
+        "amount": "9.41",
+        "category": "unknown"
+    },
+    {
+        "date": "09/30/22",
+        "description": "RACETRAC2512 09/30 #000637700 MOBILE PURCHASE 1328 E MAIN ST CARTERSVILLE",
+        "amount": "6.83",
+        "category": "unknown"
+    },
+    {
+        "date": "09/30/22",
+        "description": "CHECKCARD 0930 KROGER FU 2325 CUMMING GA CKCD 5542 XXXXXXXXXXXX4304 XXXX",
+        "amount": "89.63",
+        "category": "unknown"
+    },
+    {
+        "date": "09/19/22",
+        "description": "CHECKCARD 0916 ET CARHIRE DUBLIN 15276322262004751633650",
+        "amount": "5.05",
+        "category": "unknown"
+    },
+    {
+        "date": "09/19/22",
+        "description": "CHECKCARD 0918 HN34 GUARULHOS GUARULHOS",
+        "amount": "0.18",
+        "category": "unknown"
+    },
+    {
+        "date": "09/19/22",
+        "description": "CHECKCARD 0918 CASA PAO DE QUEIJCONFINS",
+        "amount": "0.16",
+        "category": "unknown"
+    },
+    {
+        "date": "09/20/22",
+        "description": "CHECKCARD 0919 UNIDAS LOCADORA I IPATINGA",
+        "amount": "2.38",
+        "category": "unknown"
+    }
+]

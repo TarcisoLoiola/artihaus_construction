@@ -1,0 +1,632 @@
+[
+    {
+        "date": "07/01/22",
+        "description": "Zelle Transfer Conf# igfngjgn3; Paulo Henrique",
+        "amount": "1,020.00",
+        "category": "unknown"
+    },
+    {
+        "date": "07/01/22",
+        "description": "GA DIR ACH DES:CONTRIB ID:000021560150123 INDN:950 98445722601 CO",
+        "amount": "500.00",
+        "category": "unknown"
+    },
+    {
+        "date": "07/01/22",
+        "description": "Acorns Invest DES:Transfer ID:R2X3Y01 INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "18.40",
+        "category": "unknown"
+    },
+    {
+        "date": "07/05/22",
+        "description": "Acorns Invest DES:Transfer ID:FKJDZ01 INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "20.90",
+        "category": "unknown"
+    },
+    {
+        "date": "07/05/22",
+        "description": "Acorns Invest DES:Transfer ID:WJ36011 INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "10.00",
+        "category": "unknown"
+    },
+    {
+        "date": "07/07/22",
+        "description": "TOMORROWS HOPE M DES:6784468465 ID:XXXXXXXXX INDN:Rocio Castillo CO",
+        "amount": "985.00",
+        "category": "unknown"
+    },
+    {
+        "date": "07/07/22",
+        "description": "PNC BANK-IL-FL DES:LOAN PYMT ID:242005096755170 INDN:ARTIHAUS CONSTRUCTION",
+        "amount": "605.82",
+        "category": "unknown"
+    },
+    {
+        "date": "07/07/22",
+        "description": "Acorns Invest DES:Transfer ID:3N87211 INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "82.20",
+        "category": "unknown"
+    },
+    {
+        "date": "07/11/22",
+        "description": "Zelle Transfer Conf# gegarrafn; Alessandro",
+        "amount": "450.00",
+        "category": "unknown"
+    },
+    {
+        "date": "07/11/22",
+        "description": "Zelle Transfer Conf# gbt0m746x; Paulo Henrique",
+        "amount": "450.00",
+        "category": "unknown"
+    },
+    {
+        "date": "07/11/22",
+        "description": "Zelle Transfer Conf# m66vdapa7; Paulo Henrique",
+        "amount": "330.00",
+        "category": "unknown"
+    },
+    {
+        "date": "07/11/22",
+        "description": "Zelle Transfer Conf# ki7b747rb; Paola",
+        "amount": "10,000.00",
+        "category": "unknown"
+    },
+    {
+        "date": "07/12/22",
+        "description": "Zelle Transfer Conf# jskxu7sl4; Alessandro",
+        "amount": "320.00",
+        "category": "unknown"
+    },
+    {
+        "date": "07/14/22",
+        "description": "Subscription DES:Acorns ID:GVNVV3 INDN:Tarciso Loiola Sousa CO ID:9000142694 WEB",
+        "amount": "5.00",
+        "category": "unknown"
+    },
+    {
+        "date": "07/15/22",
+        "description": "Zelle Transfer Conf# jr7g5qcr6; Paulo Henrique",
+        "amount": "1,000.00",
+        "category": "unknown"
+    },
+    {
+        "date": "07/15/22",
+        "description": "Zelle Transfer Conf# gdpryc63b; FLAVIA",
+        "amount": "180.00",
+        "category": "unknown"
+    },
+    {
+        "date": "07/15/22",
+        "description": "Acorns DES:Transfer ID:11226540814 INDN:Tarciso Loiola Sousa CO ID:9000000001",
+        "amount": "1,000.00",
+        "category": "unknown"
+    },
+    {
+        "date": "07/18/22",
+        "description": "Zelle Transfer Conf# kbnz4ojjj; HELEN",
+        "amount": "220.00",
+        "category": "unknown"
+    },
+    {
+        "date": "07/18/22",
+        "description": "Online Banking payment to CRD 8634 Confirmation# 0407075017",
+        "amount": "160.00",
+        "category": "unknown"
+    },
+    {
+        "date": "07/21/22",
+        "description": "Zelle Transfer Conf# igc5gum3t; Paulo Henrique",
+        "amount": "600.00",
+        "category": "unknown"
+    },
+    {
+        "date": "07/21/22",
+        "description": "Online Banking payment to CRD 8634 Confirmation# 0443727845",
+        "amount": "46.31",
+        "category": "unknown"
+    },
+    {
+        "date": "07/25/22",
+        "description": "Zelle Transfer Conf# hvzx27yfy; HELEN",
+        "amount": "110.00",
+        "category": "unknown"
+    },
+    {
+        "date": "07/25/22",
+        "description": "Zelle Transfer Conf# gjw9cd9u6; Alessandro",
+        "amount": "360.00",
+        "category": "unknown"
+    },
+    {
+        "date": "07/25/22",
+        "description": "Zelle Transfer Conf# lg736ttd1; FLAVIA",
+        "amount": "200.00",
+        "category": "unknown"
+    },
+    {
+        "date": "07/25/22",
+        "description": "Acorns DES:Transfer ID:11374733912 INDN:Tarciso Loiola Sousa CO ID:9000000001",
+        "amount": "1,000.00",
+        "category": "unknown"
+    },
+    {
+        "date": "07/11/22",
+        "description": "RACETRAC396 07/11 #000076498 MOBILE PURCHASE 888 BUFORD ROAD CUMMING",
+        "amount": "12.34",
+        "category": "unknown"
+    },
+    {
+        "date": "07/12/22",
+        "description": "PURCHASE 0712 SWEETWATER SOUND 800-222-4700 IN",
+        "amount": "42.39",
+        "category": "unknown"
+    },
+    {
+        "date": "07/12/22",
+        "description": "MOBILE PURCHASE 0711 SQ *MY CBD ORGANI Alpharetta GA",
+        "amount": "33.64",
+        "category": "unknown"
+    },
+    {
+        "date": "07/12/22",
+        "description": "RACETRAC396 07/12 #000138954 MOBILE PURCHASE 888 BUFORD ROAD CUMMING",
+        "amount": "6.40",
+        "category": "unknown"
+    },
+    {
+        "date": "07/13/22",
+        "description": "MOBILE PURCHASE 0711 RACETRAC396 000 CUMMING GA",
+        "amount": "93.08",
+        "category": "unknown"
+    },
+    {
+        "date": "07/13/22",
+        "description": "MOBILE PURCHASE 0712 STEAK-N-SHAKE#060 CUMMING GA",
+        "amount": "9.62",
+        "category": "unknown"
+    },
+    {
+        "date": "07/13/22",
+        "description": "RACETRAC396 07/13 #000011992 MOBILE PURCHASE 888 BUFORD ROAD CUMMING",
+        "amount": "6.40",
+        "category": "unknown"
+    },
+    {
+        "date": "07/14/22",
+        "description": "MOBILE PURCHASE 0712 QT 753 KENNESAW GA",
+        "amount": "7.34",
+        "category": "unknown"
+    },
+    {
+        "date": "07/14/22",
+        "description": "MOBILE PURCHASE 0713 CHIPOTLE 2706 KENNESAW GA",
+        "amount": "23.85",
+        "category": "unknown"
+    },
+    {
+        "date": "07/14/22",
+        "description": "RACETRAC2537 07/14 #000093259 MOBILE PURCHASE 1385 MCFARLAND PK ALPHARETTA",
+        "amount": "13.13",
+        "category": "unknown"
+    },
+    {
+        "date": "07/15/22",
+        "description": "MOBILE PURCHASE 0713 RACETRAC396 000 CUMMING GA",
+        "amount": "93.86",
+        "category": "unknown"
+    },
+    {
+        "date": "07/15/22",
+        "description": "RACETRAC396 07/15 #000153197 MOBILE PURCHASE 888 BUFORD ROAD CUMMING",
+        "amount": "12.34",
+        "category": "unknown"
+    },
+    {
+        "date": "07/18/22",
+        "description": "BKOFAMERICA ATM 07/16 #000001196 WITHDRWL BUFORD BUFORD GA",
+        "amount": "300.00",
+        "category": "unknown"
+    },
+    {
+        "date": "07/18/22",
+        "description": "MOBILE PURCHASE 0713 QT 754 ROSWELL GA",
+        "amount": "3.18",
+        "category": "unknown"
+    },
+    {
+        "date": "07/18/22",
+        "description": "MOBILE PURCHASE 0714 QT 753 KENNESAW GA",
+        "amount": "6.36",
+        "category": "unknown"
+    },
+    {
+        "date": "07/18/22",
+        "description": "MOBILE PURCHASE 0715 PUBLIX #706 BUFORD GA",
+        "amount": "51.42",
+        "category": "unknown"
+    },
+    {
+        "date": "07/18/22",
+        "description": "MOBILE PURCHASE 0717 QT 824 BUFORD GA",
+        "amount": "5.44",
+        "category": "unknown"
+    },
+    {
+        "date": "07/18/22",
+        "description": "RACETRAC396 07/18 #000358459 MOBILE PURCHASE 888 BUFORD ROAD CUMMING",
+        "amount": "3.62",
+        "category": "unknown"
+    },
+    {
+        "date": "07/18/22",
+        "description": "RACETRAC 147 07/18 #000365524 MOBILE PURCHASE 55 HAMES ROAD WOODSTOCK",
+        "amount": "4.12",
+        "category": "unknown"
+    },
+    {
+        "date": "07/19/22",
+        "description": "MOBILE PURCHASE 0718 QT 753 KENNESAW GA",
+        "amount": "11.28",
+        "category": "unknown"
+    },
+    {
+        "date": "07/19/22",
+        "description": "KROGER #4 570 07/19 #000104429 PURCHASE KROGER #4 570 E. ROSWELL GA",
+        "amount": "11.39",
+        "category": "unknown"
+    },
+    {
+        "date": "07/19/22",
+        "description": "RACETRAC 644 07/19 #000337968 MOBILE PURCHASE 420 E CROSSVILLE ROSWELL GA",
+        "amount": "7.41",
+        "category": "unknown"
+    },
+    {
+        "date": "07/19/22",
+        "description": "WAL-MART #0878 07/19 #000409500 PURCHASE 1500 MARKET PLACE CUMMING GA",
+        "amount": "105.74",
+        "category": "unknown"
+    },
+    {
+        "date": "07/20/22",
+        "description": "MOBILE PURCHASE 0718 RACETRAC396 000 CUMMING GA",
+        "amount": "106.61",
+        "category": "unknown"
+    },
+    {
+        "date": "07/20/22",
+        "description": "CHECKCARD 0719 BRUSTERS REAL ICE SUWANEE GA 55506292201286488900067 CKCD",
+        "amount": "17.65",
+        "category": "unknown"
+    },
+    {
+        "date": "07/20/22",
+        "description": "RACETRAC 644 07/20 #000394650 PURCHASE 420 E CROSSVILLE ROSWELL GA",
+        "amount": "14.28",
+        "category": "unknown"
+    },
+    {
+        "date": "07/20/22",
+        "description": "RACETRAC 644 07/20 #000454988 MOBILE PURCHASE 420 E CROSSVILLE ROSWELL GA",
+        "amount": "7.83",
+        "category": "unknown"
+    },
+    {
+        "date": "07/22/22",
+        "description": "CHECKCARD 0720 RACETRAC 644 000 ROSWELL GA 15410192202974613352029 CKCD",
+        "amount": "61.40",
+        "category": "unknown"
+    },
+    {
+        "date": "07/22/22",
+        "description": "CHECKCARD 0721 PUBLIX #706 BUFORD GA 02305372203000531091953 CKCD 5411",
+        "amount": "17.04",
+        "category": "unknown"
+    },
+    {
+        "date": "07/22/22",
+        "description": "RACETRAC 644 07/22 #000531409 MOBILE PURCHASE 420 E CROSSVILLE ROSWELL GA",
+        "amount": "5.70",
+        "category": "unknown"
+    },
+    {
+        "date": "07/22/22",
+        "description": "RACETRAC 644 07/22 #000543493 PURCHASE 420 E CROSSVILLE ROSWELL GA",
+        "amount": "3.01",
+        "category": "unknown"
+    },
+    {
+        "date": "07/25/22",
+        "description": "RACETRAC 644 07/23 #000577899 MOBILE PURCHASE 420 E CROSSVILLE ROSWELL GA",
+        "amount": "5.70",
+        "category": "unknown"
+    },
+    {
+        "date": "07/25/22",
+        "description": "CHECKCARD 0723 KROGER FUEL CT ROSWELL GA CKCD 5542 XXXXXXXXXXXX4304 XXXX",
+        "amount": "92.77",
+        "category": "unknown"
+    },
+    {
+        "date": "07/25/22",
+        "description": "NST THE HOME D 07/23 #000046901 PURCHASE 5851 SPOUT SPRING FLOWERY BR GA",
+        "amount": "14.83",
+        "category": "unknown"
+    },
+    {
+        "date": "07/25/22",
+        "description": "CHECKCARD 0723 PUBLIX #706 BUFORD GA 02305372205500248033436 CKCD 5411",
+        "amount": "22.12",
+        "category": "unknown"
+    },
+    {
+        "date": "07/25/22",
+        "description": "RACETRAC 644 07/25 #000686339 MOBILE PURCHASE 420 E CROSSVILLE ROSWELL GA",
+        "amount": "8.38",
+        "category": "unknown"
+    },
+    {
+        "date": "07/25/22",
+        "description": "CIRCLE K # 235 07/25 #000913909 PURCHASE CIRCLE K # 23508 ROSSVILLE GA",
+        "amount": "11.33",
+        "category": "unknown"
+    },
+    {
+        "date": "07/25/22",
+        "description": "CHECKCARD 0725 CIRCLE K # 235 ROSSVILLE GA CKCD 5542 XXXXXXXXXXXX4304 XXXX",
+        "amount": "100.00",
+        "category": "unknown"
+    },
+    {
+        "date": "07/26/22",
+        "description": "CHECKCARD 0724 RACETRAC 644 000 ROSWELL GA 15410192206974613352066 CKCD",
+        "amount": "3.64",
+        "category": "unknown"
+    },
+    {
+        "date": "07/26/22",
+        "description": "CHECKCARD 0725 OLIVE GARDEN 000 CHATTANOOGA TN 15410192207140623970243 CKCD",
+        "amount": "89.44",
+        "category": "unknown"
+    },
+    {
+        "date": "07/26/22",
+        "description": "RACETRAC354 07/26 #000782295 MOBILE PURCHASE 6622 BATTLEFIELD RINGGOLD GA",
+        "amount": "15.90",
+        "category": "unknown"
+    },
+    {
+        "date": "07/27/22",
+        "description": "CHECKCARD 0726 TEXACO 0384815 FLINTSTONE GA 55432862207200285304723 CKCD",
+        "amount": "7.94",
+        "category": "unknown"
+    },
+    {
+        "date": "07/27/22",
+        "description": "CHECKCARD 0726 TEXACO 0384815 FLINTSTONE GA 55432862207200285304814 CKCD",
+        "amount": "11.64",
+        "category": "unknown"
+    },
+    {
+        "date": "07/27/22",
+        "description": "CHECKCARD 0726 TACO BELL 03404 MARIETTA GA 52704872208838009857942 CKCD",
+        "amount": "13.12",
+        "category": "unknown"
+    },
+    {
+        "date": "07/27/22",
+        "description": "BKOFAMERICA ATM 07/27 #000005181 WITHDRWL BUFORD BUFORD GA",
+        "amount": "300.00",
+        "category": "unknown"
+    },
+    {
+        "date": "07/28/22",
+        "description": "CHECKCARD 0726 HOLIDAY INN EXPRE CHATTANOOGA TN 52704872208708908741390 CKCD",
+        "amount": "174.70",
+        "category": "unknown"
+    },
+    {
+        "date": "07/28/22",
+        "description": "CHECKCARD 0726 HOLIDAY INN EXPRE CHATTANOOGA TN 52704872208708908741580 CKCD",
+        "amount": "174.70",
+        "category": "unknown"
+    },
+    {
+        "date": "07/28/22",
+        "description": "CHECKCARD 0727 SQ *LA NINA MICHO Buford GA 55432862208200578323868 CKCD 5499",
+        "amount": "13.00",
+        "category": "unknown"
+    },
+    {
+        "date": "07/28/22",
+        "description": "CHECKCARD 0727 HAAGEN-DAZS 1225 BUFORD GA 55500362209091026000373 CKCD",
+        "amount": "8.10",
+        "category": "unknown"
+    },
+    {
+        "date": "07/29/22",
+        "description": "CHECKCARD 0728 SQ *CANNAWELLNESS Alpharetta GA 55432862209200882806268 CKCD",
+        "amount": "64.65",
+        "category": "unknown"
+    },
+    {
+        "date": "07/29/22",
+        "description": "NST THE HOME D 07/29 #000350101 PURCHASE 5851 SPOUT SPRING FLOWERY BR GA",
+        "amount": "73.59",
+        "category": "unknown"
+    },
+    {
+        "date": "07/05/22",
+        "description": "MOBILE PURCHASE 0630 QT 745 ATLANTA GA",
+        "amount": "10.55",
+        "category": "unknown"
+    },
+    {
+        "date": "07/05/22",
+        "description": "PUBLIX SUPER M 07/02 #000079524 PURCHASE 4806 FRIENDSHIP R BUFORD GA",
+        "amount": "30.69",
+        "category": "unknown"
+    },
+    {
+        "date": "07/05/22",
+        "description": "CHECKCARD 0702 SQ *EL GATO BARBE Buford GA 55432862183200489431304 CKCD 4121",
+        "amount": "47.10",
+        "category": "unknown"
+    },
+    {
+        "date": "07/05/22",
+        "description": "ACADEMY SPORTS 07/02 #000034278 PURCHASE ACADEMY SPORTS #2 BUFORD GA",
+        "amount": "20.12",
+        "category": "unknown"
+    },
+    {
+        "date": "07/05/22",
+        "description": "CHECKCARD 0702 LUXURY NAIL SPA BUFORD GA 05227022183300276918201 CKCD 7230",
+        "amount": "45.00",
+        "category": "unknown"
+    },
+    {
+        "date": "07/05/22",
+        "description": "CHECKCARD 0702 TRACKI 8002204999 NY 55429502183743085117352 RECURRING CKCD",
+        "amount": "19.95",
+        "category": "unknown"
+    },
+    {
+        "date": "07/05/22",
+        "description": "BRANCH BANKING 07/02 #000382740 WITHDRWL ATLANTA AIRPORT I ATLANTA GA",
+        "amount": "503.50",
+        "category": "unknown"
+    },
+    {
+        "date": "07/05/22",
+        "description": "CHECKCARD 0702 SQ *VIDA CONCESSI Atlanta GA 55432862183200573477056 CKCD 5814",
+        "amount": "13.36",
+        "category": "unknown"
+    },
+    {
+        "date": "07/05/22",
+        "description": "CHECKCARD 0704 NEXUS TOURS 855-7063987 DE 75418232185151073537529 CKCD 4722",
+        "amount": "488.00",
+        "category": "unknown"
+    },
+    {
+        "date": "07/05/22",
+        "description": "CNNST2696 07/02 #000216000 PURCHASE 6000 N TERMINAL P ATLANTA GA",
+        "amount": "5.80",
+        "category": "unknown"
+    },
+    {
+        "date": "07/05/22",
+        "description": "CHECKCARD 0703 GOOGLE *Google Mountain ViewCA CKCD 7399 XXXXXXXXXXXX9390 XXXX",
+        "amount": "10.00",
+        "category": "unknown"
+    },
+    {
+        "date": "07/05/22",
+        "description": "CHECKCARD 0703 GOOGLE *Google Mountain ViewCA CKCD 7399 XXXXXXXXXXXX9390 XXXX",
+        "amount": "10.00",
+        "category": "unknown"
+    },
+    {
+        "date": "07/05/22",
+        "description": "CHECKCARD 0703 GOOGLE *Google Mountain ViewCA CKCD 7399 XXXXXXXXXXXX9390 XXXX",
+        "amount": "10.00",
+        "category": "unknown"
+    },
+    {
+        "date": "07/05/22",
+        "description": "CHECKCARD 0703 GOOGLE *Google Mountain ViewCA CKCD 7399 XXXXXXXXXXXX9390 XXXX",
+        "amount": "10.00",
+        "category": "unknown"
+    },
+    {
+        "date": "07/05/22",
+        "description": "CHECKCARD 0703 GOOGLE *Google Mountain ViewCA CKCD 7399 XXXXXXXXXXXX9390 XXXX",
+        "amount": "10.00",
+        "category": "unknown"
+    },
+    {
+        "date": "07/05/22",
+        "description": "CHECKCARD 0703 TIDAL WAVE LANIER 7069380991 GA 55506292184726997229574",
+        "amount": "34.98",
+        "category": "unknown"
+    },
+    {
+        "date": "07/05/22",
+        "description": "CHECKCARD 0704 OPCIONALES XCARET SOLIDARIDAD Q 75545522185121856714397 CKCD",
+        "amount": "418.59",
+        "category": "unknown"
+    },
+    {
+        "date": "07/05/22",
+        "description": "CHECKCARD 0704 TIENDAS XCARET SOLIDARIDAD Q 75545522185121856702897 CKCD 7996",
+        "amount": "16.40",
+        "category": "unknown"
+    },
+    {
+        "date": "07/05/22",
+        "description": "CHECKCARD 0704 RESTAURANTE XCARE SOLIDARIDAD Q 75414052186974701681269 CKCD",
+        "amount": "10.83",
+        "category": "unknown"
+    },
+    {
+        "date": "07/05/22",
+        "description": "CHECKCARD 0704 TDAS XCARET SOLIDARIDAD 75435292186974701779664 CKCD 7996",
+        "amount": "18.31",
+        "category": "unknown"
+    },
+    {
+        "date": "07/05/22",
+        "description": "CHECKCARD 0704 TDAS XCARET SOLIDARIDAD 75435292186974701776140 CKCD 7996",
+        "amount": "12.21",
+        "category": "unknown"
+    },
+    {
+        "date": "07/08/22",
+        "description": "CHECKCARD 0707 CANCUN SEALING DO CANCUN QROO 75545522188211880127190 CKCD",
+        "amount": "304.50",
+        "category": "unknown"
+    },
+    {
+        "date": "07/05/22",
+        "description": "CHECKCARD 0704 OPCIONALES XCARET SOLIDARIDAD Q",
+        "amount": "12.56",
+        "category": "unknown"
+    },
+    {
+        "date": "07/05/22",
+        "description": "BRANCH BANKING 07/02 #000382740 WITHDRWL ATLANTA AIRPORT I",
+        "amount": "2.50",
+        "category": "unknown"
+    },
+    {
+        "date": "07/05/22",
+        "description": "CHECKCARD 0704 TDAS XCARET SOLIDARIDAD",
+        "amount": "0.55",
+        "category": "unknown"
+    },
+    {
+        "date": "07/05/22",
+        "description": "CHECKCARD 0704 TIENDAS XCARET SOLIDARIDAD Q",
+        "amount": "0.49",
+        "category": "unknown"
+    },
+    {
+        "date": "07/05/22",
+        "description": "CHECKCARD 0704 TDAS XCARET SOLIDARIDAD",
+        "amount": "0.37",
+        "category": "unknown"
+    },
+    {
+        "date": "07/05/22",
+        "description": "CHECKCARD 0704 RESTAURANTE XCARE SOLIDARIDAD Q",
+        "amount": "0.32",
+        "category": "unknown"
+    },
+    {
+        "date": "07/08/22",
+        "description": "CHECKCARD 0707 CANCUN SEALING DO CANCUN QROO",
+        "amount": "9.14",
+        "category": "unknown"
+    }
+]

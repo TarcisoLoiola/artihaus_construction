@@ -1,0 +1,518 @@
+[
+    {
+        "date": "12/02/22",
+        "description": "Zelle Transfer Conf# eh6dg027a; PAULO",
+        "amount": "500.00",
+        "category": "unknown"
+    },
+    {
+        "date": "12/02/22",
+        "description": "Zelle Transfer Conf# bci139afr; FLAVIA",
+        "amount": "150.00",
+        "category": "unknown"
+    },
+    {
+        "date": "12/02/22",
+        "description": "Zelle Transfer Conf# aqphdjvfz; PEDRO",
+        "amount": "190.00",
+        "category": "unknown"
+    },
+    {
+        "date": "12/07/22",
+        "description": "PNC BANK-IL-FL DES:LOAN PYMT ID:242005096755170 INDN:ARTIHAUS CONSTRUCTION",
+        "amount": "605.82",
+        "category": "unknown"
+    },
+    {
+        "date": "12/09/22",
+        "description": "Zelle Transfer Conf# aa5u3s36v; PAULO",
+        "amount": "500.00",
+        "category": "unknown"
+    },
+    {
+        "date": "12/09/22",
+        "description": "Zelle Transfer Conf# gw0irr6v9; PAULO",
+        "amount": "200.00",
+        "category": "unknown"
+    },
+    {
+        "date": "12/14/22",
+        "description": "Zelle Transfer Conf# daps2m3hf; PAULO",
+        "amount": "320.00",
+        "category": "unknown"
+    },
+    {
+        "date": "12/14/22",
+        "description": "Subscription DES:Acorns ID:CLVDH4 INDN:Tarciso Loiola Sousa CO ID:9000142694 WEB",
+        "amount": "5.00",
+        "category": "unknown"
+    },
+    {
+        "date": "12/16/22",
+        "description": "Zelle Transfer Conf# euwh0zhxq; PAULO",
+        "amount": "310.00",
+        "category": "unknown"
+    },
+    {
+        "date": "12/16/22",
+        "description": "Zelle Transfer Conf# iljd73rjn; Paola",
+        "amount": "3,000.00",
+        "category": "unknown"
+    },
+    {
+        "date": "12/22/22",
+        "description": "ORM WORK COMP PR DES:WEB PMT ID:XXXXXXXXX INDN:Artihaus Construction CO",
+        "amount": "1,134.00",
+        "category": "unknown"
+    },
+    {
+        "date": "12/27/22",
+        "description": "Zelle Transfer Conf# e5sy2n7em; PAULO",
+        "amount": "1,200.00",
+        "category": "unknown"
+    },
+    {
+        "date": "12/27/22",
+        "description": "Zelle Transfer Conf# d25tcmqfy; FLAVIA",
+        "amount": "500.00",
+        "category": "unknown"
+    },
+    {
+        "date": "12/12/22",
+        "description": "PURCHASE 1211 STORE*CHICK-FIL-A SAN FRANCISCOCA",
+        "amount": "55.93",
+        "category": "unknown"
+    },
+    {
+        "date": "12/12/22",
+        "description": "PURCHASE 1211 AMZN Mktp US*7U23 Amzn.com/billWA",
+        "amount": "36.62",
+        "category": "unknown"
+    },
+    {
+        "date": "12/12/22",
+        "description": "RACETRAC396 12/12 #000052200 MOBILE PURCHASE 888 BUFORD ROAD CUMMING",
+        "amount": "4.58",
+        "category": "unknown"
+    },
+    {
+        "date": "12/12/22",
+        "description": "RACETRAC396 12/12 #000870500 MOBILE PURCHASE 888 BUFORD ROAD CUMMING",
+        "amount": "7.20",
+        "category": "unknown"
+    },
+    {
+        "date": "12/13/22",
+        "description": "MOBILE PURCHASE 1212 CHIPOTLE 0391 ATLANTA GA",
+        "amount": "12.80",
+        "category": "unknown"
+    },
+    {
+        "date": "12/13/22",
+        "description": "RACETRAC396 12/13 #000502800 MOBILE PURCHASE 888 BUFORD ROAD CUMMING",
+        "amount": "4.58",
+        "category": "unknown"
+    },
+    {
+        "date": "12/14/22",
+        "description": "PURCHASE 1214 CHIPOTLE ONLINE 9495244000 CA",
+        "amount": "19.60",
+        "category": "unknown"
+    },
+    {
+        "date": "12/14/22",
+        "description": "RACETRAC396 12/14 #000811500 MOBILE PURCHASE 888 BUFORD ROAD CUMMING",
+        "amount": "5.66",
+        "category": "unknown"
+    },
+    {
+        "date": "12/15/22",
+        "description": "MOBILE PURCHASE 1213 RACETRAC396 000 CUMMING GA",
+        "amount": "72.62",
+        "category": "unknown"
+    },
+    {
+        "date": "12/15/22",
+        "description": "PURCHASE 1215 CHIPOTLE ONLINE 9495244000 CA",
+        "amount": "19.60",
+        "category": "unknown"
+    },
+    {
+        "date": "12/15/22",
+        "description": "PURCHASE 1215 CHIPOTLE ONLINE 9495244000 CA",
+        "amount": "10.70",
+        "category": "unknown"
+    },
+    {
+        "date": "12/16/22",
+        "description": "MOBILE PURCHASE 1214 QT 824 BUFORD GA",
+        "amount": "4.58",
+        "category": "unknown"
+    },
+    {
+        "date": "12/16/22",
+        "description": "PURCHASE 1216 CHIPOTLE ONLINE 9495244000 CA",
+        "amount": "9.80",
+        "category": "unknown"
+    },
+    {
+        "date": "12/16/22",
+        "description": "RACETRAC396 12/16 #000589200 MOBILE PURCHASE 888 BUFORD ROAD CUMMING",
+        "amount": "4.58",
+        "category": "unknown"
+    },
+    {
+        "date": "12/16/22",
+        "description": "AUTOZONE 0913 12/16 #000979047 MOBILE PURCHASE 4863 BUFORD HWY N CHAMBLEE",
+        "amount": "3.23",
+        "category": "unknown"
+    },
+    {
+        "date": "12/16/22",
+        "description": "RACETRAC2537 12/16 #000171800 MOBILE PURCHASE 1385 MCFARLAND PK ALPHARETTA",
+        "amount": "4.90",
+        "category": "unknown"
+    },
+    {
+        "date": "12/19/22",
+        "description": "MOBILE PURCHASE 1216 RACETRAC396 000 CUMMING GA",
+        "amount": "72.42",
+        "category": "unknown"
+    },
+    {
+        "date": "12/19/22",
+        "description": "PURCHASE 1217 CHIPOTLE ONLINE 9495244000 CA",
+        "amount": "19.60",
+        "category": "unknown"
+    },
+    {
+        "date": "12/19/22",
+        "description": "PURCHASE 1216 DOMINO'S 4117 770-777-2217 GA",
+        "amount": "21.19",
+        "category": "unknown"
+    },
+    {
+        "date": "12/19/22",
+        "description": "MOBILE PURCHASE 1217 PUBLIX #706 BUFORD GA",
+        "amount": "15.22",
+        "category": "unknown"
+    },
+    {
+        "date": "12/19/22",
+        "description": "RACETRAC396 12/19 #000914300 MOBILE PURCHASE 888 BUFORD ROAD CUMMING",
+        "amount": "11.78",
+        "category": "unknown"
+    },
+    {
+        "date": "12/19/22",
+        "description": "RACETRAC396 12/19 #000152000 MOBILE PURCHASE 888 BUFORD ROAD CUMMING",
+        "amount": "5.65",
+        "category": "unknown"
+    },
+    {
+        "date": "12/20/22",
+        "description": "PURCHASE 1220 CHIPOTLE ONLINE 9495244000 CA",
+        "amount": "21.60",
+        "category": "unknown"
+    },
+    {
+        "date": "12/21/22",
+        "description": "MOBILE PURCHASE 1220 CHIPOTLE 0391 ATLANTA GA",
+        "amount": "9.80",
+        "category": "unknown"
+    },
+    {
+        "date": "12/21/22",
+        "description": "RACETRAC396 12/21 #000968500 MOBILE PURCHASE 888 BUFORD ROAD CUMMING",
+        "amount": "4.58",
+        "category": "unknown"
+    },
+    {
+        "date": "12/22/22",
+        "description": "MOBILE PURCHASE 1220 QT 755 LAWRENCEVILLEGA",
+        "amount": "6.44",
+        "category": "unknown"
+    },
+    {
+        "date": "12/22/22",
+        "description": "MOBILE PURCHASE 1221 CHIPOTLE 0391 ATLANTA GA",
+        "amount": "12.80",
+        "category": "unknown"
+    },
+    {
+        "date": "12/22/22",
+        "description": "RACETRAC396 12/22 #000356100 MOBILE PURCHASE 888 BUFORD ROAD CUMMING",
+        "amount": "11.78",
+        "category": "unknown"
+    },
+    {
+        "date": "12/22/22",
+        "description": "MOBILE PURCHASE 1222 BP#1993633CAPL ATLANTA GA",
+        "amount": "35.58",
+        "category": "unknown"
+    },
+    {
+        "date": "12/22/22",
+        "description": "MOBILE PURCHASE 1222 BP#1993633CAPL ATLANTA GA",
+        "amount": "36.00",
+        "category": "unknown"
+    },
+    {
+        "date": "12/23/22",
+        "description": "RACETRAC2537 12/23 #000434100 MOBILE PURCHASE 1385 MCFARLAND PK ALPHARETTA",
+        "amount": "4.58",
+        "category": "unknown"
+    },
+    {
+        "date": "12/27/22",
+        "description": "MOBILE PURCHASE 1222 RACETRAC396 000 CUMMING GA",
+        "amount": "58.23",
+        "category": "unknown"
+    },
+    {
+        "date": "12/27/22",
+        "description": "MOBILE PURCHASE 1223 RACETRAC2537 000 ALPHARETTA GA",
+        "amount": "15.18",
+        "category": "unknown"
+    },
+    {
+        "date": "12/27/22",
+        "description": "MOBILE PURCHASE 1223 CHILI'S TOCO HILL ATLANTA GA",
+        "amount": "109.24",
+        "category": "unknown"
+    },
+    {
+        "date": "12/27/22",
+        "description": "MOBILE PURCHASE 1223 HARBOR FREIGHT TO BUFORD GA",
+        "amount": "40.27",
+        "category": "unknown"
+    },
+    {
+        "date": "12/27/22",
+        "description": "RACETRAC2537 12/24 #000894500 MOBILE PURCHASE 1385 MCFARLAND PK ALPHARETTA",
+        "amount": "7.46",
+        "category": "unknown"
+    },
+    {
+        "date": "12/27/22",
+        "description": "LOWE'S #1119 4 12/24 #000507903 PURCHASE LOWE'S #1119 4950 CHAMBLEE GA",
+        "amount": "69.10",
+        "category": "unknown"
+    },
+    {
+        "date": "12/27/22",
+        "description": "CHECKCARD 1224 TEXACO 0380377 LITHIA SPRINGGA",
+        "amount": "68.29",
+        "category": "unknown"
+    },
+    {
+        "date": "12/27/22",
+        "description": "MOBILE PURCHASE 1224 PUBLIX #706 BUFORD GA",
+        "amount": "20.65",
+        "category": "unknown"
+    },
+    {
+        "date": "12/27/22",
+        "description": "CHECKCARD 1225 OPC*HALL CO TA GAINESVILLE GA",
+        "amount": "21.00",
+        "category": "unknown"
+    },
+    {
+        "date": "12/27/22",
+        "description": "CHECKCARD 1225 OPC TAX*SERVIC ELKHORN NE",
+        "amount": "1.00",
+        "category": "unknown"
+    },
+    {
+        "date": "12/27/22",
+        "description": "MOBILE PURCHASE 1226 ACE HARDWARE OF F FORSYTH GA",
+        "amount": "44.91",
+        "category": "unknown"
+    },
+    {
+        "date": "12/27/22",
+        "description": "CHECKCARD 1226 BLAZE PIZZA 110 LAKE BUENA VIFL",
+        "amount": "14.52",
+        "category": "unknown"
+    },
+    {
+        "date": "12/27/22",
+        "description": "CHECKCARD 1226 BLAZE PIZZA 110 LAKE BUENA VIFL",
+        "amount": "14.52",
+        "category": "unknown"
+    },
+    {
+        "date": "12/27/22",
+        "description": "CHECKCARD 1226 7-ELEVEN WINDERMERE FL",
+        "amount": "44.46",
+        "category": "unknown"
+    },
+    {
+        "date": "12/27/22",
+        "description": "MOBILE PURCHASE 1227 LEGOLAND Florida Winter Haven FL",
+        "amount": "7.50",
+        "category": "unknown"
+    },
+    {
+        "date": "12/28/22",
+        "description": "MOBILE PURCHASE 1226 CHICK-FIL-A #0084 MACON GA",
+        "amount": "43.71",
+        "category": "unknown"
+    },
+    {
+        "date": "12/28/22",
+        "description": "MOBILE PURCHASE 1227 STARBUCKS STORE 5 WINTER HAVEN FL",
+        "amount": "6.31",
+        "category": "unknown"
+    },
+    {
+        "date": "12/28/22",
+        "description": "PURCHASE 1227 SUPERTRAVEL CARIB 8777782321 CA",
+        "amount": "537.93",
+        "category": "unknown"
+    },
+    {
+        "date": "12/29/22",
+        "description": "MOBILE PURCHASE 1228 LEGOLAND Florida Winter Haven FL",
+        "amount": "60.99",
+        "category": "unknown"
+    },
+    {
+        "date": "12/29/22",
+        "description": "MOBILE PURCHASE 1228 SQ *EL PILON AREP Orlando FL",
+        "amount": "40.35",
+        "category": "unknown"
+    },
+    {
+        "date": "12/30/22",
+        "description": "PURCHASE 1229 SUPERTRAVEL CARIB 8777782321 CA",
+        "amount": "297.97",
+        "category": "unknown"
+    },
+    {
+        "date": "12/30/22",
+        "description": "MOBILE PURCHASE 1229 SABORES FIT BAKER ORLANDO FL",
+        "amount": "53.94",
+        "category": "unknown"
+    },
+    {
+        "date": "12/30/22",
+        "description": "MOBILE PURCHASE 1229 SABORES FIT BAKER ORLANDO FL",
+        "amount": "4.15",
+        "category": "unknown"
+    },
+    {
+        "date": "12/30/22",
+        "description": "MOBILE PURCHASE 1230 TST* TONY'S BRAZI ORLANDO FL",
+        "amount": "78.29",
+        "category": "unknown"
+    },
+    {
+        "date": "12/30/22",
+        "description": "MOBILE PURCHASE 1229 SQ *JUAN VALDEZ COrlando FL",
+        "amount": "6.27",
+        "category": "unknown"
+    },
+    {
+        "date": "12/30/22",
+        "description": "MOBILE PURCHASE 1229 FH* MUSEUM OF ILL ORLANDO FL",
+        "amount": "46.84",
+        "category": "unknown"
+    },
+    {
+        "date": "12/30/22",
+        "description": "MOBILE PURCHASE 1229 FH* MUSEUM OF ILL ORLANDO FL",
+        "amount": "23.42",
+        "category": "unknown"
+    },
+    {
+        "date": "12/01/22",
+        "description": "MOBILE PURCHASE 1129 RACETRAC396 000 CUMMING GA",
+        "amount": "68.61",
+        "category": "unknown"
+    },
+    {
+        "date": "12/01/22",
+        "description": "RACETRAC396 12/01 #000528100 MOBILE PURCHASE 888 BUFORD ROAD CUMMING",
+        "amount": "7.24",
+        "category": "unknown"
+    },
+    {
+        "date": "12/02/22",
+        "description": "MOBILE PURCHASE 1201 Subway 32832 Atlanta GA",
+        "amount": "16.26",
+        "category": "unknown"
+    },
+    {
+        "date": "12/02/22",
+        "description": "RACETRAC2329 12/02 #000085400 MOBILE PURCHASE 6875 JIMMY CARTER NORCROSS",
+        "amount": "5.49",
+        "category": "unknown"
+    },
+    {
+        "date": "12/05/22",
+        "description": "MOBILE PURCHASE 1202 RACETRAC2329 000 NORCROSS GA",
+        "amount": "34.97",
+        "category": "unknown"
+    },
+    {
+        "date": "12/05/22",
+        "description": "MOBILE PURCHASE 1203 CHICK-FIL-A #0211 FLOWERY BR GA",
+        "amount": "20.74",
+        "category": "unknown"
+    },
+    {
+        "date": "12/05/22",
+        "description": "MOBILE PURCHASE 1203 NNT CHUY'S TAC SUGAR HILL GA",
+        "amount": "18.46",
+        "category": "unknown"
+    },
+    {
+        "date": "12/05/22",
+        "description": "RACETRAC2424 12/05 #000446600 MOBILE PURCHASE 4930 NELSON BROGD SUGAR HILL",
+        "amount": "4.54",
+        "category": "unknown"
+    },
+    {
+        "date": "12/07/22",
+        "description": "MOBILE PURCHASE 1206 QT 786 BUFORD GA",
+        "amount": "43.84",
+        "category": "unknown"
+    },
+    {
+        "date": "12/07/22",
+        "description": "RACETRAC396 12/07 #000429500 MOBILE PURCHASE 888 BUFORD ROAD CUMMING",
+        "amount": "4.58",
+        "category": "unknown"
+    },
+    {
+        "date": "12/08/22",
+        "description": "MOBILE PURCHASE 1207 CHIPOTLE 0391 ATLANTA GA",
+        "amount": "12.80",
+        "category": "unknown"
+    },
+    {
+        "date": "12/08/22",
+        "description": "RACETRAC396 12/08 #000021100 MOBILE PURCHASE 888 BUFORD ROAD CUMMING",
+        "amount": "4.58",
+        "category": "unknown"
+    },
+    {
+        "date": "12/08/22",
+        "description": "RACETRAC396 12/08 #000189300 MOBILE PURCHASE 888 BUFORD ROAD CUMMING",
+        "amount": "3.73",
+        "category": "unknown"
+    },
+    {
+        "date": "12/09/22",
+        "description": "RACETRAC396 12/09 #000961800 MOBILE PURCHASE 888 BUFORD ROAD CUMMING",
+        "amount": "6.71",
+        "category": "unknown"
+    },
+    {
+        "date": "12/12/22",
+        "description": "MOBILE PURCHASE 1208 QT 841 CUMMING GA",
+        "amount": "106.10",
+        "category": "unknown"
+    }
+]

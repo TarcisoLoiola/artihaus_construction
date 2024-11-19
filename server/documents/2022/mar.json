@@ -1,0 +1,848 @@
+[
+    {
+        "date": "03/01/22",
+        "description": "GA DIR ACH DES:CONTRIB ID:000020948898123 INDN:965 98445722601 CO",
+        "amount": "500.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/01/22",
+        "description": "Acorns Early DES:Transfer ID:K4Q18Y INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "100.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/01/22",
+        "description": "Acorns Later DES:Transfer ID:ZBNJ7Y INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "100.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/01/22",
+        "description": "Acorns Early DES:Transfer ID:XN3X7Y INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "100.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/03/22",
+        "description": "Acorns Invest DES:Transfer ID:LKQF9Y INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "64.70",
+        "category": "unknown"
+    },
+    {
+        "date": "03/04/22",
+        "description": "Zelle Transfer Conf# oo7glhzk7; Alessandro",
+        "amount": "680.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/04/22",
+        "description": "Zelle Transfer Conf# wv246jbzf; Orlando Ferreira",
+        "amount": "970.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/04/22",
+        "description": "Zelle Transfer Conf# qht8vfiyb; Angel Castillo",
+        "amount": "80.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/04/22",
+        "description": "Acorns Invest DES:Transfer ID:BB2LBY INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "43.40",
+        "category": "unknown"
+    },
+    {
+        "date": "03/07/22",
+        "description": "Zelle Transfer Conf# lkyvv6zpg; Orlando Ferreira",
+        "amount": "600.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/07/22",
+        "description": "Zelle Transfer Conf# h2kzk7prm; Paola",
+        "amount": "2,000.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/07/22",
+        "description": "PNC BANK-IL-FL DES:LOAN PYMT ID:242005096755170 INDN:ARTIHAUS CONSTRUCTION",
+        "amount": "605.82",
+        "category": "unknown"
+    },
+    {
+        "date": "03/07/22",
+        "description": "Acorns Invest DES:Transfer ID:XC5KCY INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "200.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/07/22",
+        "description": "Acorns Invest DES:Transfer ID:27H5DY INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "18.70",
+        "category": "unknown"
+    },
+    {
+        "date": "03/07/22",
+        "description": "Acorns Invest DES:Transfer ID:NV1PCY INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "6.10",
+        "category": "unknown"
+    },
+    {
+        "date": "03/08/22",
+        "description": "TOMORROWS HOPE M DES:6784468465 ID:XXXXXXXXX INDN:Rocio Castillo CO",
+        "amount": "985.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/08/22",
+        "description": "Acorns Early DES:Transfer ID:F0K7FY INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "100.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/08/22",
+        "description": "Acorns Early DES:Transfer ID:WTN3FY INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "100.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/08/22",
+        "description": "Acorns Later DES:Transfer ID:J8PVDY INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "100.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/10/22",
+        "description": "Acorns Invest DES:Transfer ID:SC2BGY INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "33.30",
+        "category": "unknown"
+    },
+    {
+        "date": "03/11/22",
+        "description": "Acorns Invest DES:Transfer ID:9HY1HY INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "26.10",
+        "category": "unknown"
+    },
+    {
+        "date": "03/14/22",
+        "description": "Zelle Transfer Conf# uyigtct5u; Alessandro",
+        "amount": "280.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/14/22",
+        "description": "Acorns Invest DES:Transfer ID:3SQCJY INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "200.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/14/22",
+        "description": "Acorns Invest DES:Transfer ID:P0JPJY INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "39.60",
+        "category": "unknown"
+    },
+    {
+        "date": "03/14/22",
+        "description": "Acorns Invest DES:Transfer ID:YX79KY INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "6.20",
+        "category": "unknown"
+    },
+    {
+        "date": "03/14/22",
+        "description": "Subscription DES:Acorns ID:JZK9B3 INDN:Tarciso Loiola Sousa CO ID:9000142694 WEB",
+        "amount": "5.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/15/22",
+        "description": "Zelle Transfer Conf# jhuyu7ro1; Orlando Ferreira",
+        "amount": "800.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/15/22",
+        "description": "Acorns Early DES:Transfer ID:QSSZKY INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "100.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/15/22",
+        "description": "Acorns Early DES:Transfer ID:H41WKY INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "100.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/15/22",
+        "description": "Acorns Later DES:Transfer ID:VDZLKY INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "100.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/16/22",
+        "description": "Acorns Invest DES:Transfer ID:YMP0MY INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "43.60",
+        "category": "unknown"
+    },
+    {
+        "date": "03/17/22",
+        "description": "PLANET FIT DES:CLUB FEES ID:2207506409467 INDN:TARCISO LOIOLA SOUSA CO",
+        "amount": "23.04",
+        "category": "unknown"
+    },
+    {
+        "date": "03/17/22",
+        "description": "Acorns Invest DES:Transfer ID:SSDTMY INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "11.50",
+        "category": "unknown"
+    },
+    {
+        "date": "03/18/22",
+        "description": "Zelle Transfer Conf# ib7pnrx0t; Alessandro",
+        "amount": "720.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/18/22",
+        "description": "Zelle Transfer Conf# gi0hf98i0; Orlando Ferreira",
+        "amount": "1,000.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/18/22",
+        "description": "Acorns Invest DES:Transfer ID:RPQHNY INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "12.60",
+        "category": "unknown"
+    },
+    {
+        "date": "03/21/22",
+        "description": "Acorns Invest DES:Transfer ID:3QK7PY INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "200.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/21/22",
+        "description": "Acorns Invest DES:Transfer ID:6VV6QY INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "23.60",
+        "category": "unknown"
+    },
+    {
+        "date": "03/21/22",
+        "description": "Acorns Invest DES:Transfer ID:D4ZJPY INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "16.90",
+        "category": "unknown"
+    },
+    {
+        "date": "03/22/22",
+        "description": "Acorns Later DES:Transfer ID:JB8KQY INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "300.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/22/22",
+        "description": "Acorns Early DES:Transfer ID:QKBXQY INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "100.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/22/22",
+        "description": "Acorns Early DES:Transfer ID:W12TQY INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "100.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/24/22",
+        "description": "Acorns Invest DES:Transfer ID:WDN0SY INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "26.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/25/22",
+        "description": "Zelle Transfer Conf# vlqk1kilk; Orlando Ferreira",
+        "amount": "600.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/25/22",
+        "description": "Acorns Invest DES:Transfer ID:FZ65TY INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "18.60",
+        "category": "unknown"
+    },
+    {
+        "date": "03/28/22",
+        "description": "Zelle Transfer Conf# o8wixeloj; Paola",
+        "amount": "2,000.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/28/22",
+        "description": "Zelle Transfer Conf# vdjv29g5j; Alessandro",
+        "amount": "400.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/28/22",
+        "description": "Acorns Invest DES:Transfer ID:QD90VY INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "200.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/28/22",
+        "description": "Acorns Invest DES:Transfer ID:NK17VY INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "12.40",
+        "category": "unknown"
+    },
+    {
+        "date": "03/28/22",
+        "description": "Acorns Invest DES:Transfer ID:4Q8PVY INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "5.60",
+        "category": "unknown"
+    },
+    {
+        "date": "03/29/22",
+        "description": "Zelle Transfer Conf# tyce911yj; FLAVIA",
+        "amount": "110.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/29/22",
+        "description": "Acorns Early DES:Transfer ID:9X3TWY INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "3,000.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/29/22",
+        "description": "Acorns Early DES:Transfer ID:YH1TWY INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "2,000.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/29/22",
+        "description": "Acorns Later DES:Transfer ID:7SC7WY INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "300.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/29/22",
+        "description": "Acorns Early DES:Transfer ID:8RJHWY INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "100.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/29/22",
+        "description": "Acorns Early DES:Transfer ID:XL9MWY INDN:Tarciso Loiola Sousa CO ID:9000142693 WEB",
+        "amount": "100.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/30/22",
+        "description": "Acorns DES:Transfer ID:9515455651 INDN:Tarciso Loiola Sousa CO ID:9000000001",
+        "amount": "2,500.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/01/22",
+        "description": "CHECKCARD 0301 QT 841 OUTSIDE CUMMING GA CKCD 5542 XXXXXXXXXXXX9390 XXXX",
+        "amount": "93.06",
+        "category": "unknown"
+    },
+    {
+        "date": "03/01/22",
+        "description": "KROGER #6 3093 03/01 #000764170 PURCHASE KROGER #6 3093 S. DULUTH GA",
+        "amount": "21.68",
+        "category": "unknown"
+    },
+    {
+        "date": "03/01/22",
+        "description": "BKOFAMERICA ATM 03/01 #000009329 WITHDRWL GWINNETT PLACE DULUTH GA",
+        "amount": "1,000.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/02/22",
+        "description": "CHECKCARD 0301 GA STATE ROAD & T 4048936101 GA 55457022060726612038060",
+        "amount": "20.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/02/22",
+        "description": "RACETRAC396 03/02 #000071942 MOBILE PURCHASE 888 BUFORD ROAD CUMMING",
+        "amount": "7.68",
+        "category": "unknown"
+    },
+    {
+        "date": "03/02/22",
+        "description": "NST THE HOME D 03/02 #000903501 PURCHASE 3755 SHACKLEFORD DULUTH GA",
+        "amount": "19.88",
+        "category": "unknown"
+    },
+    {
+        "date": "03/02/22",
+        "description": "NST THE HOME D 03/02 #000903601 PURCHASE 3755 SHACKLEFORD DULUTH GA",
+        "amount": "38.36",
+        "category": "unknown"
+    },
+    {
+        "date": "03/03/22",
+        "description": "PURCHASE 0302 APPLE.COM/BILL 1111111111 CA",
+        "amount": "24.99",
+        "category": "unknown"
+    },
+    {
+        "date": "03/03/22",
+        "description": "RACETRAC396 03/03 #000160379 MOBILE PURCHASE 888 BUFORD ROAD CUMMING",
+        "amount": "7.68",
+        "category": "unknown"
+    },
+    {
+        "date": "03/03/22",
+        "description": "CVS/PHARM 0231 03/03 #000304184 PURCHASE CVS/PHARM 02310-- CUMMING GA",
+        "amount": "66.72",
+        "category": "unknown"
+    },
+    {
+        "date": "03/04/22",
+        "description": "CHECKCARD 0303 TIDAL WAVE AUTO S BUFORD GA 05314612063500208889670 CKCD",
+        "amount": "34.98",
+        "category": "unknown"
+    },
+    {
+        "date": "03/04/22",
+        "description": "RACETRAC396 03/04 #000183241 MOBILE PURCHASE 888 BUFORD ROAD CUMMING",
+        "amount": "7.14",
+        "category": "unknown"
+    },
+    {
+        "date": "03/04/22",
+        "description": "CHECKCARD 0304 RACETRAC396 CUMMING GA CKCD 5542 XXXXXXXXXXXX9390 XXXX XXXX",
+        "amount": "89.01",
+        "category": "unknown"
+    },
+    {
+        "date": "03/07/22",
+        "description": "CHECKCARD 0304 QT 774 DULUTH GA 55432862064200529672135 CKCD 5541",
+        "amount": "6.62",
+        "category": "unknown"
+    },
+    {
+        "date": "03/07/22",
+        "description": "RACETRAC2551 03/05 #000728620 MOBILE PURCHASE 7812 ADAIRSVILLE ALPHARETTA",
+        "amount": "4.37",
+        "category": "unknown"
+    },
+    {
+        "date": "03/07/22",
+        "description": "CHECKCARD 0307 MED*CARESOURCE GE 800-479-9502 OH 55432862066200991748015",
+        "amount": "525.86",
+        "category": "unknown"
+    },
+    {
+        "date": "03/07/22",
+        "description": "CHECKCARD 0306 YOUR PIE BUFORD BUFORD GA 55500362066400101000483 CKCD 5812",
+        "amount": "63.84",
+        "category": "unknown"
+    },
+    {
+        "date": "03/07/22",
+        "description": "RACETRAC2424 03/07 #000849908 PURCHASE 4930 NELSON BROGD SUGAR HILL GA",
+        "amount": "1.62",
+        "category": "unknown"
+    },
+    {
+        "date": "03/07/22",
+        "description": "CHECKCARD 0307 RACETRAC2424 SUGAR HILL GA CKCD 5542 XXXXXXXXXXXX9390 XXXX",
+        "amount": "98.09",
+        "category": "unknown"
+    },
+    {
+        "date": "03/07/22",
+        "description": "ROSS STORES #7 03/07 #000037631 PURCHASE ROSS STORES #755 DULUTH GA",
+        "amount": "25.84",
+        "category": "unknown"
+    },
+    {
+        "date": "03/07/22",
+        "description": "KROGER #4 400 03/07 #000835238 PURCHASE KROGER #4 400 PEA SUWANEE GA",
+        "amount": "46.61",
+        "category": "unknown"
+    },
+    {
+        "date": "03/08/22",
+        "description": "CHECKCARD 0307 AMZN Mktp US*1Z61 Amzn.com/billWA 55432862066200227909282 CKCD",
+        "amount": "85.57",
+        "category": "unknown"
+    },
+    {
+        "date": "03/08/22",
+        "description": "CHECKCARD 0307 SUNPASS*ACC108487 888-865-5352 FL 55310202066083268906391 CKCD",
+        "amount": "10.34",
+        "category": "unknown"
+    },
+    {
+        "date": "03/08/22",
+        "description": "NST THE HOME D 03/08 #000359401 PURCHASE 5851 SPOUT SPRING FLOWERY BR GA",
+        "amount": "27.48",
+        "category": "unknown"
+    },
+    {
+        "date": "03/10/22",
+        "description": "MOBILE PURCHASE 0308 QT 824 BUFORD GA",
+        "amount": "12.09",
+        "category": "unknown"
+    },
+    {
+        "date": "03/10/22",
+        "description": "CHECKCARD 0310 FORMSWIFT.COM/CHA 888-311-2977 CA 55432862069200878865269",
+        "amount": "1.95",
+        "category": "unknown"
+    },
+    {
+        "date": "03/10/22",
+        "description": "RACETRAC2424 03/10 #000962791 MOBILE PURCHASE 4930 NELSON BROGD SUGAR HILL",
+        "amount": "4.85",
+        "category": "unknown"
+    },
+    {
+        "date": "03/10/22",
+        "description": "NST THE HOME D 03/10 #000528501 PURCHASE 5851 SPOUT SPRING FLOWERY BR GA",
+        "amount": "45.24",
+        "category": "unknown"
+    },
+    {
+        "date": "03/10/22",
+        "description": "BUFORD PED 03/10 #000504537 PURCHASE 3700 RIDGE ROAD BUFORD GA",
+        "amount": "125.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/10/22",
+        "description": "BKOFAMERICA ATM 03/10 #000005178 WITHDRWL BUFORD BUFORD GA",
+        "amount": "1,000.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/10/22",
+        "description": "PUBLIX SUPER M 03/10 #000073870 PURCHASE 4806 FRIENDSHIP R BUFORD GA",
+        "amount": "27.05",
+        "category": "unknown"
+    },
+    {
+        "date": "03/10/22",
+        "description": "PUBLIX SUPER M 03/10 #000627531 PURCHASE 4806 FRIENDSHIP R BUFORD GA",
+        "amount": "7.86",
+        "category": "unknown"
+    },
+    {
+        "date": "03/11/22",
+        "description": "CHECKCARD 0311 QT 824 OUTSIDE BUFORD GA CKCD 5542 XXXXXXXXXXXX9390 XXXX",
+        "amount": "95.38",
+        "category": "unknown"
+    },
+    {
+        "date": "03/14/22",
+        "description": "CHECKCARD 0310 QT 824 BUFORD GA 55432862070200342895287 CKCD 5541",
+        "amount": "9.35",
+        "category": "unknown"
+    },
+    {
+        "date": "03/14/22",
+        "description": "CHECKCARD 0311 ANGI LEADS 833-922-2897 CO 55432862070200450207697 RECURRING",
+        "amount": "283.64",
+        "category": "unknown"
+    },
+    {
+        "date": "03/14/22",
+        "description": "CHECKCARD 0311 HARCO EQUIPMENT RBUFORD GA 25247802070000722187832 CKCD",
+        "amount": "28.92",
+        "category": "unknown"
+    },
+    {
+        "date": "03/14/22",
+        "description": "CHECKCARD 0311 CHILI'S FLOWERY B FLOWERY BRANCGA 55263522071722075413924 CKCD",
+        "amount": "35.93",
+        "category": "unknown"
+    },
+    {
+        "date": "03/14/22",
+        "description": "PUBLIX SUPER M 03/12 #000766667 PURCHASE 4108 HAMILTON MIL BUFORD GA",
+        "amount": "88.69",
+        "category": "unknown"
+    },
+    {
+        "date": "03/14/22",
+        "description": "MOBILE PURCHASE 0313 QT 824 BUFORD GA",
+        "amount": "6.09",
+        "category": "unknown"
+    },
+    {
+        "date": "03/14/22",
+        "description": "CHECKCARD 0313 SQ *GWINNETT COUN Buford GA 55432862072200955748847 CKCD",
+        "amount": "70.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/14/22",
+        "description": "RACETRAC2537 03/14 #000700795 MOBILE PURCHASE 1385 MCFARLAND PK ALPHARETTA",
+        "amount": "5.98",
+        "category": "unknown"
+    },
+    {
+        "date": "03/14/22",
+        "description": "NST THE HOME D 03/14 #000866101 PURCHASE 6400 PEACHTREE DU ATLANTA GA",
+        "amount": "56.88",
+        "category": "unknown"
+    },
+    {
+        "date": "03/14/22",
+        "description": "NST THE HOME D 03/14 #000642001 PURCHASE 6400 PEACHTREE DU ATLANTA GA",
+        "amount": "88.16",
+        "category": "unknown"
+    },
+    {
+        "date": "03/15/22",
+        "description": "CHECKCARD 0313 CARNERCERIA MENA BUFORD GA 75428172073997600824272 CKCD",
+        "amount": "11.19",
+        "category": "unknown"
+    },
+    {
+        "date": "03/15/22",
+        "description": "MOBILE PURCHASE 0314 PUBLIX #1758 DUNWOODY GA",
+        "amount": "13.88",
+        "category": "unknown"
+    },
+    {
+        "date": "03/15/22",
+        "description": "CHECKCARD 0315 RACETRAC2537 ALPHARETTA GA CKCD 5542 XXXXXXXXXXXX9390 XXXX",
+        "amount": "60.78",
+        "category": "unknown"
+    },
+    {
+        "date": "03/16/22",
+        "description": "MOBILE PURCHASE 0315 PUBLIX #1758 DUNWOODY GA",
+        "amount": "8.74",
+        "category": "unknown"
+    },
+    {
+        "date": "03/16/22",
+        "description": "AGM HISPANIC S 03/16 #000526686 PURCHASE 6040 DAWSON BLVD NORCROSS GA",
+        "amount": "60.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/17/22",
+        "description": "MOBILE PURCHASE 0316 PUBLIX #1758 DUNWOODY GA",
+        "amount": "14.54",
+        "category": "unknown"
+    },
+    {
+        "date": "03/17/22",
+        "description": "NST THE HOME D 03/17 #000377201 PURCHASE 6400 PEACHTREE DU ATLANTA GA",
+        "amount": "108.80",
+        "category": "unknown"
+    },
+    {
+        "date": "03/17/22",
+        "description": "NST THE HOME D 03/17 #000394101 PURCHASE 6400 PEACHTREE DU ATLANTA GA",
+        "amount": "9.93",
+        "category": "unknown"
+    },
+    {
+        "date": "03/18/22",
+        "description": "MOBILE PURCHASE 0317 PUBLIX #1758 DUNWOODY GA",
+        "amount": "6.47",
+        "category": "unknown"
+    },
+    {
+        "date": "03/18/22",
+        "description": "MOBILE PURCHASE 0317 PUBLIX #706 BUFORD GA",
+        "amount": "22.94",
+        "category": "unknown"
+    },
+    {
+        "date": "03/18/22",
+        "description": "RACETRAC2424 03/18 #000376752 MOBILE PURCHASE 4930 NELSON BROGD SUGAR HILL",
+        "amount": "5.38",
+        "category": "unknown"
+    },
+    {
+        "date": "03/18/22",
+        "description": "MEATBONE MARKE 03/18 #000545397 PURCHASE 1345 BUFORD HWY CUMMING GA",
+        "amount": "143.83",
+        "category": "unknown"
+    },
+    {
+        "date": "03/18/22",
+        "description": "KROGER #687 03/18 #000513628 PURCHASE 6001 HWY. 20 SUGAR HILL GA",
+        "amount": "57.02",
+        "category": "unknown"
+    },
+    {
+        "date": "03/21/22",
+        "description": "CHECKCARD 0318 SHELL OIL 5754477 BUFORD GA 55308762078547917650934 CKCD",
+        "amount": "102.42",
+        "category": "unknown"
+    },
+    {
+        "date": "03/21/22",
+        "description": "PUBLIX SUPER M 03/19 #000076079 PURCHASE 4806 FRIENDSHIP R BUFORD GA",
+        "amount": "24.24",
+        "category": "unknown"
+    },
+    {
+        "date": "03/21/22",
+        "description": "CHECKCARD 0319 YOUR PIE BUFORD BUFORD GA 55500362079400104000477 CKCD 5812",
+        "amount": "28.05",
+        "category": "unknown"
+    },
+    {
+        "date": "03/21/22",
+        "description": "CVS/PHARM 0565 03/20 #000415451 PURCHASE CVS/PHARM 05653-- BUFORD GA",
+        "amount": "46.71",
+        "category": "unknown"
+    },
+    {
+        "date": "03/21/22",
+        "description": "RACETRAC2537 03/21 #000007377 MOBILE PURCHASE 1385 MCFARLAND PK ALPHARETTA",
+        "amount": "5.98",
+        "category": "unknown"
+    },
+    {
+        "date": "03/22/22",
+        "description": "RACETRAC2537 03/22 #000093481 MOBILE PURCHASE 1385 MCFARLAND PK ALPHARETTA",
+        "amount": "4.37",
+        "category": "unknown"
+    },
+    {
+        "date": "03/22/22",
+        "description": "CHECKCARD 0322 RACETRAC2537 ALPHARETTA GA CKCD 5542 XXXXXXXXXXXX9390 XXXX",
+        "amount": "87.90",
+        "category": "unknown"
+    },
+    {
+        "date": "03/22/22",
+        "description": "RACETRAC461 03/22 #000576625 MOBILE PURCHASE 1545 MANSELL RD ALPHARETTA",
+        "amount": "3.01",
+        "category": "unknown"
+    },
+    {
+        "date": "03/23/22",
+        "description": "NST THE HOME D 03/23 #000228201 PURCHASE 5851 SPOUT SPRING FLOWERY BR GA",
+        "amount": "95.86",
+        "category": "unknown"
+    },
+    {
+        "date": "03/24/22",
+        "description": "MOBILE PURCHASE 0323 CHIPOTLE 1717 ATLANTA GA",
+        "amount": "12.32",
+        "category": "unknown"
+    },
+    {
+        "date": "03/24/22",
+        "description": "RACETRAC2537 03/24 #000198749 MOBILE PURCHASE 1385 MCFARLAND PK ALPHARETTA",
+        "amount": "5.44",
+        "category": "unknown"
+    },
+    {
+        "date": "03/24/22",
+        "description": "BKOFAMERICA ATM 03/24 #000008727 WITHDRWL WEST CUMMING CUMMING GA",
+        "amount": "1,000.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/25/22",
+        "description": "RACETRAC2537 03/25 #000189849 MOBILE PURCHASE 1385 MCFARLAND PK ALPHARETTA",
+        "amount": "5.44",
+        "category": "unknown"
+    },
+    {
+        "date": "03/28/22",
+        "description": "MOBILE PURCHASE 0324 QT 782 ALPHARETTA GA",
+        "amount": "5.70",
+        "category": "unknown"
+    },
+    {
+        "date": "03/28/22",
+        "description": "MOBILE PURCHASE 0325 RACETRAC2537 000 ALPHARETTA GA",
+        "amount": "90.49",
+        "category": "unknown"
+    },
+    {
+        "date": "03/28/22",
+        "description": "MOBILE PURCHASE 0325 CHIPOTLE 1906 ALPHARETTA GA",
+        "amount": "12.01",
+        "category": "unknown"
+    },
+    {
+        "date": "03/28/22",
+        "description": "CHECKCARD 0325 CHILI'S FLOWERY B FLOWERY BRANCGA 55263522085206088100045 CKCD",
+        "amount": "31.19",
+        "category": "unknown"
+    },
+    {
+        "date": "03/28/22",
+        "description": "CHECKCARD 0326 TST* OY Buford Buford GA 55432862086200034779932 CKCD 5812",
+        "amount": "66.23",
+        "category": "unknown"
+    },
+    {
+        "date": "03/28/22",
+        "description": "PUBLIX SUPER M 03/26 #000779874 PURCHASE 5900 SPOUT SPRING FLOWERY BRANC GA",
+        "amount": "33.31",
+        "category": "unknown"
+    },
+    {
+        "date": "03/28/22",
+        "description": "CHECKCARD 0326 CHICK-FIL-A #0211 FLOWERY BR GA 05140482086710014219068 CKCD",
+        "amount": "8.50",
+        "category": "unknown"
+    },
+    {
+        "date": "03/28/22",
+        "description": "RACETRAC2537 03/28 #000283795 MOBILE PURCHASE 1385 MCFARLAND PK ALPHARETTA",
+        "amount": "4.37",
+        "category": "unknown"
+    },
+    {
+        "date": "03/29/22",
+        "description": "CHECKCARD 0327 BETOS TACOS SUWA SUWANEE GA 72700692087900019750879 CKCD",
+        "amount": "39.96",
+        "category": "unknown"
+    },
+    {
+        "date": "03/29/22",
+        "description": "CHECKCARD 0329 FRAKCRUM GENER CLEARWATER FL CKCD 6300 XXXXXXXXXXXX9390 XXXX",
+        "amount": "164.80",
+        "category": "unknown"
+    },
+    {
+        "date": "03/29/22",
+        "description": "RACETRAC2537 03/29 #000375660 MOBILE PURCHASE 1385 MCFARLAND PK ALPHARETTA",
+        "amount": "4.37",
+        "category": "unknown"
+    },
+    {
+        "date": "03/29/22",
+        "description": "CHECKCARD 0329 RACETRAC2537 ALPHARETTA GA CKCD 5542 XXXXXXXXXXXX9390 XXXX",
+        "amount": "99.00",
+        "category": "unknown"
+    },
+    {
+        "date": "03/29/22",
+        "description": "CHECKCARD 0329 RACETRAC2537 ALPHARETTA GA CKCD 5542 XXXXXXXXXXXX9390 XXXX",
+        "amount": "50.01",
+        "category": "unknown"
+    },
+    {
+        "date": "03/30/22",
+        "description": "RACETRAC2537 03/30 #000391742 MOBILE PURCHASE 1385 MCFARLAND PK ALPHARETTA",
+        "amount": "3.40",
+        "category": "unknown"
+    },
+    {
+        "date": "03/31/22",
+        "description": "RACETRAC396 03/31 #000401178 MOBILE PURCHASE 888 BUFORD ROAD CUMMING",
+        "amount": "6.29",
+        "category": "unknown"
+    }
+]

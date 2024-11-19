@@ -1,0 +1,42 @@
+/* FullscreenImage.css */
+
+.fullscreen-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.fullscreen-image {
+    max-width: 90%; /* Scale down to 90% of viewport width */
+    max-height: 90%; /* Scale down to 90% of viewport height */
+    border-radius: 8px;
+}
+.fullscreen-video {
+    position: absolute;
+    top: -200px;
+    width: 90%; /* Scale down to 90% of viewport width */
+    height: 90%; /* Scale down to 90% of viewport height */
+    border-radius: 8px;
+}
+
+/* Additional styling for videos */
+.fullscreen-video {
+    object-fit: contain; /* Keeps video aspect ratio */
+    transform: scale(0.9); /* Slight zoom out */
+    transition: transform 0.3s ease; /* Smooth zoom-out transition */
+}
+
+.image-overlay {
+    position: absolute;
+    bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
