@@ -1,10 +1,12 @@
 import React, { useContext } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
+
 import '../style/FullScreenImageComponent.css';
+import { useAppContext } from '../context/AppContext';
 import { GalleryContext } from '../context/GalleryContext';
 
 const FullscreenImage = () => {
-
+    const { toggleHeader } =  useAppContext()
     const { selectedImages, imageMap } = useContext(GalleryContext);
 
     const { index } = useParams()
@@ -12,6 +14,7 @@ const FullscreenImage = () => {
     const image = selectedImages[index];
     const video = image.type === 'video'
     const handleClose = () => {
+        toggleHeader()
         navigate('/gallery');
     };
 

@@ -1,13 +1,13 @@
 .gallery-container {
-    padding: 30px 0 0 0;
-    margin: auto;
+    margin-top: 60px;
+    background-color: #fff;
     /* max-width: 1200px; */
 }
 
 /* Masonry Grid Layout */
 .my-masonry-grid {
     display: flex;
-    margin-left: -30px;
+    margin: 20px;
     width: auto;
 }
 
@@ -19,7 +19,7 @@
 .media-card {
     position: relative;
     border-radius: 8px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     overflow: hidden;
 }
 
@@ -58,7 +58,7 @@
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgb(66 56 52 / 69%);
     padding: 10px 20px;
     border-radius: 5px;
 }

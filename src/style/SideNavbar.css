@@ -1,0 +1,81 @@
+/* Container for the side navbar */
+.side-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 150px; /* Adjust width to fit icons */
+    height: 100%;
+    background-color: #fff; /* Primary background color */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+a, li {
+    text-decoration: none;
+    list-style: none;
+    color: #021648;
+
+    align-content: center;
+  }
+a {
+    /* padding: 10px 0; */
+    /* opacity: 70%; */
+  }
+  /* Individual navigation items */
+  .navbar-links {
+    padding-left: 10px;
+    padding: 20px;
+    li{
+        width: 130px;
+        height: 50px;
+        border-radius: 8px;
+        /* align-self: center; */
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        background: white;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    li:hover {
+        transform: scale(1.2);
+        box-shadow: 0 8px 16px rgba(255, 255, 255, 0.3);
+        cursor: pointer;
+    }
+}
+  /* Icons inside the nav items */
+  .nav-item .icon {
+   
+  }
+  
+  /* Tooltip for text */
+  .tooltip {
+    position: absolute;
+    left: 70px; /* Position it to the right of the navbar */
+     top:50%;/* Center vertically */
+    transform: translateY(-50%);
+    background-color: #fff; /* Tooltip background */
+    color: #294E99; /* Text color */
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    opacity: 0; /* Hidden by default */
+    pointer-events: none; /* Prevent tooltip from interfering */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Hover effects */
+  .nav-item:hover {
+    transform: scale(1.1);
+     /* Change background on hover */
+  }
+  .nav-item:hover .icon {
+   transform: scale(1.3); /*  Slightly enlarge the icon */
+  }
+  
+  .nav-item:hover .tooltip {
+    opacity: 1; /* Show tooltip */
+    transform: translateY(-50%) translateX(10px); /* Smooth appearance */
+  }
+  
