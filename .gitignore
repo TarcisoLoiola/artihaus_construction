@@ -25,4 +25,6 @@ yarn-error.log*
 .vscode
 /server
 
-+.mp4
+*.mp4
+*.mov
+*.avi
