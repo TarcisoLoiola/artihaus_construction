@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
-import Icon from '../../Assets/logo03.png'
+import Icon from '../../Assets/logo.png'
 const Footer = () => {
     return (
         <footer style={styles.footer}>
@@ -117,7 +117,8 @@ const styles = {
         color: colors.color04,
     },
     icon: {
-        width: '150px'
+        width: '180px',
+        margin: '-50px -50px -50px 0px'
     },
     line: {
         width: '100%',

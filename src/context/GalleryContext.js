@@ -47,14 +47,9 @@ import gallery40 from '../Assets/gallery40.jpeg';
 import gallery41 from '../Assets/gallery41.jpeg';
 import gallery42 from '../Assets/gallery42.jpeg';
 
-import media01 from '../Assets/media01.mp4';
-import media02 from '../Assets/media02.mp4';
 import media03 from '../Assets/media03.mp4';
-import media04 from '../Assets/media04.mp4';
 import media05 from '../Assets/media05.mp4';
-import media06 from '../Assets/media06.mp4';
 import media07 from '../Assets/media07.mp4';
-import media08 from '../Assets/media08.mp4';
 
 import icons from '../Assets/icons.json'
 
@@ -115,14 +110,9 @@ export const GalleryProvider = ({ children }) => {
         '../../Assets/gallery42.jpeg': gallery42,
     };
     const videoURLMap = {
-        '../Assets/media01.mp4': media01,
-        '../Assets/media02.mp4': media02,
         '../Assets/media03.mp4': media03,
-        '../Assets/media04.mp4': media04,
         '../Assets/media05.mp4': media05,
-        '../Assets/media06.mp4': media06,
         '../Assets/media07.mp4': media07,
-        '../Assets/media08.mp4': media08,
     }
     const iconURLMap = {
         '../../Assets/Home-on-default.png': HomeOnDefault,
