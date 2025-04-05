@@ -1,0 +1,23 @@
+// _helpers.scss
+
+// Padding helpers
+.p-0 { padding: 0; }
+.p-1 { padding: 4px; }
+.p-2 { padding: 8px; }
+.p-3 { padding: 16px; }
+
+// Margin helpers
+.m-0 { margin: 0; }
+.m-1 { margin: 4px; }
+.m-2 { margin: 8px; }
+.m-3 { margin: 16px; }
+
+// Overflow
+.overflow-hidden { overflow: hidden; }
+.overflow-scroll { overflow: scroll; }
+
+// Text helpers
+.uppercase { text-transform: uppercase; }
+.lowercase { text-transform: lowercase; }
+.capitalize { text-transform: capitalize; }
+.transform-scale { transform: scale(1.1); }

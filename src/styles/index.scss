@@ -1,0 +1,20 @@
+// src/assets/styles/index.scss
+@import './variables';
+@import './mixins';
+@import './globals';
+@import './typography';
+
+//Pages
+@import './pages/home';
+
+//Components
+@import './components/component_test';
+@import './components/logo';
+// @import './components/cards';
+// @import './components/carousel';
+// @import './components/footer';
+// @import './components/fullScreenImage';
+// @import './components/gallery';
+@import './components/navbar';
+@import './components/navlink';
+@import './components/socialmedialink';

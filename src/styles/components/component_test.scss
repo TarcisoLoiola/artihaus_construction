@@ -1,0 +1,40 @@
+.navBar_component{
+    background-color: $color-white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    padding: 25px 0 5px 0;
+    max-height: 140px;
+    gap: 11.4vw;
+}
+.logo_component{
+    height: 2.6rem;
+    cursor: pointer;
+    padding-top: 10px;
+}
+.navMenu_component{
+    display: flex
+;
+    flex-direction: row;
+    justify-content: center;
+    justify-self: center;
+    flex-wrap: nowrap;
+    column-gap: 3.9vw;
+}
+.navMenu_component > img{
+    height: 1.3rem;
+    align-self: center;
+}
+.nalink_component{
+
+}
+.nalink_component{
+
+}
+.nalink_component{
+
+}
+.nalink_component{
+
+}

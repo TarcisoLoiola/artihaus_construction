@@ -7,15 +7,15 @@ import { ContentProvider } from './ContentContext'
 const ContextManager = ({ children }) => {
 
     return (
-        <ContentProvider>
-            <AppProvider>
+        <AppProvider>
+            <ContentProvider>
                 <GalleryProvider>
                     <AuthProvider>
                         {children}
                     </AuthProvider>
                 </GalleryProvider>
-            </AppProvider>
-        </ContentProvider>
+            </ContentProvider>
+        </AppProvider>
     )
 };
 export default ContextManager

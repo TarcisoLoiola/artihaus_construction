@@ -1,0 +1,56 @@
+// _global.scss
+
+// Box-sizing reset
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+// Remove default margin/padding
+html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+  margin: 0;
+  padding: 0;
+}
+
+// Body styles
+body {
+  // font-family: 'Arial', sans-serif;
+  // color: $text-color;
+  background-color: $color-white;
+  // line-height: 1.7;
+}
+
+// Image default styles
+img {
+  
+  
+}
+
+// Links
+a {
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    // color: $primary-color;
+  }
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  // font-weight: 600;
+}
+
+// List reset
+ul, ol {
+  list-style: none;
+}
+
+// Buttons
+button {
+  // font-family: inherit;
+  // cursor: pointer;
+  // border: none;
+  // outline: none;
+}

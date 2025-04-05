@@ -2,20 +2,19 @@ import React, { useState }from 'react'
 import { Route, Routes, useLocation, useMatch } from "react-router-dom"
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
-import Header from './components/App/Header'
-import NavBar from './components/App/NavBar'
-import Footer from './components/App/Footer'
+// import Header from './components/Header'
+import NavBar from './components/NavBar'
+// import Logo from './components/Logo'
+import Footer from './components/Footer'
 
-import Home from './pages/HomePage'
-import About from './pages/AboutPage'
-import Contact from './pages/ContactPage'
-import Gallery from './pages/GalleryPage'
+import Home from './pages/Home'
+import About from './pages/About'
+import Contact from './pages/Contact'
+import Gallery from './pages/Gallery'
 import FullScreenImage from './pages/FullScreenImage'
+import Admin from './pages/Admin'
+import Component from './pages/Component'
 
-import Test from './pages/TestPage'
-import YearTax from './pages/YearTax'
-
-import './style/index.css'
 
 
 const AppRouter = () => {
@@ -23,21 +22,21 @@ const AppRouter = () => {
   const isGalleryIndex = useMatch('/gallery/:index');
   return (
     <div>
-      <Header>
-        { !isGalleryIndex && <NavBar /> }
-      </Header>
+    {/* NAVI BAR */}
+      { !isGalleryIndex && <NavBar /> }
       <main>
         <TransitionGroup>
-          <CSSTransition key={location.key} timeout={100} classNames="fade">
+          <CSSTransition key={location.key} timeout={100}>
             <Routes location={location}>
               <Route path="/" element={<Home /> } />
               <Route path="/home" element={<Home />} />
-              <Route path="/about" element={<About />} />
+              {/* <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/gallery" element={<Gallery />} />
               <Route path="/gallery/:index" element={<FullScreenImage />} />
-              <Route path='/test' element={<Test />} />
-              <Route path='/tax' element={<YearTax />} />
+              <Route path='/admin' element={<Admin />} /> */}
+              <Route path='/component' element={<Component />} />
+
             </Routes>
           </CSSTransition>
         </TransitionGroup>

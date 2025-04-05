@@ -1,0 +1,16 @@
+.navLink {
+    min-width: 6.25rem;
+    line-height: 63.01px;
+    font-weight: $font-medium;
+    font-size: $font-size-md;
+    color: $color-gray;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, color 0.1s ease-in-out;
+}
+
+.navLinkActive {
+    @extend .navLink;
+    font-weight: $font-semibold;
+    transform: scale(1.1);
+    color: $color-darkgoldenrod;
+}

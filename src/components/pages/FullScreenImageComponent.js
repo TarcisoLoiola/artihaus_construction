@@ -1,8 +1,9 @@
 import React, { useContext } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 
-import { useAppContext } from '../context/AppContext';
-import { GalleryContext } from '../context/GalleryContext';
+import '../style/FullScreenImageComponent.css';
+import { useAppContext } from '../../context/AppContext';
+import { GalleryContext } from '../../context/GalleryContext';
 
 const FullscreenImage = () => {
     const { toggleHeader } =  useAppContext()
@@ -42,4 +43,5 @@ const FullscreenImage = () => {
         </div>
     );
 };
+
 export default FullscreenImage;

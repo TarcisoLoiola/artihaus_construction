@@ -53,15 +53,6 @@ import media07 from '../Assets/media07.mp4';
 
 import icons from '../Assets/icons.json'
 
-import HomeOnDefault from '../Assets/Home-on-default.png'
-import HomeOnHover from '../Assets/Home-on-hover.png'
-import AboutOnDefault from '../Assets/About-on-default.png'
-import AboutOnHover from '../Assets/About-on-hover.png'
-import GalleryOnDefault from '../Assets/Gallery-on-default.png'
-import GalleryOnHover from '../Assets/Gallery-on-hover.png'
-import ContactOnDefault from '../Assets/Contact-on-white.png'
-import ContactOnHover from '../Assets/Contact-on-hover.png'
-
 export const GalleryContext = createContext();
 
 export const GalleryProvider = ({ children }) => {
@@ -114,16 +105,6 @@ export const GalleryProvider = ({ children }) => {
         '../Assets/media05.mp4': media05,
         '../Assets/media07.mp4': media07,
     }
-    const iconURLMap = {
-        '../../Assets/Home-on-default.png': HomeOnDefault,
-        '../../Assets/Home-on-hover.png': HomeOnHover,
-        '../../Assets/About-on-default.png': AboutOnDefault,
-        '../../Assets/About-on-hover.png': AboutOnHover,
-        '../../Assets/Gallery-on-default.png': GalleryOnDefault,
-        '../../Assets/Gallery-on-hover.png': GalleryOnHover,
-        '../../Assets/Contact-on-default.png': ContactOnDefault,
-        '../../Assets/Contact-on-hover.png': ContactOnHover,
-      }
 
     const [selectedImages, setSelectedImages,] = useState([]);
 
@@ -131,20 +112,17 @@ export const GalleryProvider = ({ children }) => {
     const [videoMap, setVideoMap] = useState([])
 
     const [selectedIcons, setSelectedIcons,] = useState([]);
-    const [ iconMap, setIconMap ] = useState()
 
     useEffect(() => {
         //const filteredImages = images.filter(image => image.category === 'Pavers'); // Example filter
         setSelectedImages(images);
         setImageMap(imageURLMap);
         setVideoMap(videoURLMap);
-        setSelectedIcons(icons)
-        setIconMap(iconURLMap)
     }, []);
 
 
     return (
-        <GalleryContext.Provider value={{ selectedImages, imageMap, videoMap, selectedIcons, iconMap }}>
+        <GalleryContext.Provider value={{ selectedImages, imageMap, videoMap, selectedIcons }}>
             {children}
         </GalleryContext.Provider>
     );

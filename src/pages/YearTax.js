@@ -39,5 +39,4 @@ const YearTax = () => {
     </div>
   );
 };
-
 export default YearTax;
