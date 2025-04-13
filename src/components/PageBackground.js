@@ -2,8 +2,6 @@ import React from 'react';
 
 // Import images
 import homeBackground from '../Assets/driveway.jpeg';
-import contactBackground from '../Assets/contactPage.png';
-import aboutBackground from '../Assets/aboutPage.png';
 
 const PageBackground = ({ pageType, children }) => {
     // Define styles dynamically based on the pageType prop
@@ -27,12 +25,12 @@ const PageBackground = ({ pageType, children }) => {
                 };
             case 'contactpage':
                 return {
-                    backgroundImage: `url(${contactBackground})`,
+                    backgroundImage: `url(${homeBackground})`,
                     ...base
                 };
             case 'aboutpage':
                 return {
-                    backgroundImage: `url(${aboutBackground})`,
+                    backgroundImage: `url(${homeBackground})`,
                     ...base
                 };
             default:

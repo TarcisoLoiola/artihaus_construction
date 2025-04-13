@@ -1,13 +1,15 @@
 
 // Font Families
-$font-primary: "Barlow", sans-serif;
-$font-secondary: "Roboto", sans-serif;
+$font-primary: "Michroma", sans-serif;
+$font-secondary: "Barlow", sans-serif;
 
 // Font Sizes
+$font-size-xsm: 12px;
 $font-size-sm: 14px;
 $font-size-md: 16px;
-$font-size-lg: 22px;
+$font-size-lg: 20px;
 $font-size-xl: 32px;
+$font-size-xxl: 35px;
 
 $font-thin: 100;
 $font-extralight: 200;
@@ -26,9 +28,8 @@ $font-italic: italic;
 $line-height-base: 1.6;
 $line-height-heading: 1.2;
 
+
 body {
     font-family: $font-primary;
-    // font-size: $font-size-md;
-    // color: $text-primary;
     line-height: $line-height-base;
   }

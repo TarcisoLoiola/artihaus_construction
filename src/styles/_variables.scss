@@ -2,50 +2,62 @@
 
 // Colors
 $color-white: #ffffff;
+$color-offwhite: #f1f1f1;
+$color-black: #000000;
 $color-gold: #B79977;
-$color-darkgoldenrod: #B8860B;
-$color-richergold: #C08A12;
-$color-deepgold: #A67C00;
 $color-gray: #5E637F;
+$color-lightgray: #8c93b8;
+$color-graydark: #374151;
 $color-blue: #294E99;
 
-
-
-$primary-color: #3498db;
-$secondary-color: #2ecc71;
-$background-color: rgb(62 32 8 / 50%);//#3e2008
-
-$background-card-color: #fffdfd;
-$text-color: #333;
-$secondary-text-color: #fffdfd;
 $error-color: #e74c3c;
 $success-color: #2ecc71;
 $warning-color: #f1c40f;
 
-$background01: #3e2008;
-$color01: #e5ffcd;
-$color02: rgb(62 32 8 / 50%);
-$heading-color: #99ccb2;
-$color03: #7298ad;
-
-// Font Sizes
-$font-small: 14px;
-$font-medium: 16px;
-$font-large: 20px;
-$font-xlarge: 24px;
-
-// Spacing
-$spacing-xs: 4px;
-$spacing-small: 8px;
-$spacing-medium: 16px;
-$spacing-large: 24px;
-$spacing-xl: 32px;
 
 // Breakpoints
 $breakpoint-mobile: 480px;
 $breakpoint-default: 600px;
 $breakpoint-tablet: 768px;
 $breakpoint-desktop: 1200px;
+
+//Spacing
+$spacing-xs: .5px;
+$spacing-sm: 1rem;
+$spacing-md: 1.6rem;
+$spacing-lg: 4rem;
+$spacing-xl: 5rem;
+$spacing-vw-xl: 18.5vw;
+
+//Margins
+$margin-xs: .5px;
+$margin-sm: 1rem;
+$margin-md: 1.6rem;
+$margin-lg: 4rem;
+$margin-xl: 5rem;
+$margin-vw-xl: 18.5vw;
+
+//Width
+$width-md: 13rem;
+$width-lg: 20rem;
+$width-xl: 24rem;
+$width-full: 100%;
+
+//Images
+$image-md: 13rem;
+$image-lg: 20rem;
+$image-xl: 24rem;
+$image-full: 30rem;
+
+//Button
+$button-md: 9.5rem;
+$button-lg: 18.5rem;
+$button-xl: 100%;
+
+//Radius
+$radius-xs: .5rem;
+$radius-sm: .7rem;
+$radius-lg: 50%;
 
 // Z-index
 $z-index-header: 100;

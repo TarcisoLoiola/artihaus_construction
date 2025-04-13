@@ -1,14 +1,10 @@
-import React from 'react'
-import logo from '../Assets/LOGOARTIHAUS.svg'
-import facebook from '../Assets/FACEBOOK.png'
-import instagram from '../Assets/INSTAGRAM.png'
+import React from "react";
+import ImageRoleHandler from '../components/ImageRoleHandler'
+import image from '../Assets/gallery41.jpeg'
 
 const Component = () => {
-
-    return (
-        <div />
-    )
+  return (
+    <ImageRoleHandler src={image} alt='test image component' role='carousel' />
+  )
 };
-
-
 export default Component;

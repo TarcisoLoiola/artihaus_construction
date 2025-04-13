@@ -1,0 +1,27 @@
+.button {
+    font-family: $font-secondary;
+    font-size: $font-size-md;
+    font-weight: $font-light;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 1rem;
+    align-items: center;
+    width: auto;
+    height: 2.5rem;
+    border-radius: $radius-xs;
+    cursor: pointer;
+    img {
+        height: 1rem;
+    }
+}
+
+.button-gold {
+    background-color: $color-gold;
+    color: $color-white;
+}
+
+.button-white {
+    background-color: $color-white;
+    color: $color-gold;
+}

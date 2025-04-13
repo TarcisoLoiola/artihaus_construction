@@ -1,6 +1,7 @@
 // src/assets/styles/index.scss
 @import './variables';
-@import './mixins';
+@import './/utilities';
+// @import './mixins';
 @import './globals';
 @import './typography';
 
@@ -8,13 +9,15 @@
 @import './pages/home';
 
 //Components
-@import './components/component_test';
-@import './components/logo';
+@import './components/button.scss';
 // @import './components/cards';
-// @import './components/carousel';
+@import './components/carousel';
+@import './components/component_test';
 // @import './components/footer';
 // @import './components/fullScreenImage';
 // @import './components/gallery';
+@import './components/imageHandler.scss';
+@import './components/logo';
 @import './components/navbar';
 @import './components/navlink';
 @import './components/socialmedialink';

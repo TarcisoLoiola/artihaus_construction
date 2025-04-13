@@ -1,17 +1,23 @@
 /* BARRA  vw = (px value / 1920) * 100 */
-.navBar {
+.navBar-container {
     background-color: $color-white;
+    margin-top: 1.5rem;
+    margin-right: 18.5vw;
+    margin-bottom: 1.5rem;
+    margin-left: 18.5vw;
+
+}
+.navBar {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    height: 6.3rem;
-    padding: 25px 0 5px 0;
-    gap: 11.4vw;
+    justify-content: space-between;
 }
 
 .navMenu {
     display: flex;
-    column-gap: 3.9vw;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2rem;
 }
 
 

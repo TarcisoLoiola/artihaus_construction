@@ -4,11 +4,12 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 import { useAppContext } from '../context/AppContext';
 import { GalleryContext } from '../context/GalleryContext'
+import ImageRoleHandler from "./ImageRoleHandler";
 
 const Carousel = () => {
 
   const { selectedImages, imageMap } = useContext(GalleryContext);
-
+  console.log(imageMap)
   // Ensure media exists and has items before filtering
   // const images = Array.isArray(imageMap) ? imageMap.filter(item => item.usage === "carousel") : [];
 
@@ -53,7 +54,8 @@ const Carousel = () => {
             key={index}
             src={imageMap[media.url]}
             alt={media.alt || "Carousel Image"}
-            className={index === currentIndex ? "active" : "hidden"}
+            role={media.role}
+            // className={index === currentIndex ? "active" : "hidden"}
           />
         ))}
       </div>

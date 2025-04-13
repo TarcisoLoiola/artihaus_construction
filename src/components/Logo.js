@@ -7,7 +7,7 @@ const Logo = () => {
     const [index, setIndex] = useState(null)
 
     return (
-        <Link to='/' className="logo_artihaus">
+        <Link to='/component' className="logo_artihaus">
             <img src={logo} alt="Company Logo" />
         </Link>
     );

@@ -1,6 +1,4 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom';
-import Icon from '../Assets/logo.png'
 const Footer = () => {
     return (
         <footer className='footer-container'>

@@ -49,8 +49,7 @@ ul, ol {
 
 // Buttons
 button {
-  // font-family: inherit;
-  // cursor: pointer;
-  // border: none;
-  // outline: none;
+  all: unset; // <-- resets all inherited and default browser styles
+  box-sizing: border-box; // optional but often helpful
+  cursor: pointer; // re-add pointer cursor
 }
