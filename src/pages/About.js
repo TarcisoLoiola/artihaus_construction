@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 
-import PageBackground from '../components/PageBackground';
-
 const About = () => {
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 

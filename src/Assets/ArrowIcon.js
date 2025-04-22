@@ -3,7 +3,7 @@ const ArrowIcon = ({ color = "#000" }) => (
     width="18"
     height="18"
     viewBox="0 0 18 18"
-    fill="none"
+    fill={{ color }}
     xmlns="http://www.w3.org/2000/svg"
     style={{ color }}
   >

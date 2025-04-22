@@ -14,14 +14,9 @@
     img {
         height: 1rem;
     }
+    transition: transform 0.3s ease, font-size 0.3s ease;
 }
 
-.button-gold {
-    background-color: $color-gold;
-    color: $color-white;
-}
-
-.button-white {
-    background-color: $color-white;
-    color: $color-gold;
+.button:hover {
+    transform: scale(1.03)
 }

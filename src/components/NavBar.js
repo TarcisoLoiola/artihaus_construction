@@ -1,9 +1,6 @@
 import React from "react";
 import Logo from './Logo'
-import Link from "./NavLink";
-import SocialMediaLink from "./socialMediaLink";
-import facebook from '../Assets/FACEBOOK.png'
-import instagram from '../Assets/INSTAGRAM.png'
+import Link from "./Link";
 
 const NavBar = () => {
     return (
@@ -15,8 +12,8 @@ const NavBar = () => {
                     <Link to='/about' text="About" />
                     <Link to='/gallery' text="Gallery" />
                     <Link to='/contact' text="Contact" />
-                    <SocialMediaLink to='https://www.facebook.com/artihausconstruction' icon={facebook} alt='facebook' />
-                    <SocialMediaLink to='https://www.facebook.com/artihausconstruction' icon={instagram} alt='instagram' />
+                    <Link to='https://www.facebook.com/artihausconstruction' color='gray' external icon='facebook' alt='facebook icon' />
+                    <Link to='https://www.instagram.com/artihaus_construction' color='gray' external icon='instagram' alt='instagram icon' />
                 </div>
             </div>
         </nav>

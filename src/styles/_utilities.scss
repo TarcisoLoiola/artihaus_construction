@@ -1,4 +1,68 @@
 // _utilities.scss
+@import 'variables';
+@import 'mixins';
+
+.page-full-view {
+  display: block;
+  width: $width-full;
+  height: calc(100vh);
+}
+
+.page-content-container {
+  padding: $padding-xl $padding-vw-xl $padding-xl $padding-vw-xl;
+  @include respond-to(laptop) {
+    padding: $padding-lg $padding-xl $padding-lg $padding-xl;
+  }
+  @include respond-to(tablet) {
+    padding: $padding-md $padding-md $padding-md $padding-md;
+  }
+  @include respond-to(mobile) {
+    padding: $padding-sm $padding-sm $padding-sm $padding-sm;
+  }
+}
+
+.learnmore-btn-md {
+  width: $button-md;
+  justify-self: center;
+}
+.learnmore-btn-xl {
+  width: $button-xl;
+  justify-self: center;
+}
+
+//Width
+.u-wid-md { width: $width-md }
+.u-wid-lg { width: $width-lg }
+.u-wid-xl { width: $width-xl }
+.u-wid-full { width: $width-full }
+
+//Height
+.u-hei-md { height: $height-md }
+.u-hei-lg { height: $height-lg }
+.u-hei-xl { height: $height-xl }
+.u-hei-full { height: $height-full }
+
+//Padding
+.u-pad-vw-xl--l-r { padding-left: $padding-vw-xl; padding-right: $padding-vw-xl };
+.u-pad-xl--t-b { padding-top: $padding-xl; padding-bottom: $padding-xl };
+
+.u-gap-xs { gap: 0.5rem; }
+.u-gap-sm { gap: 0.75rem; }
+.u-gap-md { gap: 1rem; }
+.u-gap-lg { gap: 2rem; }
+
+.u-radius-xs { border-radius: $radius-xs }
+.u-radius-sm { border-radius: $radius-sm }
+.u-radius-lg { border-radius: $radius-lg }
+
+.u-border-lite { border: $border-light }
+
+.u-p-md {
+  padding: 1rem;
+}
+
+
+
 
 .hide {
   display: none !important;

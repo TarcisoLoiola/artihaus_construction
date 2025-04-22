@@ -1,0 +1,34 @@
+
+.our-commitment {
+    display: block;
+    background-color: $color-offwhite;
+  
+    .our-commitment--describe {
+      display: flex;
+      flex-direction: row; // or omit, since 'row' is default
+      justify-content: space-between;
+      align-items: flex-start; // optional, depending on alignment needs
+      gap: $margin-sm;
+      margin-bottom: $margin-lg;
+  
+      h1, p {
+        flex: 1;
+      }
+      h1{
+        font-family: $font-primary;
+        font-size: $font-size-xxl;
+        color: $color-blue;
+        font-weight: $font-light;
+        margin-bottom: $margin-sm;
+      }
+      p {
+        font-family: $font-secondary;
+        color: $color-graydark;
+        font-size: $font-size-md;
+        margin-top: $margin-md;
+        font-weight: $font-light;
+        align-self: center;
+        // width: $width-md;
+      }
+    }
+  }

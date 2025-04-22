@@ -1,25 +1,35 @@
 /* BARRA  vw = (px value / 1920) * 100 */
+@import '../mixins';
+
 .navBar-container {
     background-color: $color-white;
-    margin-top: 1.5rem;
-    margin-right: 18.5vw;
-    margin-bottom: 1.5rem;
-    margin-left: 18.5vw;
+    width: $width-full;
+    margin: $margin-md 0;
+    .navBar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 2rem;
+        padding-right: $padding-vw-xl;
+        padding-left: $padding-vw-xl;
 
+        @include respond-to(tablet){
+            display: flex;
+            flex-direction: column;
+            text-Align: center;
+            justify-self: center;
+        }
+
+        .navMenu {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+
+            // display: flex;
+            // justify-content: space-between;
+            // align-items: center;
+            // column-gap: 2rem;
+        }
+    }
 }
-.navBar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.navMenu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    column-gap: 2rem;
-}
-
-
-
-

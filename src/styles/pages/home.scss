@@ -1,136 +1,27 @@
+@import '../utilities';
+
 .carousel-container > img{
   display: block;
   width: $width-full;
   height: 78vh; //calc(100vh - 100px);
   object-fit: cover;
-  transition: all 0.3s ease;
-  margin-bottom: $margin-xl;
 }
 
-.who-we-are-container{
-  display: block;
-  background-color: $color-white;
-  margin-bottom: $margin-xl;
+//****************************************
+//WHO WE ARE
 
-  .who-we-are {
-    margin-right: $margin-vw-xl;
-    margin-left: $margin-vw-xl;
 
-    .who-we-are--describe {
-      display: flex;
-      flex-direction: row;
-      column-gap: 3rem;
-      margin-bottom: $margin-lg;
-      h1 {
-        font-family: $font-primary;
-        font-size: $font-size-xxl;
-        color: $color-blue;
-        font-weight: $font-light;
-        margin-bottom: $margin-sm;
-      }
-      p,h4 {
-        font-family: $font-secondary;
-        color: $color-graydark;
-        font-size: $font-size-md;
-        margin-bottom: $margin-md;
-        // letter-margin: 0.8px;
-      }
-      h4 {
-        font-weight: $font-black;
-      }
-      p {
-        font-weight: $font-light;
-      }
-      img {
-        margin-top: $margin-md;
-        border-radius: $radius-sm;
-        width: $image-xl;
-        height: $image-lg;
-      }
-    }
-    .who-we-are--stats {
-      display: flex;
-      justify-content: space-around;
-      text-align: center;
-      margin-bottom: $margin-lg;
-      .stat{
-        width: $width-md;
-      }
-      h1 {
-        font-family: $font-primary;
-        font-size: 2.7rem;
-        color: $color-blue;
-        font-weight: $font-light;
-        margin-bottom: $margin-xs;
-      }
-      p {
-        font-family: $font-secondary;
-        color: $color-graydark;
-        font-weight: $font-light;
-        font-size: $font-size-md;
-        margin-bottom: $margin-sm;
-      }
-    }
-    .who-we-are--learnmore{
-      justify-self: anchor-center;
-      width: $button-md;
-    }
-}
-}
+//****************************************
+//OUR SERVICES
 
-.our-services-container{
-  width: $width-full;
-  height: auto;
-  background-color: $color-gold;
-  justify-items: center;
-  margin-bottom: $margin-xl;
 
-  .our-services {
-    display: flex;
-    flex-direction: column;
-    margin-right: $margin-vw-xl;
-    margin-left: $margin-vw-xl;
+//****************************************
+//OUR COMMITMENT
 
-    h1 {
-      font-family: $font-primary;
-      font-size: $font-size-xxl;
-      color: $color-white;
-      font-weight: $font-light;
-      margin-top: $margin-xl;
-      margin-bottom: $margin-xl;
-      align-self: center;
-    }
 
-    .our-services--carousel {
-      width: $width-full;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      column-gap: $margin-sm;
-      margin-bottom: $margin-xl;
-      img {
-        max-width: 17.5rem;
-        min-height: 17.4rem;
-        border-radius: $radius-sm;
-      }
-    }
-  }
-}
+//****************************************
+//CERTIFICATIONS
 
-.our-commitment-container{
-  // position: absolute;
-  background-color: $color-white;
-  width: $width-full;
-  height: 968px;
-  // left: 0px;
-  // top: 2968px;
-}
 
-.certifications-container{
-  // position: absolute;
-  background-color: $color-blue;
-  width: 100%;
-  height: 797px;
-  // left: 0;
-  // top: 4025px;
-}
+//****************************************
+//TESTIMONIALS

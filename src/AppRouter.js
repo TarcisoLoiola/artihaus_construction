@@ -13,7 +13,7 @@ import Contact from './pages/Contact'
 import Gallery from './pages/Gallery'
 import FullScreenImage from './pages/FullScreenImage'
 import Admin from './pages/Admin'
-import Component from './pages/Component'
+import PageNotFound from './pages/PageNotFound';
 
 
 
@@ -29,13 +29,12 @@ const AppRouter = () => {
           <CSSTransition key={location.key} timeout={100}>
             <Routes location={location}>
               <Route path="/" element={<Home /> } />
-              <Route path="/home" element={<Home />} />
               {/* <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/gallery" element={<Gallery />} />
               <Route path="/gallery/:index" element={<FullScreenImage />} />
               <Route path='/admin' element={<Admin />} /> */}
-              <Route path='/component' element={<Component />} />
+              <Route path='*' element={<PageNotFound />} />
 
             </Routes>
           </CSSTransition>

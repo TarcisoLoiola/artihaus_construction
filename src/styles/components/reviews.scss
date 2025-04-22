@@ -1,0 +1,23 @@
+
+.reviews {
+    display: block;
+    width: $width-full;
+    background-color: $color-gold;
+    h1{
+          font-family: $font-primary;
+          font-size: $font-size-xxl;
+          color: $color-white;
+          font-weight: $font-light;
+          margin-bottom: $margin-xl;
+          text-align: center;
+        }
+        .reviews-container {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          gap: $margin-sm;
+          .card {
+            text-align: left;
+          }
+    }
+}

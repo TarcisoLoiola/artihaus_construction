@@ -10,9 +10,9 @@
 
 //Components
 @import './components/button.scss';
-// @import './components/cards';
+@import './components/cards';
 @import './components/carousel';
-@import './components/component_test';
+@import './components/certifications.scss';
 // @import './components/footer';
 // @import './components/fullScreenImage';
 // @import './components/gallery';
@@ -20,4 +20,7 @@
 @import './components/logo';
 @import './components/navbar';
 @import './components/navlink';
-@import './components/socialmedialink';
+@import './components/ourcommitment.scss';
+@import './components/ourservices.scss';
+@import './components/reviews.scss';
+@import './components/whoweare.scss';

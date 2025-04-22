@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 
-import PageBackground from '../components/PageBackground';
-
 const Contact = () => {
 
     useEffect(() => {

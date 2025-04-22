@@ -2,25 +2,24 @@
 @import './variables';
 
 @mixin respond-to($breakpoint) {
-    @if $breakpoint == mobile {
-      @media (max-width: $breakpoint-mobile) { @content; }
-    } @else if $breakpoint == default {
-      @media (max-width: #{$breakpoint-default}) { @content; }
-    } @else if $breakpoint == tablet {
-      @media (max-width: $breakpoint-tablet) { @content; }
-    } @else if $breakpoint == desktop {
-      @media (max-width: $breakpoint-desktop) { @content; }
-    }
+  @if $breakpoint == mobile {
+    @media (max-width: $breakpoint-mobile) { @content; }
+  } @else if $breakpoint == tablet {
+    @media (max-width: $breakpoint-tablet) { @content; }
+  } @else if $breakpoint == laptop {
+    @media (max-width: $breakpoint-laptop) { @content; }
+  } @else if $breakpoint == desktop {
+    @media (min-width: $breakpoint-desktop) { @content; }
   }
+}
 
-  @mixin flex-center($direction: row) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: $direction;
-  }
-  
-  @mixin box-shadow($x: 0px, $y: 4px, $blur: 8px, $color: rgba(0, 0, 0, 0.1)) {
-    box-shadow: $x $y $blur $color;
-  }
-  
+@mixin flex-center($direction: row) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+}
+
+@mixin box-shadow($x: 0px, $y: 4px, $blur: 8px, $color: rgba(0, 0, 0, 0.1)) {
+  box-shadow: $x $y $blur $color;
+}
