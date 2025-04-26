@@ -1,7 +1,10 @@
   /* LOGO ARTIHAUS */
-.logo_artihaus > img {
-  height: $logo-sm;
-  // width: 14rem;
-  cursor: pointer;
+.logo_artihaus { cursor: pointer; }
+.navBar .logo_artihaus > img {
+  // height: $logo-;
+}
+
+.footer .logo_artihaus > img {
+  
 }
 

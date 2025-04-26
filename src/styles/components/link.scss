@@ -1,0 +1,36 @@
+.link {
+    font-family: $font-secondary;
+    font-weight: $font-light;
+    font-size: $font-size-md;
+    cursor: pointer;
+}
+
+.linkActive {
+    @extend .link;
+    font-weight: $font-black;
+    transform: scale(1.1);
+    color: $color-gold;
+}
+
+.button {
+    font-family: $font-secondary;
+    font-size: $font-size-md;
+    font-weight: $font-light;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 1rem;
+    align-items: center;
+    width: auto;
+    height: 2.5rem;
+    border-radius: $radius-xs;
+    cursor: pointer;
+    img {
+        height: 1rem;
+    }
+    transition: transform 0.3s ease, font-size 0.3s ease;
+}
+
+.button:hover {
+    transform: scale(1.03)
+}

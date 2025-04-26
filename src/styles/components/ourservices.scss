@@ -2,22 +2,15 @@
 .our-services {
     // width: $width-full;
     display: block;
-    background-color: $color-gold;
 
     h1 {
-      font-family: $font-primary;
-      font-size: $font-size-xxl;
       color: $color-white;
-      font-weight: $font-light;
-      margin-bottom: $margin-sm;
-      text-align: center;
     }
 
     .our-services--carousel {
       display: flex;
       width: $width-full;
       gap: $margin-sm;
-      margin-bottom: $margin-lg;
 
       .image-role-handler {
         flex: 1;

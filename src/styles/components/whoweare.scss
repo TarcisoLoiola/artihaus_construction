@@ -1,6 +1,6 @@
 .who-we-are {
     display: block;
-    background-color: $color-white;
+    
     .who-we-are--describe {
       display: flex;
       flex-direction: row; // or omit, since 'row' is default
@@ -9,23 +9,10 @@
       gap: $margin-lg;
   
       h1 {
-        font-family: $font-primary;
-        font-size: $font-size-xxl;
         color: $color-blue;
-        font-weight: $font-light;
       }
       p,h4 {
-        font-family: $font-secondary;
-        color: $color-graydark;
-        font-size: $font-size-md;
-        margin-bottom: $margin-md;
-        // letter-margin: 0.8px;
-      }
-      h4 {
-        font-weight: $font-black;
-      }
-      p {
-        font-weight: $font-light;
+        margin-bottom: $margin-sm;
       }
       .--describe {
         flex: 1.3;
@@ -47,22 +34,12 @@
       display: flex;
       justify-content: space-around;
       text-align: center;
-      margin-bottom: $margin-md;
       .stat{
         width: $width-md;
       }
       h1 {
-        font-family: $font-primary;
-        font-size: $font-size-xxl;
         color: $color-blue;
-        font-weight: $font-light;
-      }
-      p {
-        font-family: $font-secondary;
-        color: $color-graydark;
-        font-weight: $font-light;
-        font-size: $font-size-md;
-        margin-bottom: $margin-sm;
+        padding-top: $padding-lg;
       }
     }
   }

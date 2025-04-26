@@ -4,14 +4,14 @@ import Link from "./Link";
 
 const NavBar = () => {
     return (
-        <nav className="navBar-container">
-            <div className="navBar">
-                <Logo />
-                <div className="navMenu">
-                    <Link to='/' text="Home" />
-                    <Link to='/about' text="About" />
-                    <Link to='/gallery' text="Gallery" />
-                    <Link to='/contact' text="Contact" />
+        <nav className="navBar u-bg-gold">
+            <div className="navBar-container">
+                <Logo logo='primaryLogo' />
+                <div className="navMenu u-color-gray">
+                    <Link to='/' text="Home" button={false}/>
+                    <Link to='/about' text="About"  button={false}/>
+                    <Link to='/gallery' text="Gallery"  button={false}/>
+                    <Link to='/contact' text="Contact"  button={false}/>
                     <Link to='https://www.facebook.com/artihausconstruction' color='gray' external icon='facebook' alt='facebook icon' />
                     <Link to='https://www.instagram.com/artihaus_construction' color='gray' external icon='instagram' alt='instagram icon' />
                 </div>

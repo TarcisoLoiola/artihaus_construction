@@ -1,10 +1,13 @@
 @import '../utilities';
 
-.carousel-container > img{
-  display: block;
-  width: $width-full;
-  height: 78vh; //calc(100vh - 100px);
-  object-fit: cover;
+.home {
+
+  .carousel-container > img{
+    display: block;
+    width: $width-full;
+    height: 78vh; //calc(100vh - 100px);
+    object-fit: cover;
+  }
 }
 
 //****************************************

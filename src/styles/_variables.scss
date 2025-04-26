@@ -2,32 +2,28 @@
 
 // Colors
 $color-white: #ffffff;
-$color-offwhite: #f1f1f1;
+$color-lightgray: #f1f1f1;
 $color-black: #000000;
 $color-gold: #B79977;
 $color-gray: #5E637F;
-$color-lightgray: #8c93b8;
-$color-graydark: #374151;
+$color-softgray: #4C5866;
+$color-darkgray: #374151;
 $color-blue: #294E99;
-
-$error-color: #e74c3c;
-$success-color: #2ecc71;
-$warning-color: #f1c40f;
+$color-error: #e74c3c;
+$color-success: #2ecc71;
+$color-warning: #f1c40f;
 
 // Breakpoints
 $breakpoint-mobile: 576px;
+$breakpoint-default: 887px;
 $breakpoint-tablet: 1024px;
 $breakpoint-laptop: 1280px;
 $breakpoint-desktop: 1440px;
 
 //Borders
-$border-light: 1px solid #D3D3D3;
+$border-light: 1px solid $color-softgray;
 
 //Logo
-$logo-xs: 2rem;
-$logo-sm: 2.3rem;
-$logo-md: 2.8rem;
-$logo-lg: 3rem;
 
 //Spacing
 $spacing-xs: .5px;
@@ -38,7 +34,7 @@ $spacing-xl: 5rem;
 $spacing-vw-xl: 18.5vw;
 
 //Margins
-$margin-xs: .5px;
+$margin-xs: .5rem;
 $margin-sm: 1rem;
 $margin-md: 1.6rem;
 $margin-lg: 4rem;
@@ -50,8 +46,9 @@ $padding-xs: .5px;
 $padding-sm: 1rem;
 $padding-md: 1.6rem;
 $padding-lg: 4rem;
-$padding-xl: 5rem;
+$padding-xl: 6rem;
 $padding-vw-xl: 18.5vw;
+
 //Width
 $width-md: 13rem;
 $width-lg: 20rem;
@@ -72,7 +69,8 @@ $image-xl: 24rem;
 $image-full: 30rem;
 
 //Button
-$button-md: 9.5rem;
+$button-md: 12rem;
+$button-lg: 15rem;
 $button-xl: 100%;
 
 //Radius

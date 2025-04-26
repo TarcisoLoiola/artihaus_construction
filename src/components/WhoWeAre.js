@@ -8,18 +8,18 @@ import Link from "./Link";
 const WhoWeAre = ({className}) => {
 
     return (
-        <section className='who-we-are'>
+        <section className='who-we-are u-backg-c-white'>
         <div className='page-content-container'>
           <div className='who-we-are--describe'>
             <div className='--describe'>
-              <h1>Who we are man?</h1>
-              <h4>
+              <h1 className="u-h1 u-mr-bt-sm">Who we are man?</h1>
+              <h4 className="u-h4 u-color-gray">
                 Transform Your Outdoors with Artihaus Construction
               </h4>
-              <p>
+              <p className="u-p">
                 At Artihaus Construction, we believe that outdoor spaces should be as inviting and functional as the interiors of a home. With over 20 years of experience in hardscape and landscape construction, we specialize in transforming yards into stunning, long-lasting outdoor living spaces.
               </p>
-              <p>
+              <p className="u-p">
                 From patios and retaining walls to walkways, driveways, and custom outdoor features, our craftsmanship is built to stand the test of time.
               </p>
             </div>
@@ -28,9 +28,7 @@ const WhoWeAre = ({className}) => {
           <div className='who-we-are--stats'>
             <Stats />
           </div>
-          <div className='learnmore-btn-md'>
-            <Link text='Learn More' to='/about' className='button' color='white' background='gold' icon='arrow'/>
-          </div>
+          <Link to='/about' text='Learn More' className='u-btn-md u-mr-tp-lg' color='white' backgroundColor='gold' icon='arrow'/>
         </div>
       </section>
     )

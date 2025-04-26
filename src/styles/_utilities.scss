@@ -1,11 +1,50 @@
 // _utilities.scss
-@import 'variables';
-@import 'mixins';
+@import './typography';
+@import './variables';
+@import './mixins';
+
+.u-color-white { color: $color-white !important }
+.u-color-lightgray { color: $color-lightgray }
+.u-color-black { color: $color-black }
+.u-color-gold { color: $color-gold }
+.u-color-gray { color: $color-gray }
+.u-color-softgray { color: $color-softgray }
+.u-color-darkgray { color: $color-darkgray }
+.u-color-blue { color: $color-blue }
+.u-color-error { color: $color-error }
+.u-color-success { color: $color-success }
+.u-color-warning { color: $color-warning }
 
 .page-full-view {
   display: block;
   width: $width-full;
   height: calc(100vh);
+}
+.u-flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+
+}
+.u-flex-column {
+  display: flex;
+  align-self: flex-start;
+  flex-direction: column;
+  flex: 1; // allow equal width
+  height: 100%;
+  text-align: left;
+}
+
+.primaryLogo > img {
+  width: 19rem;
+  height: 2.5rem;
+}
+
+.secondaryLogo > img {
+  width: 12rem;
+  height: 6rem;
 }
 
 .page-content-container {
@@ -14,21 +53,69 @@
     padding: $padding-lg $padding-xl $padding-lg $padding-xl;
   }
   @include respond-to(tablet) {
-    padding: $padding-md $padding-md $padding-md $padding-md;
+    padding: $padding-md $padding-lg $padding-md $padding-lg;
   }
   @include respond-to(mobile) {
     padding: $padding-sm $padding-sm $padding-sm $padding-sm;
   }
 }
 
-.learnmore-btn-md {
+.u-btn-md {
   width: $button-md;
   justify-self: center;
 }
-.learnmore-btn-xl {
+.u-btn-lg {
+  width: $button-lg;
+  justify-self: center;
+}
+.u-btn-xl {
   width: $button-xl;
   justify-self: center;
 }
+
+//BACKGROUND COLORING
+.u-backg-c-white {background-color: $color-white }
+.u-backg-c-lightgray {background-color: $color-lightgray }
+.u-backg-c-black {background-color: $color-black }
+.u-backg-c-gold {background-color: $color-gold }
+.u-backg-c-gray {background-color: $color-gray }
+.u-backg-c-darkgray {background-color: $color-darkgray }
+.u-backg-c-blue {background-color: $color-blue }
+.u-backg-c-error {background-color: $color-error }
+.u-backg-c-success {background-color: $color-success }
+.u-backg-c-warning {background-color: $color-warning }
+
+//HTAGS & P
+
+.u-h1 {
+  font-family: $font-primary;
+  font-size: $font-size-xxl;
+  font-weight: $font-light;
+}
+.u-h4 {
+  font-family: $font-secondary;
+  font-size: $font-size-md;
+}
+
+.u-p {
+  font-family: $font-secondary;
+  color: $color-gray;
+  font-size: $font-size-md;
+  font-weight: $font-light;
+}
+
+//MARGIN
+.u-mr-tp-xs { margin-top: $margin-xs };
+.u-mr-tp-sm { margin-top: $margin-sm };
+.u-mr-tp-md { margin-top: $margin-md };
+.u-mr-tp-lg { margin-top: $margin-lg };
+.u-mr-tp-xl { margin-top: $margin-xl };
+
+.u-mr-bt-xs { margin-bottom: $margin-xs };
+.u-mr-bt-sm { margin-bottom: $margin-sm };
+.u-mr-bt-md { margin-bottom: $margin-md };
+.u-mr-bt-lg { margin-bottom: $margin-lg };
+.u-mr-bt-xl { margin-bottom: $margin-xl };
 
 //Width
 .u-wid-md { width: $width-md }
@@ -43,8 +130,6 @@
 .u-hei-full { height: $height-full }
 
 //Padding
-.u-pad-vw-xl--l-r { padding-left: $padding-vw-xl; padding-right: $padding-vw-xl };
-.u-pad-xl--t-b { padding-top: $padding-xl; padding-bottom: $padding-xl };
 
 .u-gap-xs { gap: 0.5rem; }
 .u-gap-sm { gap: 0.75rem; }
@@ -55,7 +140,9 @@
 .u-radius-sm { border-radius: $radius-sm }
 .u-radius-lg { border-radius: $radius-lg }
 
-.u-border-lite { border: $border-light }
+.u-bt-border-lite {
+  border-bottom: $border-light;
+ }
 
 .u-p-md {
   padding: 1rem;

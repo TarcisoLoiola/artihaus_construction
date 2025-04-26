@@ -4,17 +4,13 @@
     width: $width-full;
     justify-content: space-between;
     gap: $margin-sm;
-    margin-bottom: $margin-lg;
     .card {
       flex: 1;
       width: auto; // optional: prevent them from shrinking too much
       background-color: $color-white;
+      color: $color-gray;
       padding: 1rem;
-      text-align: center;
       border: $border-light;
       border-radius: $radius-sm;
-      p, h4{
-        font-family: $font-secondary;
-      }
     }
   }

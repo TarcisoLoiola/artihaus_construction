@@ -9,17 +9,17 @@
 @import './pages/home';
 
 //Components
-@import './components/button.scss';
+// @import './components/button.scss';
 @import './components/cards';
 @import './components/carousel';
 @import './components/certifications.scss';
-// @import './components/footer';
+@import './components/footer';
 // @import './components/fullScreenImage';
 // @import './components/gallery';
 @import './components/imageHandler.scss';
+@import './components/link';
 @import './components/logo';
 @import './components/navbar';
-@import './components/navlink';
 @import './components/ourcommitment.scss';
 @import './components/ourservices.scss';
 @import './components/reviews.scss';

@@ -16,9 +16,9 @@ import OurServices from '../components/OurServices';
 const Home = () => {
   const { data, loading, error } = useContext(ContentContext);
 
-  // useEffect(() => {
-  //   window.scrollTo(0, 0); // Reset scroll position to the top
-  // }, []);
+  useEffect(() => {
+    window.scrollTo(0, 4000); // Reset scroll position to the top
+  }, []);
 
   return (
     <main className='home'>
