@@ -5,7 +5,7 @@ import { ContentContext } from "../context/ContentContext";
 import Certifications from '../components/Certifications';
 
 import ImageRoleHandler from '../components/ImageRoleHandler';
-import Image from '../Assets/gallery41.jpeg';
+import Image from '../Assets/gallery20.jpeg';
 
 import Reviews from '../components/Reviews';
 import OurCommitment from '../components/OurCommitment';
@@ -17,7 +17,7 @@ const Home = () => {
   const { data, loading, error } = useContext(ContentContext);
 
   useEffect(() => {
-    window.scrollTo(0, 4000); // Reset scroll position to the top
+    window.scrollTo(0, 0); // Reset scroll position to the top
   }, []);
 
   return (

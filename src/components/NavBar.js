@@ -4,7 +4,7 @@ import Link from "./Link";
 
 const NavBar = () => {
     return (
-        <nav className="navBar u-bg-gold">
+        <nav className="navBar u-backg-c-white">
             <div className="navBar-container">
                 <Logo logo='primaryLogo' />
                 <div className="navMenu u-color-gray">

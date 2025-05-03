@@ -2,42 +2,44 @@
 @import '../mixins';
 
 .navBar {
-    width: $width-full;
-    margin: $margin-md 0;
-    .navBar-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        gap: 2rem;
-        padding-right: $padding-vw-xl;
-        padding-left: $padding-vw-xl;
+  position: fixed; // 🔥 This fixes it to the top
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; // ensure it stays on top of other content
+  // background-color: $color-white; // ⚠️ must have a background or it'll be transparent
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); // optional: subtle shadow for separation
+  margin: 0; // remove vertical margin to avoid shifting
+  padding: $padding-md 0;
+  .navBar-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 2rem;
+      padding-right: $padding-vw-xl;
+      padding-left: $padding-vw-xl;
 
-        @include respond-to(laptop) {
-            padding: 0 $padding-xl;
-          }
-          @include respond-to(tablet) {
-            padding: 0 $padding-lg;
-          }
-          @include respond-to(default) {
-            padding: 0 $padding-md;
-            flex-direction: column;
-            text-Align: center;
-            justify-self: center;
-          }
-          @include respond-to(mobile) {
-            padding: 0 $padding-sm;
-          }
-
-        .navMenu {
-            display: flex;
-            align-items: center;
-            gap: 2rem;
-            flex-wrap: wrap;
-
-            // display: flex;
-            // justify-content: space-between;
-            // align-items: center;
-            // column-gap: 2rem;
+      @include respond-to(laptop) {
+          padding: 0 $padding-xl;
         }
-    }
+      @include respond-to(tablet) {
+        padding: 0 $padding-lg;
+      }
+      @include respond-to(default) {
+        padding: 0 $padding-md;
+        flex-direction: column;
+        text-Align: center;
+        justify-self: center;
+      }
+      @include respond-to(mobile) {
+        padding: 0 $padding-sm;
+      }
+
+      .navMenu {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+      }
+  }
 }

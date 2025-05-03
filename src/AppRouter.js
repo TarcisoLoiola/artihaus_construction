@@ -24,15 +24,15 @@ const AppRouter = () => {
     <div>
     {/* NAVI BAR */}
       { !isGalleryIndex && <NavBar /> }
-      <main>
+      <main className='u-padding-top-xl'>
         <TransitionGroup>
           <CSSTransition key={location.key} timeout={100}>
             <Routes location={location}>
               <Route path="/" element={<Home /> } />
-              {/* <Route path="/about" element={<About />} />
-              <Route path="/contact" element={<Contact />} />
+              <Route path="/about" element={<About />} />
               <Route path="/gallery" element={<Gallery />} />
               <Route path="/gallery/:index" element={<FullScreenImage />} />
+              {/* <Route path="/contact" element={<Contact />} />
               <Route path='/admin' element={<Admin />} /> */}
               <Route path='*' element={<PageNotFound />} />
 

@@ -3,17 +3,15 @@
 .footer {
     display: block;
     width: $width-full;
-    .link {
-        font-size: $font-size-xs;
-    }
+    
     .u-h4 {
-        font-size: $font-size-xs;
+        font-size: $font-size-md;
         text-align: left;
     }
     .u-p {
-        font-size: $font-size-xs;
-        text-align: left;
+        font-size: $font-size-sm;
     }
+
 
 
 };

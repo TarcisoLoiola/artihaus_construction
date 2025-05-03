@@ -5,7 +5,7 @@
   .carousel-container > img{
     display: block;
     width: $width-full;
-    height: 78vh; //calc(100vh - 100px);
+    height: calc(100vh - 90px);
     object-fit: cover;
   }
 }

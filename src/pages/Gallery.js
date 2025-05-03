@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useContext,useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Masonry from 'react-masonry-css';
 
@@ -10,11 +10,18 @@ const Gallery = () => {
     useEffect(() => {
     window.scrollTo(0, 0); // Reset scroll position to the top
   }, []);
-
+    const [selectedCategory, setSelectedCategory] = useState("All");
     const { toggleHeader } = useAppContext()
     const { selectedImages, imageMap } = useContext(GalleryContext);
 
+    const categories = ["All", "Patios", "Walls", "Driveways"];
+    const filteredImages =
+    selectedCategory === "All"
+      ? selectedImages
+      : selectedImages.filter((img) => img.category === selectedCategory);
+
     const navigate = useNavigate();
+
     const handleImageClick = (index) => {
         toggleHeader()
         // setSelectedImage(media)
@@ -28,6 +35,24 @@ const Gallery = () => {
     };
     return (
         <div style={styles.container}>
+         <div>
+            {categories.map((cat) => (
+            <button
+                key={cat}
+                onClick={() => setSelectedCategory(cat)}
+                style={{
+                margin: "5px",
+                padding: "8px",
+                background: selectedCategory === cat ? "#648072" : "#ccc",
+                color: "white",
+                border: "none",
+                cursor: "pointer",
+                }}
+            >
+                {cat}
+            </button>
+            ))}
+        </div>
             {/* Gallery Section */}
             <section>
                 <h2>Our Work</h2>
@@ -44,8 +69,26 @@ const Gallery = () => {
                         const video = media.type === 'video'
                         return (
                             <div style={styles.mediaCard} key={index} onClick={() => handleImageClick(index)} >
+                            {filteredImages.map((img) => (
+                            <img
+                                key={img.id}
+                                src={img.src}
+                                alt={img.category}
+                                style={{
+                                width: "200px",
+                                height: "150px",
+                                objectFit: "cover",
+                                margin: "5px",
+                                cursor: "pointer",
+                                }}
+                                onClick={() => console.log("Open Fullscreen:", img.src)}
+                            />
+                            ))}
+                                
+                                
+                                
                                 {
-                                    video ?
+                                    {/* video ?
                                         <div>
                                             <div className='button play-button' />
                                             <video>
@@ -54,7 +97,7 @@ const Gallery = () => {
                                             </video>
                                         </div>
                                         :
-                                        <img style={styles.mediaCardImg} src={imageMap[media.url]} alt={media.category} />
+                                        <img style={styles.mediaCardImg} src={imageMap[media.url]} alt={media.category} /> */}
                                 }
                                 <div style={styles.mediaInfo}>
                                     <p>{media.location}</p>
@@ -115,7 +158,7 @@ const styles = {
     mediaInfo: {
         position: 'absolute',
         bottom: -'15px',
-        // left: '105px',
+        left: '105px',
         minWidth: '200px',
         transform: 'translate(5%, -135%)',
         color: 'white',

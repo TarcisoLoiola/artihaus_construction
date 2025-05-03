@@ -16,10 +16,10 @@ const WhoWeAre = ({className}) => {
               <h4 className="u-h4 u-color-gray">
                 Transform Your Outdoors with Artihaus Construction
               </h4>
-              <p className="u-p">
+              <p className="u-p u-color-gray">
                 At Artihaus Construction, we believe that outdoor spaces should be as inviting and functional as the interiors of a home. With over 20 years of experience in hardscape and landscape construction, we specialize in transforming yards into stunning, long-lasting outdoor living spaces.
               </p>
-              <p className="u-p">
+              <p className="u-p u-color-gray">
                 From patios and retaining walls to walkways, driveways, and custom outdoor features, our craftsmanship is built to stand the test of time.
               </p>
             </div>

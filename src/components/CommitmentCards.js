@@ -24,8 +24,8 @@ const ServiceCard = ({ cards = [], className }) => {
                 {cards.map((card, i) => (
                     <div className='card' key={i}>
                         <card.icon className='---card-icon' src={card.icon} alt='our commitment card icon'/>
-                        <h4 className='u-h4'>{card.title}</h4>
-                        <p className='u-p'>{card.subtitle}</p>
+                        <h4 className='u-h4 u-color-gray'>{card.title}</h4>
+                        <p className='u-p u-color-gray'>{card.subtitle}</p>
                     </div>
                 ))}
             </div>
