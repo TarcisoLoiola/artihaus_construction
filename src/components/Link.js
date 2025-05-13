@@ -16,7 +16,7 @@ const getColor = {
 }
 
 
-const Link = ({ to, text, color, backgroundColor = 'none', onClick, className, icon, external = false, showActive=true, button=true, ...props }) => {
+const Link = ({ to, text, color, backgroundColor = 'none', border = 'none', onClick, className, icon, external = false, showActive = true, button = true, ...props }) => {
 
     return (
         to && external ?
@@ -66,14 +66,14 @@ const Link = ({ to, text, color, backgroundColor = 'none', onClick, className, i
                 :
                 <div className={className}>
                     <button
-                    className={({ isActive }) => `${isActive && showActive ? 'linkActive' : 'link'} ${button ? 'button' : ''}` }
+                        className='u-btn-sm text-center'
                         onClick={onClick}
-                        style={{ backgroundColor: getColor[backgroundColor] }}>
+                        style={{ backgroundColor: getColor[backgroundColor], border: `1px solid ${getColor[border]}`, borderRadius: '.5rem' }}>
                         {text &&
                             <div
                                 style={{ color: getColor[color] }}
                             >
-                                {text}
+                                {text} 
                             </div>}
                         {
                             icon === 'arrow' ? <Arrow alt='button arrow' color={getColor[color]} />

@@ -78,7 +78,9 @@
   @include respond-to(tablet) { padding: $padding-md $padding-lg $padding-md $padding-lg }
   @include respond-to(mobile) { padding: $padding-sm $padding-sm $padding-sm $padding-sm }
 }
-
+.u-btn-sm {
+  width: $button-sm;
+}
 .u-btn-md {
   width: $button-md;
   justify-self: center;
@@ -169,6 +171,7 @@
 
 .u-bt-border-lite { border-bottom: $border-light }
 
+.u-padding-sm { padding: .5rem }
 .u-p-md { padding: 1rem }
 
 .hide { display: none !important }
@@ -180,6 +183,7 @@
   margin-right: auto;
 }
 
+.justify-center { justify-content: center; justify-self: center; justify-items: center }
 .text-center { text-align: center }
 .float-right { float:right }
 
