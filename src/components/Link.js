@@ -14,6 +14,18 @@ const getColor = {
     success: '#2ecc71',
     warning: '#f1c40f',
 }
+const getIcon = (icon, color) => {
+    if (icon === 'arrow') {
+        return <Arrow alt='button arrow' color={getColor[color]} />
+    }
+    else if (icon === 'facebook') {
+        return <Facebook alt='facebook icon' color={getColor[color]} />
+    }
+    else if (icon === 'instagram') {
+        return <Instagram alt='instagram icon' color={getColor[color]} />
+    }
+    return <span />
+}
 
 
 const Link = ({ to, text, color, backgroundColor = 'none', border = 'none', onClick, className, icon, external = false, showActive = true, button = true, ...props }) => {
@@ -26,7 +38,7 @@ const Link = ({ to, text, color, backgroundColor = 'none', border = 'none', onCl
                     {...props}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className={({ isActive }) => `${isActive && showActive ? 'linkActive' : 'link'} ${button ? 'button' : ''}` }
+                    className={({ isActive }) => `${isActive && showActive ? 'linkActive' : 'link'} ${button ? 'button' : ''}`}
                     style={{ backgroundColor: getColor[backgroundColor] }}
                 >
                     {text &&
@@ -34,10 +46,7 @@ const Link = ({ to, text, color, backgroundColor = 'none', border = 'none', onCl
                             {text}
                         </div>}
                     {
-                        icon === 'arrow' ? <Arrow alt='button arrow' color={getColor[color]} />
-                            : icon === 'facebook' ? <Facebook alt='facebook icon' color={getColor[color]} />
-                                : icon === 'instagram' ? <Instagram alt='instagram icon' color={getColor[color]} />
-                                    : <span />
+                        getIcon(icon, color)
                     }
                 </a>
             </div>
@@ -47,7 +56,7 @@ const Link = ({ to, text, color, backgroundColor = 'none', border = 'none', onCl
                     <NavLink
                         to={to}
                         {...props}
-                        className={({ isActive }) => `${isActive && showActive ? 'linkActive' : 'link'} ${button ? 'button' : ''}` }
+                        className={({ isActive }) => `${isActive && showActive ? 'linkActive' : 'link'} ${button ? 'button' : ''}`}
                         style={{ backgroundColor: getColor[backgroundColor] }}
                     >
                         {text &&
@@ -56,10 +65,7 @@ const Link = ({ to, text, color, backgroundColor = 'none', border = 'none', onCl
                             </div>
                         }
                         {
-                            icon === 'arrow' ? <Arrow alt='button arrow' color={getColor[color]} />
-                                : icon === 'facebook' ? <Facebook alt='facebook icon' color={getColor[color]} />
-                                    : icon === 'instagram' ? <Instagram alt='instagram icon' color={getColor[color]} />
-                                        : <span />
+                            getIcon(icon, color)
                         }
                     </NavLink>
                 </div>
@@ -73,13 +79,10 @@ const Link = ({ to, text, color, backgroundColor = 'none', border = 'none', onCl
                             <div
                                 style={{ color: getColor[color] }}
                             >
-                                {text} 
+                                {text}
                             </div>}
                         {
-                            icon === 'arrow' ? <Arrow alt='button arrow' color={getColor[color]} />
-                                : icon === 'facebook' ? <Facebook alt='facebook icon' color={getColor[color]} />
-                                    : icon === 'instagram' ? <Instagram alt='instagram icon' color={getColor[color]} />
-                                        : <span />
+                            getIcon(icon, color)
                         }
                     </button>
                 </div>

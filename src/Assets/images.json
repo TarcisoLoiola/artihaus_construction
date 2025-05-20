@@ -1,296 +1,330 @@
 [
     {
+        "_id": 1,
         "url":"../../Assets/gallery01.jpeg",
         "role": "carousel",
-        "location": "Buford",
-        "category": "Walls",
+        "location": "Sugar Hill",
+        "category": "Pool Deck",
         "description": "Belgard 3pc Combo Avondale Pavers"
     },
     {
+        "_id": 2,
         "url":"../../Assets/gallery02.jpeg",
         "role": "carousel",
-        "location": "Tennessee",
-        "category": "Driveways",
+        "location": "Buford",
+        "category": "Driveway",
         "description": "Belgard 3pc Combo Avondale Pavers"
     },
     {
+        "_id": 3,
         "url":"../../Assets/gallery03.jpeg",
         "role": "carousel",
-        "location": "Tennessee",
-        "category": "Driveways",
+        "location": "Hoschton",
+        "category": "Patio",
         "description": "Belgard 3pc Combo Avondale Pavers"
     },
     {
+        "_id": 4,
         "url":"../../Assets/gallery04.jpeg",
         "role": "carousel",
         "location": "Tennessee",
-        "category": "Driveways",
+        "category": "Driveway",
         "description": "Belgard 3pc Combo Avondale Pavers"
     },
     {
+        "_id": 5,
         "url":"../../Assets/gallery05.jpeg",
         "role": "carousel",
         "location": "Tennessee",
-        "category": "Driveways",
+        "category": "Patio",
         "description": "Belgard 3pc Combo Avondale Pavers"
     },
     {
+        "_id": 6,
         "url":"../../Assets/gallery06.jpeg",
         "role": "carousel",
         "location": "Tennessee",
-        "category": "Driveways",
+        "category": "Walkway",
         "description": "Belgard 3pc Combo Avondale Pavers"
     },
     {
+        "_id": 7,
         "url":"../../Assets/gallery07.jpeg",
         "role": "carousel",
         "location": "Tennessee",
-        "category": "Driveways",
+        "category": "Pool Deck",
         "description": "Belgard 3pc Combo Avondale Pavers"
     },
     {
+        "_id": 8,
         "url":"../../Assets/gallery08.jpeg",
         "role": "carousel",
         "location": "Tennessee",
-        "category": "Driveways",
+        "category": "Patio",
         "description": "Belgard 3pc Combo Avondale Pavers"
     },
     {
+        "_id": 9,
         "url":"../../Assets/gallery09.jpeg",
         "role": "carousel",
         "location": "Tennessee",
-        "category": "Driveways",
+        "category": "Turf",
         "description": "Belgard 3pc Combo Avondale Pavers"
     },
     {
+        "_id": 10,
         "url": "../../Assets/gallery10.jpeg",
         "role": "carousel",
         "location": "Buford, GA",
-        "category": "Walls",
+        "category": "Wall",
         "description": "beautiful paver patio with charcoal border."
     },
     {
+        "_id": 11,
         "url": "../../Assets/gallery11.jpeg",
         "role": "carousel",
         "location": "Buford, GA",
-        "category": "Patios",
+        "category": "Wall",
         "description": "beautiful paver patio with charcoal border."
     },
     {
+        "_id": 12,
         "url": "../../Assets/gallery12.jpeg",
         "role": "carousel",
         "location": "Buford, GA",
-        "category": "Patios",
+        "category": "Patio",
         "description": "beautiful paver patio with charcoal border."
     },
     {
+        "_id": 13,
         "url": "../../Assets/gallery13.jpeg",
         "role": "carousel",
         "location": "Buford, GA",
-        "category": "Patios",
+        "category": "Walkway",
         "description": "beautiful paver patio with charcoal border."
     },
     {
+        "_id": 14,
         "url": "../../Assets/gallery14.jpeg",
         "role": "carousel",
         "location": "Buford, GA",
-        "category": "Patios",
+        "category": "Pool Deck",
         "description": "beautiful paver patio with charcoal border."
     },
     {
+        "_id": 15,
         "url": "../../Assets/gallery15.jpeg",
         "role": "carousel",
         "location": "Buford, GA",
-        "category": "Patios",
+        "category": "Wall",
         "description": "beautiful paver patio with charcoal border."
     },
     {
+        "_id": 16,
         "url": "../../Assets/gallery16.jpeg",
         "role": "carousel",
         "location": "Buford, GA",
-        "category": "Patios",
+        "category": "Patio",
         "description": "beautiful paver patio with charcoal border."
     },
     {
+        "_id": 17,
         "url": "../../Assets/gallery17.jpeg",
         "role": "carousel",
         "location": "Buford, GA",
-        "category": "Patios",
+        "category": "Patio",
         "description": "beautiful paver patio with charcoal border."
     },
     {
+        "_id": 18,
         "url": "../../Assets/gallery18.jpeg",
         "role": "carousel",
         "location": "Buford, GA",
-        "category": "Patios",
+        "category": "Walkway",
         "description": "beautiful paver patio with charcoal border."
     },
     {
-        "url": "../../Assets/gallery19.jpeg",
-        "role": "carousel",
-        "location": "Buford, GA",
-        "category": "Patios",
-        "description": "beautiful paver patio with charcoal border."
-    },
-    {
+        "_id": 20,
         "url": "../../Assets/gallery20.jpeg",
         "role": "carousel",
         "location": "Buford, GA",
-        "category": "Patios",
+        "category": "Pool Deck",
         "description": "beautiful paver patio with charcoal border."
     },
     {
+        "_id": 21,
         "url": "../../Assets/gallery21.jpeg",
         "role": "carousel",
         "location": "Buford, GA",
-        "category": "Patios",
+        "category": "Walkway",
         "description": "beautiful paver patio with charcoal border."
     },
     {
+        "_id": 22,
         "url": "../../Assets/gallery22.jpeg",
         "role": "carousel",
         "location": "Buford, GA",
-        "category": "Patios",
+        "category": "Driveway",
         "description": "beautiful paver patio with charcoal border."
     },
     {
+        "_id": 23,
         "url": "../../Assets/gallery23.jpeg",
         "role": "carousel",
         "location": "Buford, GA",
-        "category": "Patios",
+        "category": "Patio",
         "description": "beautiful paver patio with charcoal border."
     },
     {
+        "_id": 24,
         "url": "../../Assets/gallery24.jpeg",
         "role": "carousel",
         "location": "Buford, GA",
-        "category": "Patios",
+        "category": "Fireplace",
         "description": "beautiful paver patio with charcoal border."
     },
     {
+        "_id": 25,
         "url": "../../Assets/gallery25.jpeg",
         "role": "carousel",
         "location": "Buford, GA",
-        "category": "Patios",
+        "category": "Driveway",
         "description": "beautiful paver patio with charcoal border."
     },
     {
+        "_id": 26,
         "url": "../../Assets/gallery26.jpeg",
         "role": "carousel",
         "location": "Buford, GA",
-        "category": "Patios",
+        "category": "Pool Deck",
         "description": "beautiful paver patio with charcoal border."
     },
     {
+        "_id": 27,
         "url": "../../Assets/gallery27.jpeg",
         "role": "carousel",
         "location": "Buford, GA",
-        "category": "Patios",
+        "category": "Pool Deck",
         "description": "beautiful paver patio with charcoal border."
     },
     {
+        "_id": 28,
         "url": "../../Assets/gallery28.jpeg",
         "role": "carousel",
         "location": "Buford, GA",
-        "category": "Patios",
+        "category": "Driveway",
         "description": "beautiful paver patio with charcoal border."
     },
     {
+        "_id": 29,
         "url": "../../Assets/gallery29.jpeg",
         "role": "carousel",
         "location": "Buford, GA",
-        "category": "Patios",
+        "category": "Pool Deck",
         "description": "beautiful paver patio with charcoal border."
     },
     {
+        "_id": 30,
         "url": "../../Assets/gallery30.jpeg",
         "role": "carousel",
         "location": "Buford, GA",
-        "category": "Patios",
+        "category": "Wall",
         "description": "beautiful paver patio with charcoal border."
     },
     {
+        "_id": 31,
         "url": "../../Assets/gallery31.jpeg",
         "role": "carousel",
         "location": "Buford, GA",
-        "category": "Patios",
+        "category": "Patio",
         "description": "beautiful paver patio with charcoal border."
     },
     {
+        "_id": 32,
         "url": "../../Assets/gallery32.jpeg",
         "role": "carousel",
         "location": "Buford, GA",
-        "category": "Patios",
+        "category": "Driveway",
         "description": "beautiful paver patio with charcoal border."
     },
     {
+        "_id": 33,
         "url": "../../Assets/gallery33.jpeg",
         "role": "carousel",
         "location": "Buford, GA",
-        "category": "Patios",
+        "category": "Wall",
         "description": "beautiful paver patio with charcoal border."
     },
     {
+        "_id": 34,
         "url": "../../Assets/gallery34.jpeg",
         "role": "carousel",
         "location": "Buford, GA",
-        "category": "Patios",
+        "category": "Pool Deck",
         "description": "beautiful paver patio with charcoal border."
     },
     {
+        "_id": 35,
         "url": "../../Assets/gallery35.jpeg",
         "role": "carousel",
         "location": "Buford, GA",
-        "category": "Patios",
+        "category": "Pool Deck",
         "description": "beautiful paver patio with charcoal border."
     },
     {
+        "_id": 36,
         "url": "../../Assets/gallery36.jpeg",
         "role": "carousel",
         "location": "Buford, GA",
-        "category": "Patios",
+        "category": "Wall",
         "description": "beautiful paver patio with charcoal border."
     },
     {
+        "_id": 37,
         "url": "../../Assets/gallery37.jpeg",
         "role": "carousel",
         "location": "Buford, GA",
-        "category": "Patios",
+        "category": "Pool Deck",
         "description": "beautiful paver patio with charcoal border."
     },
     {
+        "_id": 38,
         "url": "../../Assets/gallery38.jpeg",
         "role": "carousel",
         "location": "Buford, GA",
-        "category": "Patios",
+        "category": "Patio",
         "description": "beautiful paver patio with charcoal border."
     },
     {
+        "_id": 39,
         "url": "../../Assets/gallery39.jpeg",
         "role": "carousel",
         "location": "Buford, GA",
-        "category": "Patios",
+        "category": "Fireplace",
         "description": "beautiful paver patio with charcoal border."
     },
     {
+        "_id": 40,
         "url": "../../Assets/gallery40.jpeg",
         "role": "carousel",
         "location": "Buford, GA",
-        "category": "Patios",
+        "category": "Patio",
         "description": "beautiful paver patio with charcoal border."
     },
     {
+        "_id": 41,
         "url": "../../Assets/gallery41.jpeg",
         "role": "carousel",
         "location": "Buford, GA",
-        "category": "Patios",
+        "category": "Pool Deck",
         "description": "beautiful paver patio with charcoal border."
     },
     {
+        "_id": 42,
         "url": "../../Assets/gallery42.jpeg",
         "role": "carousel",
         "location": "Buford, GA",
-        "category": "Patios",
+        "category": "Wall",
         "description": "beautiful paver patio with charcoal border."
     }
 ]

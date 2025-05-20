@@ -1,16 +1,13 @@
-import React, { createContext, useState, useContext, useEffect } from "react";
+import React, { createContext, useState, useContext } from "react";
 
 const AppContext = createContext();
 
 export const AppProvider = ({ children }) => {
-  const [navLinkClicked, setNavLinkClicked] = useState(false);
+  const [galleryCategory, setGalleryCategory] = useState('All');
 
-  useEffect(() => {
-    setNavLinkClicked(true)
-  }, []);
 
   return (
-    <AppContext.Provider value={navLinkClicked}>
+    <AppContext.Provider value={{ galleryCategory, setGalleryCategory }}>
       {children}
     </AppContext.Provider>
   );

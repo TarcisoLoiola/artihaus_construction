@@ -22,7 +22,6 @@ import gallery15 from '../Assets/gallery15.jpeg';
 import gallery16 from '../Assets/gallery16.jpeg';
 import gallery17 from '../Assets/gallery17.jpeg';
 import gallery18 from '../Assets/gallery18.jpeg';
-import gallery19 from '../Assets/gallery19.jpeg';
 import gallery20 from '../Assets/gallery20.jpeg';
 import gallery21 from '../Assets/gallery21.jpeg';
 import gallery22 from '../Assets/gallery22.jpeg';
@@ -51,8 +50,6 @@ import media03 from '../Assets/media03.mp4';
 import media05 from '../Assets/media05.mp4';
 import media07 from '../Assets/media07.mp4';
 
-import icons from '../Assets/icons.json'
-
 export const GalleryContext = createContext();
 
 export const GalleryProvider = ({ children }) => {
@@ -75,7 +72,6 @@ export const GalleryProvider = ({ children }) => {
         '../../Assets/gallery16.jpeg': gallery16,
         '../../Assets/gallery17.jpeg': gallery17,
         '../../Assets/gallery18.jpeg': gallery18,
-        '../../Assets/gallery19.jpeg': gallery19,
         '../../Assets/gallery20.jpeg': gallery20,
         '../../Assets/gallery21.jpeg': gallery21,
         '../../Assets/gallery22.jpeg': gallery22,
@@ -110,8 +106,10 @@ export const GalleryProvider = ({ children }) => {
 
     const [imageMap, setImageMap] = useState([])
     const [videoMap, setVideoMap] = useState([])
+    const [galleryCategory, setGalleryCategory] = useState('All');
+    const [fullScreenImage, setfullScreenImage] = useState();
 
-    const [selectedIcons, setSelectedIcons,] = useState([]);
+    // const [selectedIcons, setSelectedIcons,] = useState([]);
 
     useEffect(() => {
         //const filteredImages = images.filter(image => image.category === 'Pavers'); // Example filter
@@ -120,9 +118,8 @@ export const GalleryProvider = ({ children }) => {
         setVideoMap(videoURLMap);
     }, []);
 
-
     return (
-        <GalleryContext.Provider value={{ selectedImages, imageMap, videoMap, selectedIcons }}>
+        <GalleryContext.Provider value={{ selectedImages, imageMap, videoMap, galleryCategory, setGalleryCategory, fullScreenImage, setfullScreenImage }}>
             {children}
         </GalleryContext.Provider>
     );

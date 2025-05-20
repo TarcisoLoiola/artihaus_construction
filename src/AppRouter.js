@@ -31,7 +31,7 @@ const AppRouter = () => {
               <Route path="/" element={<Home /> } />
               <Route path="/about" element={<About />} />
               <Route path="/gallery" element={<Gallery />} />
-              <Route path="/gallery/:index" element={<FullScreenImage />} />
+              <Route path="/gallery/:_id" element={<FullScreenImage />} />
               {/* <Route path="/contact" element={<Contact />} />
               <Route path='/admin' element={<Admin />} /> */}
               <Route path='*' element={<PageNotFound />} />
