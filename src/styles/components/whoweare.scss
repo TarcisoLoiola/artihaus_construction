@@ -1,13 +1,13 @@
 .who-we-are {
     display: block;
-    
+
     .who-we-are--describe {
       display: flex;
       flex-direction: row; // or omit, since 'row' is default
       justify-content: space-between;
       align-items: flex-start; // optional, depending on alignment needs
       gap: $margin-lg;
-  
+
       h1 {
         color: $color-blue;
       }

@@ -22,6 +22,9 @@ $breakpoint-desktop: 1440px;
 
 //Borders
 $border-light: 1px solid $color-softgray;
+$border-lightgray: 1px solid $color-lightgray;
+$border-gold: 1px solid $color-gold;
+$border-white: 1px solid $color-white;
 
 //Logo
 
@@ -34,6 +37,7 @@ $spacing-xl: 5rem;
 $spacing-vw-xl: 18.5vw;
 
 //Margins
+$margin-xxs: .3rem;
 $margin-xs: .5rem;
 $margin-sm: 1rem;
 $margin-md: 1.6rem;
@@ -61,6 +65,12 @@ $height-lg: 20rem;
 $height-xl: 24rem;
 $height-full: 100%;
 
+//Left
+$left-sm: 3rem;
+$left-md: 5rem;
+$left-lg: 8rem;
+$left-xl: 13.2rem;
+
 //Images
 $image-sm: 9rem;
 $image-md: 13rem;
@@ -83,6 +93,7 @@ $radius-lg: 50%;
 $z-index-header: 100;
 $z-index-modal: 200;
 $z-index-tooltip: 300;
+$z-index-dropdown: 1000;
 
 $box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 $box-shadow-hover: 0 4px 8px rgba(0, 0, 0, 0.3);

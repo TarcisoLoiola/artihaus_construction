@@ -1,5 +1,6 @@
 import { NavLink, useLocation } from 'react-router-dom';
 import Arrow from '../Assets/ArrowIcon'
+import Dropdown from '../Assets/DropdownIcon'
 import Facebook from '../Assets/FacebookIcon'
 import Instagram from '../Assets/InstagramIcon'
 
@@ -14,9 +15,18 @@ const getColor = {
     success: '#2ecc71',
     warning: '#f1c40f',
 }
+const getSize = {
+    small: '8rem',
+    median: '12rem',
+    large: '15rem',
+    xlarge: '100%',
+}
 const getIcon = (icon, color) => {
     if (icon === 'arrow') {
         return <Arrow alt='button arrow' color={getColor[color]} />
+    }
+    else if (icon === 'dropdown') {
+        return <Dropdown alt='dropdown icon' color={getColor[color]} />
     }
     else if (icon === 'facebook') {
         return <Facebook alt='facebook icon' color={getColor[color]} />
@@ -28,7 +38,7 @@ const getIcon = (icon, color) => {
 }
 
 
-const Link = ({ to, text, color, backgroundColor = 'none', border = 'none', onClick, className, icon, external = false, showActive = true, button = true, ...props }) => {
+const Link = ({ to, text, color, backgroundColor = 'none', border = 'none', size = 'small', onClick, className, icon, external = false, showActive = true, button = true, ...props }) => {
 
     return (
         to && external ?
@@ -70,17 +80,24 @@ const Link = ({ to, text, color, backgroundColor = 'none', border = 'none', onCl
                     </NavLink>
                 </div>
                 :
-                <div className={className}>
+                <div className={className}
+                    style={{
+                        backgroundColor: getColor[backgroundColor],
+                        border: `1px solid ${getColor[border]}`,
+                        borderRadius: '.5rem'
+                    }}
+                >
                     <button
-                        className='u-btn-sm text-center'
+                        to={to}
+                        {...props}
+                        className={button ? 'button' : ''}
                         onClick={onClick}
-                        style={{ backgroundColor: getColor[backgroundColor], border: `1px solid ${getColor[border]}`, borderRadius: '.5rem' }}>
+                    >
                         {text &&
-                            <div
-                                style={{ color: getColor[color] }}
-                            >
+                            <div style={{ color: getColor[color] }}>
                                 {text}
-                            </div>}
+                            </div>
+                        }
                         {
                             getIcon(icon, color)
                         }
