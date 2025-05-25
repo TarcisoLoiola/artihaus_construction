@@ -13,8 +13,8 @@ const Stats = ({ stats = [] }) => {
     return (
         stats.map((stat, index) => (
             <div className="stat" key={index}>
-                <h1 className='u-h1 u-mr-bt-md'>{stat.value}</h1>
-                <p className='u-p u-color-gray'>{stat.label}</p>
+                <h1 className='h1 marginBottom-md'>{stat.value}</h1>
+                <p className='p color-gray'>{stat.label}</p>
             </div>
         ))
     )

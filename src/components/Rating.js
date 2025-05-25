@@ -1,6 +1,6 @@
 import React from 'react';
 
-const RatingStarHandler = ({ value }) => {
+const RatingStarHandler = ({ value, rating }) => {
 
     return (
         <div className="star-rating">
@@ -12,4 +12,4 @@ const RatingStarHandler = ({ value }) => {
 </div>
     )
 };
-export default RatingStarHadler
+export default RatingStarHandler

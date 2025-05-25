@@ -14,17 +14,17 @@ const Reviews = ({ reviews = [], className }) => {
     }
 
     return (
-        <section className='reviews u-backg-c-gold'>
+        <section className='reviews backgroundColor-gold'>
             <div className='page-content-container'>
-                <h1 className='u-h1 text-center u-mr-bt-xl'>What Our Clients Say</h1>
+                <h1 className='h1 text-center marginBottom-xl'>What Our Clients Say</h1>
                 <div className='reviews'>
                     <div className='cards-container'>
                         {reviews.map((review, index) => (
                             <div className='card' key={index}>
                                 <div className='review-rating'>{review.rating}</div>
-                                <p className='u-p review-comment'>{review.comment}</p>
-                                <h4 className='u-h4 review-userName'>{review.user_name}</h4>
-                                <h4 className='u-h4 review-location-service'>{review.service}, {review.location}</h4>
+                                <p className='p review-comment'>{review.comment}</p>
+                                <h4 className='h4 review-userName'>{review.user_name}</h4>
+                                <h4 className='h4 review-location-service'>{review.service}, {review.location}</h4>
                             </div>
                         ))}
                     </div>

@@ -4,10 +4,10 @@ import Link from "./Link";
 
 const NavBar = () => {
     return (
-        <nav className="navBar u-backg-c-white">
+        <nav className="navBar backgroundColor-white">
             <div className="navBar-container">
                 <Logo logo='primaryLogo' />
-                <div className="navMenu u-color-gray">
+                <div className="navMenu color-gray">
                     <Link to='/' text="Home" button={false}/>
                     <Link to='/about' text="About"  button={false}/>
                     <Link to='/gallery' text="Gallery"  button={false}/>

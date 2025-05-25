@@ -19,9 +19,9 @@ const Certifications = ({ certifications = [], className }) => {
     }
 
     return (
-        <section className='certifications u-backg-c-blue'>
+        <section className='certifications backgroundColor-blue'>
             <div className='page-content-container'>
-                    <h1 className='u-h1 text-center u-mr-bt-xl'>Certifications</h1>
+                <h1 className='h1 text-center marginBottom-xl'>Certifications</h1>
                     <div className='certifications-container'>
                         {certifications.map((certification, index) => (
                             <div className='certification' key={index}>

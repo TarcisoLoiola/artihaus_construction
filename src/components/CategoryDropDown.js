@@ -17,18 +17,18 @@ const CategoryDropdown = () => {
     return (
         <div className="">
             <div
-                className="u-backg-c-darkgray u-color-white u-radius-xs u-border-lite z-index-dropdown u-padding-sm cursor-pointer"
+                className="backgroundColor-darkgray color-white radius-xs border-softgray zIndex-10 padding-sm cursor-pointer"
                 onMouseEnter={() => setIsOpen(true)}
                 onMouseLeave={() => setIsOpen(false)}
             >
                 <div className="grid grid-1fr-auto">
                     <div className='text-center'>{galleryCategory}</div>
 
-                    <div className='border-left-white u-padding-left-sm u-padding-right-sm'><Arrow color='white' /></div>
+                    <div className='borderLeft-white paddingLeft-sm paddingRight-sm'><Arrow color='white' /></div>
                 </div>
                 {isOpen && (
                     <div
-                        className="absolute u-backg-c-lightgray u-radius-xs u-color-gray u-border-lite u-mr-tp-xs left-xl"
+                        className="absolute backgroundColor-lightgray radius-xs color-gray border-lightgray marginTop-xs left-xl"
                     >
                         {filteredCategories.map((cat, index) => (
                             <div
@@ -43,7 +43,7 @@ const CategoryDropdown = () => {
                                         });
                                     }
                                 }}
-                                className={`${hovered === cat && 'u-backg-c-darkgray u-color-white'} ${index === 0 ? 'radius-top-xs' : index === filteredCategories.length - 1 ? 'radius-bottom-xs' : ''} u-btn-lg u-padding-sm text-center`}
+                                className={`${hovered === cat && 'backgroundColor-darkgray color-white'} ${index === 0 ? 'radiusTop-xs' : index === filteredCategories.length - 1 ? 'radiusBottom-xs' : ''} button-lg padding-sm text-center`}
                                 onMouseEnter={() => setHovered(cat)}
                                 onMouseLeave={() => setHovered('')}
                             >
