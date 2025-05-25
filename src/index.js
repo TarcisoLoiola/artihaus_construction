@@ -12,8 +12,8 @@ import './styles/index.scss';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <ContextManager>
-    <BrowserRouter>
-    <AppRouter />
-    </BrowserRouter>
+        <BrowserRouter>
+            <AppRouter />
+        </BrowserRouter>
     </ContextManager>
 );

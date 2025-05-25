@@ -7,6 +7,9 @@ import NavBar from './components/NavBar'
 // import Logo from './components/Logo'
 import Footer from './components/Footer'
 
+import PrivateRoute from './components/PrivateRoute'
+import PublicRoute from './components/PublicRoute'
+
 import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
@@ -24,7 +27,7 @@ const AppRouter = () => {
     <div>
     {/* NAVI BAR */}
       { !isGalleryIndex && <NavBar /> }
-      <main className='u-padding-top-xl'>
+      <main className='paddingTop-xl'>
         <TransitionGroup>
           <CSSTransition key={location.key} timeout={100}>
             <Routes location={location}>
@@ -32,8 +35,10 @@ const AppRouter = () => {
               <Route path="/about" element={<About />} />
               <Route path="/gallery" element={<Gallery />} />
               <Route path="/gallery/:_id" element={<FullScreenImage />} />
-              {/* <Route path="/contact" element={<Contact />} />
-              <Route path='/admin' element={<Admin />} /> */}
+              <Route path="/contact" element={<Contact />} />
+              {/*
+              <Route path='/admin' element={<Admin />} />
+              */}
               <Route path='*' element={<PageNotFound />} />
 
             </Routes>
@@ -50,3 +55,22 @@ export default AppRouter
 //           <Route path="/contact" element={<Contact />} />
 //           <Route path="/gallery" element={<Gallery />} />
 //           <Route path="/gallery/:index" element={<FullScreenImage />} />
+
+
+// <Route
+//     path="/dashboard"
+//     element={
+//         <PrivateRoute>
+//             <Dashboard />
+//         </PrivateRoute>
+//     }
+// />
+
+// <Route
+//     path="/login"
+//     element={
+//         <PublicRoute>
+//             <Login />
+//         </PublicRoute>
+//     }
+// />

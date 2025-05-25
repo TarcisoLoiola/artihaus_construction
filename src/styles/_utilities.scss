@@ -3,17 +3,17 @@
 @import './variables';
 @import './mixins';
 
-.u-color-white { color: $color-white }
-.u-color-lightgray { color: $color-lightgray }
-.u-color-black { color: $color-black }
-.u-color-gold { color: $color-gold }
-.u-color-gray { color: $color-gray }
-.u-color-softgray { color: $color-softgray }
-.u-color-darkgray { color: $color-darkgray }
-.u-color-blue { color: $color-blue }
-.u-color-error { color: $color-error }
-.u-color-success { color: $color-success }
-.u-color-warning { color: $color-warning }
+.color-white { color: $color-white }
+.color-lightgray { color: $color-lightgray }
+.color-black { color: $color-black }
+.color-gold { color: $color-gold }
+.color-gray { color: $color-gray }
+.color-softgray { color: $color-softgray }
+.color-darkgray { color: $color-darkgray }
+.color-blue { color: $color-blue }
+.color-error { color: $color-error }
+.color-success { color: $color-success }
+.color-warning { color: $color-warning }
 
 .page-full-view {
   display: block;
@@ -25,7 +25,7 @@
 .grid-1fr-auto { grid-template-columns: 1fr auto;}
 .grid-2-auto { grid-template-columns: repeat(2, 1fr);}
 
-.u-flex-row {
+.flex-row {
   display: flex;
   flex-direction: row;
   // align-items: center;
@@ -33,7 +33,7 @@
   // align-items: flex-start;
 }
 
-.u-flex-column {
+.flex-column {
   display: flex;
   align-self: flex-start;
   flex-direction: column;
@@ -42,14 +42,14 @@
   text-align: left;
 }
 
-.u-gap-xs { gap: 0.5rem }
-.u-gap-sm { gap: 0.75rem }
-.u-gap-md { gap: 1rem }
-.u-gap-lg { gap: 2rem }
+.gap-xs { gap: 0.5rem }
+.gap-sm { gap: 0.75rem }
+.gap-md { gap: 1rem }
+.gap-lg { gap: 2rem }
 
 .flex-1 { flex: 1 }
-
 .flex-2 { flex: 2 }
+.flex-3 { flex: 3 }
 
 .primaryLogo > img {
   width: 19rem;
@@ -80,50 +80,50 @@
   @include respond-to(tablet) { padding: $padding-md $padding-lg $padding-md $padding-lg }
   @include respond-to(mobile) { padding: $padding-sm $padding-sm $padding-sm $padding-sm }
 }
-.u-btn-sm {
+.button-sm {
   width: $button-sm;
 }
-.u-btn-md {
+.button-md {
   width: $button-md;
   justify-self: center;
   align-content: end;
 }
-.u-btn-lg {
+.button-lg {
   width: $button-lg;
   justify-self: center;
   align-content: end;
 }
-.u-btn-xl {
+.button-xl {
   width: $button-xl;
   justify-self: center;
   align-content: end;
 }
 
 //BACKGROUND COLORING
-.u-backg-c-white {background-color: $color-white }
-.u-backg-c-lightgray {background-color: $color-lightgray }
-.u-backg-c-black {background-color: $color-black }
-.u-backg-c-gold {background-color: $color-gold }
-.u-backg-c-gray {background-color: $color-gray }
-.u-backg-c-darkgray {background-color: $color-darkgray }
-.u-backg-c-blue {background-color: $color-blue }
-.u-backg-c-error {background-color: $color-error }
-.u-backg-c-success {background-color: $color-success }
-.u-backg-c-warning {background-color: $color-warning }
+.backgroundColor-white {background-color: $color-white }
+.backgroundColor-lightgray {background-color: $color-lightgray }
+.backgroundColor-black {background-color: $color-black }
+.backgroundColor-gold {background-color: $color-gold }
+.backgroundColor-gray {background-color: $color-gray }
+.backgroundColor-darkgray {background-color: $color-darkgray }
+.backgroundColor-blue {background-color: $color-blue }
+.backgroundColor-error {background-color: $color-error }
+.backgroundColor-success {background-color: $color-success }
+.backgroundColor-warning {background-color: $color-warning }
 
 //HTAGS & P
 
-.u-h1 {
+.h1 {
   font-family: $font-primary;
   font-size: $font-size-xxl;
   font-weight: $font-light;
 }
-.u-h4 {
+.h4 {
   font-family: $font-secondary;
   font-size: $font-size-md;
 }
 
-.u-p {
+.p {
   font-family: $font-secondary;
   // color: $color-gray;
   font-size: $font-size-md;
@@ -131,66 +131,69 @@
 }
 
 //MARGIN
-.u-mr-tp-xs { margin-top: $margin-xs };
-.u-mr-tp-sm { margin-top: $margin-sm };
-.u-mr-tp-md { margin-top: $margin-md };
-.u-mr-tp-lg { margin-top: $margin-lg };
-.u-mr-tp-xl { margin-top: $margin-xl };
+.marginTop--xs {margin-top: -5px};
+.marginTop-xs { margin-top: $margin-xs };
+// .u-mr-tp-sm { margin-top: $margin-sm };
+.marginTop-md { margin-top: $margin-md };
+.marginTop-lg { margin-top: $margin-lg };
+// .u-mr-tp-xl { margin-top: $margin-xl };
 
-.u-mr-bt-xxs { margin-bottom: $margin-xxs };
-.u-mr-bt-xs { margin-bottom: $margin-xs };
-.u-mr-bt-sm { margin-bottom: $margin-sm };
-.u-mr-bt-md { margin-bottom: $margin-md };
-.u-mr-bt-lg { margin-bottom: $margin-lg };
-.u-mr-bt-xl { margin-bottom: $margin-xl };
+// .u-mr-bt-xxs { margin-bottom: $margin-xxs };
+.marginBottom-xs { margin-bottom: $margin-xs };
+.marginBottom-sm { margin-bottom: $margin-sm };
+.marginBottom-md { margin-bottom: $margin-md };
+.marginBottom-lg { margin-bottom: $margin-lg };
+.marginBottom-xl { margin-bottom: $margin-xl };
 
 //PADING
-.u-padding-top-xs { padding-top: $padding-xs };
-.u-padding-top-sm { padding-top: $padding-sm };
-.u-padding-top-md { padding-top: $padding-md };
-.u-padding-top-lg { padding-top: $padding-lg };
-.u-padding-top-xl { padding-top: $padding-xl };
+// .padding-top-xs { padding-top: $padding-xs };
+// .padding-top-sm { padding-top: $padding-sm };
+// .padding-top-lg { padding-top: $padding-lg };
+.paddingTop-md { padding-top: $padding-md };
+.paddingTop-xl { padding-top: $padding-xl };
+.paddingBottom-lg { padding-bottom: $padding-lg };
+.paddingLeft-sm { padding-left: $padding-sm };
+.paddingRight-sm { padding-right: $padding-sm };
+.padding-sm { padding: .5rem }
+.padding-md { padding: 1rem }
 
-.u-padding-bottom-xs { padding-bottom: $padding-xs };
-.u-padding-bottom-sm { padding-bottom: $padding-sm };
-.u-padding-bottom-md { padding-bottom: $padding-md };
-.u-padding-bottom-lg { padding-bottom: $padding-lg };
-.u-padding-bottom-xl { padding-bottom: $padding-xl };
+// .p-md { padding: 1rem }
+// .padding-bottom-xs { padding-bottom: $padding-xs };
+// .padding-bottom-sm { padding-bottom: $padding-sm };
+// .padding-bottom-md { padding-bottom: $padding-md };
+// .padding-bottom-xl { padding-bottom: $padding-xl };
 
 
-.u-padding-left-sm { padding-left: $padding-sm };
-.u-padding-right-sm { padding-right: $padding-sm };
 
 
 //Width
-.u-wid-md { width: $width-md }
-.u-wid-lg { width: $width-lg }
-.u-wid-xl { width: $width-xl }
-.u-wid-full { width: $width-full }
+// .u-wid-md { width: $width-md }
+// .u-wid-lg { width: $width-lg }
+// .u-wid-xl { width: $width-xl }
+// .u-wid-full { width: $width-full }
 
 //Height
-.u-hei-md { height: $height-md }
-.u-hei-lg { height: $height-lg }
-.u-hei-xl { height: $height-xl }
-.u-hei-full { height: $height-full }
+// .u-hei-md { height: $height-md }
+// .u-hei-lg { height: $height-lg }
+// .u-hei-xl { height: $height-xl }
+// .u-hei-full { height: $height-full }
 
 //Padding
 
-.u-radius-xs { border-radius: $radius-xs }
-.radius-top-xs { border-top-right-radius: $radius-xs; border-top-left-radius: $radius-xs;}
-.radius-bottom-xs { border-bottom-right-radius: $radius-xs; border-bottom-left-radius: $radius-xs;}
-.u-radius-sm { border-radius: $radius-sm }
-.u-radius-lg { border-radius: $radius-lg }
+.radius-xs { border-radius: $radius-xs }
+.radius-sm { border-radius: $radius-sm }
+.radiusTop-xs { border-top-right-radius: $radius-xs; border-top-left-radius: $radius-xs;}
+.radiusBottom-xs { border-bottom-right-radius: $radius-xs; border-bottom-left-radius: $radius-xs;}
+// .u-radius-lg { border-radius: $radius-lg }
 
-.u-bt-border-lite { border-bottom: $border-light }
-.u-border-lite { border: $border-lightgray }
-.u-border-gold { border: $border-gold }
-.border-left-white { border-left: $border-white }
+.borderBottom-lightgray { border-bottom: $border-light }
+.border-lightgray { border: $border-lightgray }
+// .u-border-gray { border: $border-gray }
+.border-softgray { border: $border-softgray }
+// .u-border-gold { border: $border-gold }
+.borderLeft-white { border-left: $border-white }
 
 
-.u-padding-sm { padding: .5rem }
-.u-padding-md { padding: 1rem }
-.u-p-md { padding: 1rem }
 
 .hide { display: none !important }
 
@@ -214,5 +217,5 @@
 .left-xl { left: $left-xl}
 .bold { font-weight: bold }
 .cursor-pointer { cursor: pointer; }
-.z-index-dropdown { z-index: $z-index-dropdown; }
+.zIndex-10 { z-index: $zIndex-10; }
 .absolute { position: absolute;}

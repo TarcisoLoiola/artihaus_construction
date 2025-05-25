@@ -7,7 +7,7 @@ import CategoryDropdown from '../components/CategoryDropDown';
 const Gallery = () => {
 
     useEffect(() => {
-        window.scrollTo(0, 0); // Reset scroll position to the top
+        // window.scrollTo(0, 0); // Reset scroll position to the top
     }, []);
     const { selectedImages, imageMap, galleryCategory, setfullScreenImage } = useContext(GalleryContext);
 
@@ -22,8 +22,8 @@ const Gallery = () => {
     return (
         <section className='page-content-container'>
 
-            <h1 className='u-h1 u-color-blue u-mr-bt-lg text-center'>Our Work</h1>{/* Category Buttons */}
-            <div className="category-button-sticky picture-grid u-mr-bt-md">
+            <h1 className='h1 color-blue marginBottom-lg text-center'>Our Work</h1>{/* Category Buttons */}
+            <div className="category-button-sticky picture-grid marginBottom-md">
                 <CategoryDropdown />
             </div>
             <div className='picture-grid'>

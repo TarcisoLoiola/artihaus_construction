@@ -53,3 +53,22 @@ button {
   box-sizing: border-box; // optional but often helpful
   cursor: pointer; // re-add pointer cursor
 }
+input, textarea{
+  border: none; /* optional, if you want no border at all */
+  resize: vertical;
+}
+input:focus, textarea:focus {
+  outline: none;
+  box-shadow: none;
+  border: none; /* optional, if you want no border at all */
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}

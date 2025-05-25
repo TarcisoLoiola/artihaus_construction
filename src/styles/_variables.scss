@@ -6,7 +6,8 @@ $color-lightgray: #f1f1f1;
 $color-black: #000000;
 $color-gold: #B79977;
 $color-gray: #5E637F;
-$color-softgray: #4C5866;
+$color-softgray: #7a8490;
+$color-softergray: #7a84907a;
 $color-darkgray: #374151;
 $color-blue: #294E99;
 $color-error: #e74c3c;
@@ -21,8 +22,10 @@ $breakpoint-laptop: 1280px;
 $breakpoint-desktop: 1440px;
 
 //Borders
-$border-light: 1px solid $color-softgray;
+$border-light: 1px solid $color-softergray;
 $border-lightgray: 1px solid $color-lightgray;
+$border-gray: 1px solid $color-gray;
+$border-softgray: 1px solid $color-softergray;
 $border-gold: 1px solid $color-gold;
 $border-white: 1px solid $color-white;
 
@@ -90,10 +93,7 @@ $radius-sm: .7rem;
 $radius-lg: 50%;
 
 // Z-index
-$z-index-header: 100;
-$z-index-modal: 200;
-$z-index-tooltip: 300;
-$z-index-dropdown: 1000;
+$zIndex-10: 10;
 
 $box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 $box-shadow-hover: 0 4px 8px rgba(0, 0, 0, 0.3);
