@@ -16,9 +16,9 @@ const Reviews = ({ reviews = [], className }) => {
     return (
         <section className='reviews backgroundColor-gold'>
             <div className='page-content-container'>
-                <h1 className='h1 text-center marginBottom-xl'>What Our Clients Say</h1>
+                <h1 className='h1 color-white text-center marginBottom-lg'>What Our Clients Say</h1>
                 <div className='reviews'>
-                    <div className='cards-container'>
+                    <div className='cards-container flex-row'>
                         {reviews.map((review, index) => (
                             <div className='card' key={index}>
                                 <div className='review-rating'>{review.rating}</div>

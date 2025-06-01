@@ -2,7 +2,7 @@
     {
         "_id": 1,
         "url":"../../Assets/gallery01.jpeg",
-        "role": "carousel",
+        "role": "home-carousel",
         "location": "Sugar Hill",
         "category": "Pool Deck",
         "description": "Belgard 3pc Combo Avondale Pavers"
@@ -122,7 +122,7 @@
     {
         "_id": 16,
         "url": "../../Assets/gallery16.jpeg",
-        "role": "carousel",
+        "role": "home-carousel",
         "location": "Buford, GA",
         "category": "Patio",
         "description": "beautiful paver patio with charcoal border."
@@ -218,7 +218,7 @@
     {
         "_id": 29,
         "url": "../../Assets/gallery29.jpeg",
-        "role": "carousel",
+        "role": "ourservices-carousel",
         "location": "Buford, GA",
         "category": "Pool Deck",
         "description": "beautiful paver patio with charcoal border."
@@ -234,7 +234,7 @@
     {
         "_id": 31,
         "url": "../../Assets/gallery31.jpeg",
-        "role": "carousel",
+        "role": "ourservices-carousel",
         "location": "Buford, GA",
         "category": "Patio",
         "description": "beautiful paver patio with charcoal border."
@@ -250,7 +250,7 @@
     {
         "_id": 33,
         "url": "../../Assets/gallery33.jpeg",
-        "role": "carousel",
+        "role": "ourservices-carousel",
         "location": "Buford, GA",
         "category": "Wall",
         "description": "beautiful paver patio with charcoal border."
@@ -274,7 +274,7 @@
     {
         "_id": 36,
         "url": "../../Assets/gallery36.jpeg",
-        "role": "carousel",
+        "role": "ourservices-carousel",
         "location": "Buford, GA",
         "category": "Wall",
         "description": "beautiful paver patio with charcoal border."
@@ -298,7 +298,7 @@
     {
         "_id": 39,
         "url": "../../Assets/gallery39.jpeg",
-        "role": "carousel",
+        "role": "ourservices-carousel",
         "location": "Buford, GA",
         "category": "Fireplace",
         "description": "beautiful paver patio with charcoal border."
@@ -313,18 +313,34 @@
     },
     {
         "_id": 41,
+        "url": "../../Assets/gallery44.png",
+        "role": "home-carousel",
+        "location": "Buford, GA",
+        "category": "Pool Deck",
+        "description": ""
+    },
+    {
+        "_id": 42,
+        "url": "../../Assets/gallery42.jpeg",
+        "role": "ourservices-carousel",
+        "location": "Buford, GA",
+        "category": "Wall",
+        "description": "beautiful paver patio with charcoal border."
+    },
+    {
+        "_id": 44,
         "url": "../../Assets/gallery41.jpeg",
-        "role": "carousel",
+        "role": "home-carousel",
         "location": "Buford, GA",
         "category": "Pool Deck",
         "description": "beautiful paver patio with charcoal border."
     },
     {
-        "_id": 42,
-        "url": "../../Assets/gallery42.jpeg",
-        "role": "carousel",
+        "_id": 43,
+        "url": "../../Assets/gallery43.png",
+        "role": "home-carousel",
         "location": "Buford, GA",
-        "category": "Wall",
-        "description": "beautiful paver patio with charcoal border."
+        "category": "Pool Deck",
+        "description": ""
     }
 ]

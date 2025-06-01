@@ -2,7 +2,7 @@ import React, { useState }from 'react'
 import { Route, Routes, useLocation, useMatch } from "react-router-dom"
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
-// import Header from './components/Header'
+import ScrollTop from './components/ScrollTop'
 import NavBar from './components/NavBar'
 // import Logo from './components/Logo'
 import Footer from './components/Footer'
@@ -25,7 +25,7 @@ const AppRouter = () => {
   const isGalleryIndex = useMatch('/gallery/:index');
   return (
     <div>
-    {/* NAVI BAR */}
+      <ScrollTop />
       { !isGalleryIndex && <NavBar /> }
       <main className='paddingTop-xl'>
         <TransitionGroup>

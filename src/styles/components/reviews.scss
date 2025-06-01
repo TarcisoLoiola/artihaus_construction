@@ -1,17 +1,5 @@
 
 .reviews {
-    display: block;
-    width: $width-full;
-    h1{
-          color: $color-white;
-        }
         .reviews-container {
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          gap: $margin-sm;
-          .card {
-            text-align: left;
-          }
     }
 }

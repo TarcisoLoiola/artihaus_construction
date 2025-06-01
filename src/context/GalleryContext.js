@@ -45,6 +45,8 @@ import gallery39 from '../Assets/gallery39.jpeg';
 import gallery40 from '../Assets/gallery40.jpeg';
 import gallery41 from '../Assets/gallery41.jpeg';
 import gallery42 from '../Assets/gallery42.jpeg';
+import gallery43 from '../Assets/gallery43.png';
+import gallery44 from '../Assets/gallery44.png';
 
 import media03 from '../Assets/media03.mp4';
 import media05 from '../Assets/media05.mp4';
@@ -93,8 +95,10 @@ export const GalleryProvider = ({ children }) => {
         '../../Assets/gallery38.jpeg': gallery38,
         '../../Assets/gallery39.jpeg': gallery39,
         '../../Assets/gallery40.jpeg': gallery40,
+        '../../Assets/gallery44.png': gallery44,
         '../../Assets/gallery41.jpeg': gallery41,
         '../../Assets/gallery42.jpeg': gallery42,
+        '../../Assets/gallery43.png': gallery43,
     };
     const videoURLMap = {
         '../Assets/media03.mp4': media03,
@@ -110,16 +114,16 @@ export const GalleryProvider = ({ children }) => {
     const [fullScreenImage, setfullScreenImage] = useState();
 
     // const [selectedIcons, setSelectedIcons,] = useState([]);
+    const homeCover = images.filter(image => image.role === 'home-cover'); // Example filter
 
     useEffect(() => {
-        //const filteredImages = images.filter(image => image.category === 'Pavers'); // Example filter
         setSelectedImages(images);
         setImageMap(imageURLMap);
         setVideoMap(videoURLMap);
     }, []);
 
     return (
-        <GalleryContext.Provider value={{ selectedImages, imageMap, videoMap, galleryCategory, setGalleryCategory, fullScreenImage, setfullScreenImage }}>
+        <GalleryContext.Provider value={{ homeCover, selectedImages, imageMap, videoMap, galleryCategory, setGalleryCategory, fullScreenImage, setfullScreenImage }}>
             {children}
         </GalleryContext.Provider>
     );

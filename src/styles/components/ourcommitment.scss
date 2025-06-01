@@ -1,21 +1,7 @@
 
 .our-commitment {
-  display: block;
-
   .our-commitment--describe {
-    display: flex;
-    flex-direction: row; // or omit, since 'row' is default
-    justify-content: space-between;
     align-items: flex-start; // optional, depending on alignment needs
-    gap: $margin-sm;
-    margin-bottom: $margin-lg;
-
-    h1, p {
-      flex: 1;
-    }
-    h1{
-      color: $color-blue;
-    }
   }
-  .card { text-align: center;}
+
 }

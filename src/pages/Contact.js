@@ -7,10 +7,6 @@ import Button from '../components/Link'
 
 const Contact = () => {
 
-    useEffect(() => {
-        window.scrollTo(0, 0); // Reset scroll position to the top
-    }, []);
-
     const [formData, setFormData] = useState({
         name: '',
         email: '',

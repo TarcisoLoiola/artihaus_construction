@@ -6,9 +6,6 @@ import CategoryDropdown from '../components/CategoryDropDown';
 
 const Gallery = () => {
 
-    useEffect(() => {
-        // window.scrollTo(0, 0); // Reset scroll position to the top
-    }, []);
     const { selectedImages, imageMap, galleryCategory, setfullScreenImage } = useContext(GalleryContext);
 
     const filteredImages = selectedImages.filter((img) => galleryCategory === 'All' ? true : img.category === galleryCategory);

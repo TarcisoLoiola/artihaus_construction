@@ -2,12 +2,9 @@ import React, { useState, useEffect } from 'react';
 
 import ImageHandler from '../components/ImageHandler';
 import rec84 from '../Assets/gallery01.jpeg';
+import rec85 from '../Assets/gallery43.png';
 
 const About = () => {
-
-    useEffect(() => {
-        // window.scrollTo(0, 0);
-    })
 
     return (
         <main className='about backgroundColor-lightgray'>
@@ -34,7 +31,7 @@ const About = () => {
 
                 <section className='flex-row gap-lg marginBottom-lg'>
                     <div className='image-role-handler flex-1'>
-                        <ImageHandler src={rec84} alt='who we are image' role='home--whoweare' />
+                        <ImageHandler src={rec85} alt='who we are image' role='home--whoweare' />
                     </div>
                     <div className='flex-1'>
                         <h4 className='h4 color-gray marginBottom-md paddingTop-md'>Why Choose Artihaus</h4>

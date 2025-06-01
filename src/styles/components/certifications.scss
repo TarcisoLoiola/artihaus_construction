@@ -1,25 +1,9 @@
 
 .certifications{
-    display: block;
-    width: $width-full;
-  
-    h1{
-      color: $color-white;
-    }
-
-  .certifications-container {
-    display: flex;
-    justify-content: space-between; // or center / flex-start
-    gap: $margin-sm;
-
+  .certifications-container { // or center / flex-start
     .certification {
-      flex: 1; // each takes equal space
-      max-width: 300px; // optional limit
-      display: flex;
-      justify-content: center;
-      align-items: center;
       img {
-        width: 100%;
+        width: $width-full;
         height: auto;
         object-fit: contain; // keep proportions without cropping
       }
