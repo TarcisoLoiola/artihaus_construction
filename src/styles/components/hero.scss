@@ -1,0 +1,11 @@
+.hero-container {
+    position: relative;
+    overflow: hidden;
+    img {
+      display: block;
+      overflow: hidden;
+      width: $width-full;
+      object-fit: cover;
+      height: calc(100vh - 90px);
+    }
+  }
