@@ -1,11 +1,10 @@
 .fade-carousel {
-    position: relative;
-    width: 100%;
-    max-width: 800px;
-    height: 400px;
+  position: relative;
+    width: auto;
+    height: calc(100vh - 90px);
     overflow: hidden;
   }
-  
+
   .fade-slide {
     position: absolute;
     width: 100%;
@@ -13,6 +12,8 @@
     object-fit: cover;
     opacity: 0;
     transition: opacity 1s ease-in-out;
+    top: 0;
+    left: 0;
   }
   
   .fade-slide.active {
