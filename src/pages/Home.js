@@ -1,25 +1,29 @@
-import React, { useEffect } from 'react';
 
-import Certifications from '../components/Certifications';
+import React, { useContext } from 'react'
+import { ContentContext } from '../context/ContentContext';
 
-import ImageHandler from '../components/ImageHandler';
-import Image from '../Assets/gallery43.png';
-
-import Reviews from '../components/Reviews';
-import OurCommitment from '../components/OurCommitment';
+import Hero from '../components/Hero';
 import WhoWeAre from '../components/WhoWeAre';
 import OurServices from '../components/OurServices';
+import OurCommitment from '../components/OurCommitment';
+import Certifications from '../components/Certifications';
+import Reviews from '../components/Reviews';
 
 
 const Home = () => {
+  const { content } = useContext(ContentContext)
+  let heroImages, ourServicesImages = []
+
+  if (content) {
+    heroImages = content.media.filter((img) => img.role === 'home-hero');
+    ourServicesImages = content.media
+  }
 
   return (
     <main className='home'>
-      <section className='image-container'>
-        <ImageHandler src={Image} alt='carousel image' role='home--carousel' />
-      </section>
+      <Hero images={heroImages || []} interval={5000} />
       <WhoWeAre />
-      <OurServices />
+      <OurServices images={ourServicesImages} />
       <OurCommitment />
       <Certifications />
       <Reviews />

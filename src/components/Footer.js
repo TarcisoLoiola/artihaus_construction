@@ -1,8 +1,10 @@
-import React from 'react'
+import { useLocation } from "react-router-dom"
 import Link from './Link';
 import Logo from './Logo'
 
 const Footer = () => {
+    const location = useLocation();
+    const { pathname } = location
     return (
         <footer className='footer backgroundColor-darkgray'>
             {/* this first block stay on top of block 2 and a border-bottom separates them */}
@@ -10,7 +12,7 @@ const Footer = () => {
                 {/* //this first row is flex. h1 and button take one space each */}
                 <div className='flex-row gap-lg space-between'>
                     <h1 className='color-white'>Let’s talk about your project</h1>
-                    <Link to='/contact' text='Contact with us' className='button-lg' color='white' backgroundColor='gold' icon='arrow' />
+                    <Link to='/contact' text='Contact with us' className='button-lg' color='white' backgroundColor='gold' icon='arrow' showActive={false} />
                 </div>
             </div>
             <div className='page-content-container '>

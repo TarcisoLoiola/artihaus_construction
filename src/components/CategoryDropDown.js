@@ -15,15 +15,14 @@ const CategoryDropdown = () => {
 
     const filteredCategories = categories.filter(cat => cat !== galleryCategory);
     return (
-        <div className="">
+        <div className='backgroundColor-white paddingTop-md paddingBottom-md'>
             <div
-                className="backgroundColor-darkgray color-white radius-xs border-softgray zIndex-10 padding-sm cursor-pointer"
+                className="backgroundColor-darkgray color-white radius-xs button-height-sm align-center border-softgray zIndex-10 padding-sm cursor-pointer"
                 onMouseEnter={() => setIsOpen(true)}
                 onMouseLeave={() => setIsOpen(false)}
             >
                 <div className="grid grid-1fr-auto">
                     <div className='text-center'>{galleryCategory}</div>
-
                     <div className='borderLeft-white paddingLeft-sm paddingRight-sm'><Arrow color='white' /></div>
                 </div>
                 {isOpen && (
@@ -36,9 +35,9 @@ const CategoryDropdown = () => {
                                 onClick={() => {
                                     setGalleryCategory(cat);
                                     setIsOpen(false);
-                                    if (window.scrollY > 215) {
+                                    if (window.scrollY > 138) {
                                         window.scrollTo({
-                                            top: 215,
+                                            top: 138,
                                             behavior: 'smooth'
                                         });
                                     }

@@ -1,5 +1,3 @@
-import React, { useState, useEffect } from 'react';
-
 import ImageHandler from '../components/ImageHandler';
 import rec84 from '../Assets/gallery01.jpeg';
 import rec85 from '../Assets/gallery43.png';

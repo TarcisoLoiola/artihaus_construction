@@ -8,9 +8,9 @@ const DropdownIcon = ({ color = "#000" }) => (
     style={{ color }}
   >
     <g transform="rotate(90, 9, 9)">
-      <path d="M1.98071 2.01923H16.0192" stroke="white" stroke-width="2" stroke-linecap="round" />
-      <path d="M1.98071 16.0192L15.9807 2.01923" stroke="white" stroke-width="2" stroke-linecap="round" />
-      <path d="M15.9807 16.0192L15.9807 1.98077" stroke="white" stroke-width="2" stroke-linecap="round" />
+      <path d="M1.98071 2.01923H16.0192" stroke="white" strokeWidth="2" strokeLinecap="round" />
+      <path d="M1.98071 16.0192L15.9807 2.01923" stroke="white" strokeWidth="2" strokeLinecap="round" />
+      <path d="M15.9807 16.0192L15.9807 1.98077" stroke="white" strokeWidth="2" strokeLinecap="round" />
     </g>
   </svg>
 );

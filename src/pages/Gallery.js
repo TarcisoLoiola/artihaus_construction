@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 import { GalleryContext } from '../context/GalleryContext';
@@ -19,8 +19,8 @@ const Gallery = () => {
     return (
         <section className='page-content-container'>
 
-            <h1 className='h1 color-blue marginBottom-lg text-center'>Our Work</h1>{/* Category Buttons */}
-            <div className="category-button-sticky picture-grid marginBottom-md">
+            <h1 className='h1 color-blue text-center'>Our Work</h1>{/* Category Buttons */}
+            <div className="category-button-sticky picture-grid">
                 <CategoryDropdown />
             </div>
             <div className='picture-grid'>

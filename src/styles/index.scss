@@ -4,24 +4,25 @@
 // @import './mixins';
 @import './globals';
 @import './typography';
-
 //Pages
 @import './pages/home';
 @import './pages/contact';
-@import './components/gallery';
-
 //Components
 // @import './components/button.scss';
 @import './components/cards';
 @import './components/carousel';
 @import './components/certifications.scss';
+// @import './components/fadecarousel.scss';
 @import './components/footer';
-// @import './components/fullScreenImage';
+@import './components/fullScreenImage';
+@import './components/gallery';
+@import './components/hero.scss';
 @import './components/imageHandler.scss';
 @import './components/link';
 @import './components/logo';
 @import './components/navbar';
 @import './components/ourcommitment.scss';
 @import './components/ourservices.scss';
+// @import './components/rating.scss';
 @import './components/reviews.scss';
 @import './components/whoweare.scss';

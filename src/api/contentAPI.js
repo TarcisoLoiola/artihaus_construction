@@ -3,20 +3,20 @@ import axios from "axios";
 const API_URL = process.env.REACT_APP_API_URL;
 const Content = {
 
-    create: (data) => {
-        return axios.post(`${API_URL}/content/create`, data);
+    create: (content) => {
+        return axios.post(`${API_URL}/content/create`, content);
     },
 
-    read: (data) => {
-        return axios.get(`${API_URL}/content/read`, data);
+    read: (content) => {
+        return axios.post(`${API_URL}/content/read`, content);
     },
 
-    update: (data) => {
-        return axios.post(`${API_URL}/content/update`, data);
+    update: (content) => {
+        return axios.post(`${API_URL}/content/update`, content);
     },
 
-    delete: (data) => {
-        return axios.post(`${API_URL}/content/delete`, data);
+    delete: (content) => {
+        return axios.post(`${API_URL}/content/delete`, content);
     }
 }
 export default Content

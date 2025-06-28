@@ -42,6 +42,7 @@
   text-align: left;
 }
 
+.gap-xxs { gap: 0.25rem }
 .gap-xs { gap: 0.5rem }
 .gap-sm { gap: 0.75rem }
 .gap-md { gap: 1rem }
@@ -81,8 +82,14 @@
   @include respond-to(tablet) { padding: $padding-md $padding-lg $padding-md $padding-lg }
   @include respond-to(mobile) { padding: $padding-sm $padding-sm $padding-sm $padding-sm }
 }
-.button-sm {
-  width: $button-sm;
+.button-height-sm {
+  height: $button-height-sm;
+}
+.button-height-md {
+  height: $button-height-md;
+}
+.button-width-sm {
+  width: $button-width-sm;
 }
 .button-md {
   width: $button-md;
@@ -146,10 +153,10 @@
 .marginBottom-xl { margin-bottom: $margin-xl };
 
 //PADING
-// .padding-top-xs { padding-top: $padding-xs };
-// .padding-top-sm { padding-top: $padding-sm };
-// .padding-top-lg { padding-top: $padding-lg };
+.paddingTop-xs { padding-top: $padding-xs };
+.paddingTop-sm { padding-top: $padding-sm };
 .paddingTop-md { padding-top: $padding-md };
+.paddingTop-lg { padding-top: $padding-lg };
 .paddingTop-xl { padding-top: $padding-xl };
 .paddingBottom-lg { padding-bottom: $padding-lg };
 .paddingLeft-sm { padding-left: $padding-sm };
@@ -158,10 +165,10 @@
 .padding-md { padding: 1rem }
 
 // .p-md { padding: 1rem }
-// .padding-bottom-xs { padding-bottom: $padding-xs };
-// .padding-bottom-sm { padding-bottom: $padding-sm };
-// .padding-bottom-md { padding-bottom: $padding-md };
-// .padding-bottom-xl { padding-bottom: $padding-xl };
+.paddingBottom-xs { padding-bottom: $padding-xs };
+.paddingBottom-sm { padding-bottom: $padding-sm };
+.paddingBottom-md { padding-bottom: $padding-md };
+// .paddingBottom-xl { padding-bottom: $padding-xl };
 
 
 
@@ -174,9 +181,9 @@
 // .u-wid-full { width: $width-full }
 
 //Height
-// .u-hei-md { height: $height-md }
-// .u-hei-lg { height: $height-lg }
-// .u-hei-xl { height: $height-xl }
+.height-md { height: $height-md }
+.height-lg { height: $height-lg }
+.height-xl { height: $height-xl }
 // .u-hei-full { height: $height-full }
 
 //Padding

@@ -4,31 +4,35 @@ import API from '../api/index'
 export const ContentContext = createContext();
 
 export const ContentProvider = ({ children }) => {
-  const [data, setData] = useState(null);
+  const [content, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
   useEffect(() => {
     let isMounted = true;
-    if (!data) {
-      API.Content.read({})
-        .then(data => { if (isMounted) setData(data.data) })
+    if (!content) {
+      API.Content.read({ static: true })
+        .then(content => {
+          if (isMounted) {
+            setData(content.data)
+          }
+        })
         .catch(err => { if (isMounted) setError(err) })
         .finally(() => { if (isMounted) setLoading(false) });
-      }
-      return () => { isMounted = false; };
-  }, [data]);
+    }
+    return () => { isMounted = false; };
+  }, [content]);
 
   // const fetchContent = async () => {
   //   const response = await fetch("/api/content/read"); // Fetch all page content at once
-  //   const data = await response.json();
-  //   setContent(data);
+  //   const content = await response.json();
+  //   console.log(content)
   // };
 
   // fetchContent();
 
   return (
-    <ContentContext.Provider value={{ data, loading, error }}>
+    <ContentContext.Provider value={{ content, loading, error }}>
       {children}
     </ContentContext.Provider>
   );

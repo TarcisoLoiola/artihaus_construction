@@ -15,12 +15,7 @@ const getColor = {
     success: '#2ecc71',
     warning: '#f1c40f',
 }
-const getSize = {
-    small: '8rem',
-    median: '12rem',
-    large: '15rem',
-    xlarge: '100%',
-}
+
 const getIcon = (icon, color) => {
     if (icon === 'arrow') {
         return <Arrow alt='button arrow' color={getColor[color]} />
@@ -38,7 +33,7 @@ const getIcon = (icon, color) => {
 }
 
 
-const Link = ({ to, text, color, backgroundColor = 'none', border = 'none', size = 'small', onClick, className, icon, external = false, showActive = true, button = true, ...props }) => {
+const Link = ({ to, text, color, backgroundColor = 'none', border = 'none', size = 'small', onClick, className, icon = true, external = false, showActive = true, button = true, ...props }) => {
 
     return (
         to && external ?
@@ -48,7 +43,7 @@ const Link = ({ to, text, color, backgroundColor = 'none', border = 'none', size
                     {...props}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className={({ isActive }) => `${isActive && showActive ? 'linkActive' : 'link'} ${button ? 'button' : ''}`}
+                    className={`link ${button ? 'button' : ''}`}
                     style={{ backgroundColor: getColor[backgroundColor] }}
                 >
                     {text &&

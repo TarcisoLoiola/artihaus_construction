@@ -2,10 +2,30 @@
     position: relative;
     overflow: hidden;
     img {
-      display: block;
-      overflow: hidden;
-      width: $width-full;
-      object-fit: cover;
-      height: calc(100vh - 90px);
+        display: block;
+        overflow: hidden;
+        width: $width-full;
+        object-fit: cover;
+        height: calc(100vh - 90px);
     }
-  }
+    .fade-carousel {
+        position: relative;
+        width: auto;
+        height: calc(100vh - 90px);
+        overflow: hidden;
+    }
+    .fade-slide {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+        top: 0;
+        left: 0;
+    }
+    .fade-slide.active {
+        opacity: 1;
+        z-index: 1;
+    }
+}
