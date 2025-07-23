@@ -5,9 +5,6 @@ const InputField = ({ label, name, type = "text", textarea = false }) => {
     const { formData, updateField } = useContext(ContactContext);
     const [focused, setFocused] = useState(false);
 
-    console.log(formData)
-
-
     return (
         <div className="input padding-sm radius-xs backgroundColor-white marginBottom-md border-softgray">
             <label htmlFor={name} className={`absolute p color-softgray ${focused || formData[name]?.trim() !== '' ? 'small-text marginTop--xs' : 'marginTop-xs'}`}>{label}</label>

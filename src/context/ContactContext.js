@@ -14,10 +14,14 @@ export const ContactProvider = ({ children }) => {
         setFormData(prev => ({ ...prev, [field]: value }));
     };
 
+    const submitContactForm = () => {
+        console.log(formData);
+    };
+
     const resetForm = () => {
         setFormData({
             name: '',
-            contactNumber: '',
+            contact_number: '',
             email: '',
             message: ''
         });

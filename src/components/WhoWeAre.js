@@ -28,7 +28,7 @@ const WhoWeAre = ({className}) => {
           <div className='who-we-are--stats colo-gray text-center'>
             <Stats />
           </div>
-          <Link to='/about' text='Learn More' className='button-md marginTop-lg' color='white' backgroundColor='gold' icon='arrow' />
+          <Link to='/about' text='Learn More' className='button-md marginTop-lg align-center' color='white' backgroundColor='gold' icon='arrow' />
         </div>
       </section>
     )

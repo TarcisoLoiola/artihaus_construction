@@ -15,6 +15,7 @@ export const ContentProvider = ({ children }) => {
         .then(content => {
           if (isMounted) {
             setData(content.data)
+            console.log(content)
           }
         })
         .catch(err => { if (isMounted) setError(err) })

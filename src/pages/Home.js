@@ -23,10 +23,10 @@ const Home = () => {
     <main className='home'>
       <Hero images={heroImages || []} interval={5000} />
       <WhoWeAre />
-      <OurServices images={ourServicesImages} />
+      {/* <OurServices images={ourServicesImages} /> */}
       <OurCommitment />
-      <Certifications />
-      <Reviews />
+      {/* <Certifications /> */}
+      {/* <Reviews /> */}
     </main>
   );
 }; export default Home;

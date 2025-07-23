@@ -7,21 +7,18 @@
 .linkActive {
     @extend .link;
     font-weight: $font-black;
-    transform: scale(1.5);
+    transform: scale(1.1);
     color: $color-gold;
 }
 
 .button {
-    font-family: $font-secondary;
+    @extend .link;
     font-size: $font-size-md;
-    font-weight: $font-light;
     display: flex;
     flex-direction: row;
     justify-content: center;
     column-gap: 1rem;
     align-items: center;
-    align-content: center;
-    align-self: center;
     text-align: center;
     width: auto;
     height: 2.5rem;
@@ -34,5 +31,5 @@
 }
 
 .button:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
