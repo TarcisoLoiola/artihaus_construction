@@ -1,15 +1,14 @@
 import React, { useContext } from 'react';
-
+import { ContentContext } from '../context/ContentContext';
 import { ContactContext } from '../context/ContactContext';
 import InputField from '../components/ContactForm'
 import ImageHandler from '../components/ImageHandler';
-import rec84 from '../Assets/gallery01.jpeg';
 import Link from '../components/Link'
 
 const Contact = () => {
-
+    const { value } = useContext(ContentContext)
+    const image = value.media.find((img) => img._id === 1);
     const { formData } = useContext(ContactContext);
-
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log(formData);
@@ -22,7 +21,7 @@ const Contact = () => {
                 </h1>
                 <section className='flex-row gap-lg marginBottom-lg'>
                     <div className='image-role-handler flex-1'>
-                        <ImageHandler src={rec84} alt='who we are image' role='image-role' />
+                        <ImageHandler src={image.url} alt='who we are image' role='image-role' />
                     </div>
                     <div className='flex-1 marginTop-md'>
                         <InputField label="Name" name="name" />

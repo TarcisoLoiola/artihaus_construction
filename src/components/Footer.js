@@ -42,9 +42,9 @@ const Footer = () => {
                     </div>
                     <div className='flex-column'>
                         <h4 className='h4 color-gold marginBottom-xs'>Contact Us</h4>
-                        <p className='p color-white marginBottom-xs'>artihausconstruction@gmail.com</p>
-                        <p className='p color-white marginBottom-xs'>+1(678) 260-5968</p>
-                        <p className='p color-white marginBottom-xs'>4153 Brentwood Dr,<br />Buford GA 30518, United States</p>
+                        <p className='p color-white marginBottom-xs'><a href="mailto:artihausconstruction@gmail.com">artihausoutdoorliving@gmail.com</a></p>
+                        <p className='p color-white marginBottom-xs'><a href="tel:+1234567890">+1(678) 260-5968</a></p>
+                        <p className='p color-white marginBottom-xs'>Buford GA 30518, United States</p>
                         <div className='flex-row gap-lg'>
                             <Link to='https://www.facebook.com/artihausconstruction' color='white' external icon='facebook' alt='facebook icon' />
                             <Link to='https://www.instagram.com/artihaus_construction' color='white' external icon='instagram' alt='instagram icon' />

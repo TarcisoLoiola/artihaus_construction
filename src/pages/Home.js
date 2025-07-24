@@ -1,4 +1,3 @@
-
 import React, { useContext } from 'react'
 import { ContentContext } from '../context/ContentContext';
 
@@ -11,19 +10,14 @@ import Reviews from '../components/Reviews';
 
 
 const Home = () => {
-  const { content } = useContext(ContentContext)
-  let heroImages, ourServicesImages = []
-
-  if (content) {
-    heroImages = content.media.filter((img) => img.role === 'home-hero');
-    ourServicesImages = content.media
-  }
+  const { value } = useContext(ContentContext)
+  const { imageURL } = value.pages.home.hero
 
   return (
     <main className='home'>
-      <Hero images={heroImages || []} interval={5000} />
-      <WhoWeAre />
-      {/* <OurServices images={ourServicesImages} /> */}
+      <Hero heroImageURL={imageURL} />
+      <WhoWeAre value={value} />
+      {/* <OurServices images={value.media} /> */}
       <OurCommitment />
       {/* <Certifications /> */}
       {/* <Reviews /> */}

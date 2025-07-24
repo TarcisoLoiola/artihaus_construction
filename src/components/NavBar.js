@@ -2,14 +2,9 @@ import React, { useContext } from 'react'
 import { ContentContext } from '../context/ContentContext';
 import Logo from './Logo'
 import Link from "./Link";
-
 const NavBar = () => {
-    const { content } = useContext(ContentContext)
-    let mediaPages = []
-    if (content) {
-        mediaPages = content.social_media.mediaPages
-    }
-
+    const { value } = useContext(ContentContext)
+    const { mediaPages } = value.social_media
     return (
         <nav className="navBar backgroundColor-white">
             <div className="navBar-container">
@@ -20,7 +15,7 @@ const NavBar = () => {
                     <Link to='/gallery' text="Gallery" button={false} />
                     <Link to='/contact' text="Contact" button={false} />
                     {
-                        mediaPages && mediaPages.map(({ page, url, icon }, index) => {
+                        mediaPages.map(({ page, url, icon }, index) => {
                             return (
                                 <Link key={index} to={url} icon={page} color='gray' external alt={`${page} icon url`} />
                             )

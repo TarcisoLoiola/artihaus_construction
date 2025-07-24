@@ -1,12 +1,10 @@
 import React from "react";
-
-import rec84 from '../Assets/Rectangle 84.png';
 import ImageHandler from "./ImageHandler";
 import Stats from "./Stats";
 import Link from "./Link";
 
-const WhoWeAre = ({className}) => {
-
+const WhoWeAre = ({ className, value }) => {
+  const image = value.media.find((img) => img._id === 44);
     return (
       <section className='who-we-are backgroundColor-white'>
         <div className='page-content-container'>
@@ -23,7 +21,7 @@ const WhoWeAre = ({className}) => {
                 From patios and retaining walls to walkways, driveways, and custom outdoor features, our craftsmanship is built to stand the test of time.
               </p>
             </div>
-            <div className='image-role-handler'><ImageHandler src={rec84} alt='who we are image' role='home--whoweare' /> </div>
+            <div className='image-role-handler'><ImageHandler src={image.url} alt='who we are image' role='home--whoweare' /> </div>
           </div>
           <div className='who-we-are--stats colo-gray text-center'>
             <Stats />

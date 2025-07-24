@@ -4,10 +4,8 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { GalleryContext } from '../context/GalleryContext';
 
 const FullscreenImage = () => {
-    const { selectedImages, imageMap, fullScreenImage } = useContext(GalleryContext);
-
+    const { fullScreenImage } = useContext(GalleryContext);
     const navigate = useNavigate();
-
     const video = fullScreenImage.type === 'video'
     const handleClose = () => {
         navigate('/gallery');
@@ -21,13 +19,13 @@ const FullscreenImage = () => {
                 video ?
                     <div className='fullscreen-video'>
                         <video controls autoPlay muted loop fullScreen >
-                            <source src={imageMap[fullScreenImage.url]} type="video/mp4" />
+                            <source src={fullScreenImage.url} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
                     </div>
                     :
                     <div className='fullscreen-image'>
-                        <img src={imageMap[fullScreenImage.url]} alt={fullScreenImage.category} />
+                        <img src={fullScreenImage.url} alt={fullScreenImage.category} />
                     </div>
             }
             <div className="image-overlay">

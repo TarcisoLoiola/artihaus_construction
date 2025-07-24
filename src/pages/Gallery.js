@@ -1,14 +1,14 @@
-import React, { useContext } from 'react';
+import React, { useContext } from 'react'
 import { useNavigate } from 'react-router-dom';
 
 import { GalleryContext } from '../context/GalleryContext';
 import CategoryDropdown from '../components/CategoryDropDown';
 
 const Gallery = () => {
+    const { value } = useContext(GalleryContext)
+    const { galleryCategory, setfullScreenImage } = useContext(GalleryContext);
 
-    const { selectedImages, imageMap, galleryCategory, setfullScreenImage } = useContext(GalleryContext);
-
-    const filteredImages = selectedImages.filter((img) => galleryCategory === 'All' ? true : img.category === galleryCategory);
+    const filteredImages = value.media.filter((img) => galleryCategory === 'All' ? true : img.category === galleryCategory);
 
     const navigate = useNavigate();
 
@@ -28,7 +28,7 @@ const Gallery = () => {
                     filteredImages.map((img) => (
                         <img
                             key={img._id}
-                            src={imageMap[img.url]}
+                            src={img.url}
                             alt={img.category}
                             onClick={() => handleImageClick(img)}
                         />

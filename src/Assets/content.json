@@ -1,0 +1,458 @@
+{
+  "pages": {
+    "home": {
+      "url": "/home",
+      "hero": {
+        "title": {},
+        "subtitle": {},
+        "imageURL": "https://res.cloudinary.com/dqtstyldx/video/upload/v1753112618/DF403D1A-D574-4347-A48C-D1061013523C_lbpmvo.mov"
+      },
+      "sections": {
+        "whoweare": {
+          "title": "Who we are?",
+          "subtitle": "Crafting Timeless Outdoor Living with ArtiHaus",
+          "description": [
+            "At ArtiHaus, we turn outdoor spaces into luxurious, functional extensions of your home. With over 20 years of expertise in hardscapes, landscapes, and now custom gunite pool construction, we specialize in building environments that bring lasting beauty, comfort, and value to your property.",
+            "Whether it's an elegant gunite pool with PebbleTec finish, a stunning stone patio, a structural retaining wall, or a fully integrated outdoor living area—our team blends craftsmanship and creativity to transform your vision into reality.",
+            "From the ground up, we handle every aspect:",
+            "Excavation • Shotcrete • Plumbing • Electrical • Coping • Decking • Finishing",
+            "Every project is built to endure—and designed to inspire."
+          ],
+          "imageURL": ""
+        },
+        "ourcommitment": {
+          "title": "Our commitment to quality & excellence.",
+          "subtitle": "",
+          "description": [
+            "At ArtiHaus, quality isn’t just a standard — it’s a mindset. What truly sets us apart is our hands-on, start-to-finish involvement in every project. From the initial design to the final detail, we stay personally engaged to ensure precision, accountability, and lasting results.",
+            "We don't just build — we craft. Every stone placed, every pool poured, every feature installed reflects our passion for doing it right the first time."
+          ]
+        }
+      }
+    },
+    "about": {
+      "url": "/about",
+      "title": "About Us",
+      "subtitle": "About Us Everywwhere",
+      "description": "About Artihaus Construction <br /> At Artihaus Construction, we believe that outdoor spaces should be as inviting and functional as the interiors of a home. With over 20 years of experience in hardscape and landscape construction, we specialize in transforming yards into stunning, long-lasting outdoor living spaces. <br /> From patios and retaining walls to walkways, driveways, and custom outdoor features, our craftsmanship is built to stand the test of time.",
+      "features": []
+    },
+    "gallery": {
+      "url": "/gallery",
+      "title": "Our Gallery",
+      "subtitle": "Gallery Everywwhere",
+      "description": "This is a newly added page.",
+      "features": []
+    },
+    "contact": {
+      "url": "/contact",
+      "title": "Contact Us",
+      "subtitle": "Connect With Us",
+      "description": "Ready to transform your outdoor space? Get in touch with us! No commitments",
+      "features": [],
+      "phone": "(678) 260-5968",
+      "email": "artihausconstruction@gmail.com",
+      "servingArea": [
+        "Atlanta",
+        "Chatanooga",
+        "Augusta",
+        "Eatonton",
+        "Ganesville"
+      ]
+    },
+    "service": {
+      "url": "/service",
+      "title": "Services Offerings",
+      "subtitle": "Take a look of our recente projects",
+      "features": [],
+      "cards": [
+        {
+          "title": "Patios & Walkways",
+          "description": "Create stunning paths that connect and enhance your space."
+        },
+        {
+          "title": "Driveways",
+          "description": "Beautiful landscapes designed for comfort and sustainability."
+        },
+        {
+          "title": "Retaining Walls",
+          "description": "Durable, beautiful solutions for structure and style."
+        },
+        {
+          "title": "WaterLine, Copping, & Pool Decks",
+          "description": "Beautiful landscapes designed for comfort and sustainability."
+        },
+        {
+          "title": "Firepits & Fireplaces",
+          "description": "Beautiful landscapes designed for comfort and sustainability."
+        },
+        {
+          "title": "Landscape Design",
+          "description": "Beautiful landscapes designed for comfort and sustainability."
+        }
+      ]
+    }
+  },
+  "social_media": {
+    "title": "Some Title",
+    "subtitle": "Some subtitle",
+    "description": "Stay inspired and see our latest projects by following us on social media:",
+    "mediaPages": [
+      {
+        "page": "facebook",
+        "url": "https://www.facebook.com/artihausconstruction",
+        "icon": "https://res.cloudinary.com/dqtstyldx/image/upload/v1750106341/FACEBOOK_dnsqbu.svg"
+      },
+      {
+        "page": "instagram",
+        "url": "https://www.instagram.com/artihaus_construction",
+        "icon": "https://res.cloudinary.com/dqtstyldx/image/upload/v1750106341/FACEBOOK_dnsqbu.svg"
+      }
+    ]
+  },
+  "reviews": [],
+  "media": [
+    {
+      "_id": 1,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158669/gallery01_seki1t.jpg",
+      "role": "home-hero",
+      "location": "Sugar Hill",
+      "category": "Pool Deck",
+      "description": "Belgard 3pc Combo Avondale Pavers"
+    },
+    {
+      "_id": 2,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158669/gallery02_frw4j6.jpg",
+      "role": "contactPageImage",
+      "location": "Buford",
+      "category": "Driveway",
+      "description": "Belgard 3pc Combo Avondale Pavers"
+    },
+    {
+      "_id": 3,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158670/gallery03_qzpvlq.jpg",
+      "role": "gallery",
+      "location": "Hoschton",
+      "category": "Patio",
+      "description": "Belgard 3pc Combo Avondale Pavers"
+    },
+    {
+      "_id": 4,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158672/gallery04_f5icta.jpg",
+      "role": "gallery",
+      "location": "Tennessee",
+      "category": "Driveway",
+      "description": "Belgard 3pc Combo Avondale Pavers"
+    },
+    {
+      "_id": 5,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158671/gallery05_og2v6y.jpg",
+      "role": "gallery",
+      "location": "Tennessee",
+      "category": "Patio",
+      "description": "Belgard 3pc Combo Avondale Pavers"
+    },
+    {
+      "_id": 6,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158672/gallery06_i7qpqe.jpg",
+      "role": "gallery",
+      "location": "Tennessee",
+      "category": "Walkway",
+      "description": "Belgard 3pc Combo Avondale Pavers"
+    },
+    {
+      "_id": 7,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158673/gallery07_hllwd0.jpg",
+      "role": "gallery",
+      "location": "Tennessee",
+      "category": "Pool Deck",
+      "description": "Belgard 3pc Combo Avondale Pavers"
+    },
+    {
+      "_id": 8,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158674/gallery08_h9xeqm.jpg",
+      "role": "gallery",
+      "location": "Tennessee",
+      "category": "Patio",
+      "description": "Belgard 3pc Combo Avondale Pavers"
+    },
+    {
+      "_id": 9,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158675/gallery09_zokrgf.jpg",
+      "role": "gallery",
+      "location": "Tennessee",
+      "category": "Turf",
+      "description": "Belgard 3pc Combo Avondale Pavers"
+    },
+    {
+      "_id": 10,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158676/gallery10_k9jyji.jpg",
+      "role": "gallery",
+      "location": "Buford, GA",
+      "category": "Wall",
+      "description": "beautiful paver patio with charcoal border."
+    },
+    {
+      "_id": 11,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158677/gallery11_svwqab.jpg",
+      "role": "gallery",
+      "location": "Buford, GA",
+      "category": "Wall",
+      "description": "beautiful paver patio with charcoal border."
+    },
+    {
+      "_id": 12,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158678/gallery12_wnbydv.jpg",
+      "role": "gallery",
+      "location": "Buford, GA",
+      "category": "Patio",
+      "description": "beautiful paver patio with charcoal border."
+    },
+    {
+      "_id": 13,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158679/gallery13_vmnyzf.jpg",
+      "role": "gallery",
+      "location": "Buford, GA",
+      "category": "Walkway",
+      "description": "beautiful paver patio with charcoal border."
+    },
+    {
+      "_id": 14,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158680/gallery14_g3fon4.jpg",
+      "role": "gallery",
+      "location": "Buford, GA",
+      "category": "Pool Deck",
+      "description": "beautiful paver patio with charcoal border."
+    },
+    {
+      "_id": 15,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158682/gallery15_ch4yf5.jpg",
+      "role": "gallery",
+      "location": "Buford, GA",
+      "category": "Wall",
+      "description": "beautiful paver patio with charcoal border."
+    },
+    {
+      "_id": 16,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158682/gallery16_mirnr1.jpg",
+      "role": "home-hero",
+      "location": "Buford, GA",
+      "category": "Patio",
+      "description": "beautiful paver patio with charcoal border."
+    },
+    {
+      "_id": 17,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158683/gallery17_dosl1x.jpg",
+      "role": "gallery",
+      "location": "Buford, GA",
+      "category": "Patio",
+      "description": "beautiful paver patio with charcoal border."
+    },
+    {
+      "_id": 18,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158684/gallery18_ht54bo.jpg",
+      "role": "gallery",
+      "location": "Buford, GA",
+      "category": "Walkway",
+      "description": "beautiful paver patio with charcoal border."
+    },
+    {
+      "_id": 20,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158685/gallery20_ackfc6.jpg",
+      "role": "gallery",
+      "location": "Buford, GA",
+      "category": "Pool Deck",
+      "description": "beautiful paver patio with charcoal border."
+    },
+    {
+      "_id": 21,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158687/gallery21_hi0egg.jpg",
+      "role": "gallery",
+      "location": "Buford, GA",
+      "category": "Walkway",
+      "description": "beautiful paver patio with charcoal border."
+    },
+    {
+      "_id": 22,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158688/gallery22_llzcej.jpg",
+      "role": "gallery",
+      "location": "Buford, GA",
+      "category": "Driveway",
+      "description": "beautiful paver patio with charcoal border."
+    },
+    {
+      "_id": 23,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158689/gallery23_goahzs.jpg",
+      "role": "gallery",
+      "location": "Buford, GA",
+      "category": "Patio",
+      "description": "beautiful paver patio with charcoal border."
+    },
+    {
+      "_id": 24,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158690/gallery24_zlze2a.jpg",
+      "role": "gallery",
+      "location": "Buford, GA",
+      "category": "Fireplace",
+      "description": "beautiful paver patio with charcoal border."
+    },
+    {
+      "_id": 25,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158692/gallery25_cf2wrg.jpg",
+      "location": "Buford, GA",
+      "category": "Driveway",
+      "description": "beautiful paver patio with charcoal border."
+    },
+    {
+      "_id": 26,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158692/gallery26_poh6lv.jpg",
+      "role": "gallery",
+      "location": "Buford, GA",
+      "category": "Pool Deck",
+      "description": "beautiful paver patio with charcoal border."
+    },
+    {
+      "_id": 27,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158694/gallery27_hxlpyu.jpg",
+      "role": "gallery",
+      "location": "Buford, GA",
+      "category": "Pool Deck",
+      "description": "beautiful paver patio with charcoal border."
+    },
+    {
+      "_id": 28,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158695/gallery28_val5gl.jpg",
+      "role": "gallery",
+      "location": "Buford, GA",
+      "category": "Driveway",
+      "description": "beautiful paver patio with charcoal border."
+    },
+    {
+      "_id": 29,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158697/gallery29_groepb.jpg",
+      "role": "ourservices-carousel",
+      "location": "Buford, GA",
+      "category": "Pool Deck",
+      "description": "beautiful paver patio with charcoal border."
+    },
+    {
+      "_id": 30,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158698/gallery30_slqf5g.jpg",
+      "location": "Buford, GA",
+      "category": "Wall",
+      "description": "beautiful paver patio with charcoal border."
+    },
+    {
+      "_id": 31,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158699/gallery31_boeqhy.jpg",
+      "role": "ourservices-carousel",
+      "location": "Buford, GA",
+      "category": "Patio",
+      "description": "beautiful paver patio with charcoal border."
+    },
+    {
+      "_id": 32,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158700/gallery32_iysyrx.jpg",
+      "role": "gallery",
+      "location": "Buford, GA",
+      "category": "Driveway",
+      "description": "beautiful paver patio with charcoal border."
+    },
+    {
+      "_id": 33,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158702/gallery33_qdfaee.jpg",
+      "role": "ourservices-carousel",
+      "location": "Buford, GA",
+      "category": "Wall",
+      "description": "beautiful paver patio with charcoal border."
+    },
+    {
+      "_id": 34,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158703/gallery34_zyblbs.jpg",
+      "role": "gallery",
+      "location": "Buford, GA",
+      "category": "Pool Deck",
+      "description": "beautiful paver patio with charcoal border."
+    },
+    {
+      "_id": 35,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158703/gallery35_vm9fnr.jpg",
+      "role": "gallery",
+      "location": "Buford, GA",
+      "category": "Pool Deck",
+      "description": "beautiful paver patio with charcoal border."
+    },
+    {
+      "_id": 36,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158706/gallery36_skhofn.jpg",
+      "role": "ourservices-carousel",
+      "location": "Buford, GA",
+      "category": "Wall",
+      "description": "beautiful paver patio with charcoal border."
+    },
+    {
+      "_id": 37,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158707/gallery37_a9wutd.jpg",
+      "role": "aboutPageImage01",
+      "location": "Buford, GA",
+      "category": "Pool Deck",
+      "description": "beautiful paver patio with charcoal border."
+    },
+    {
+      "_id": 38,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158708/gallery38_w6ht5y.jpg",
+      "role": "gallery",
+      "location": "Buford, GA",
+      "category": "Patio",
+      "description": "beautiful paver patio with charcoal border."
+    },
+    {
+      "_id": 39,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158708/gallery39_yb7rt3.jpg",
+      "role": "ourservices-carousel",
+      "location": "Buford, GA",
+      "category": "Fireplace",
+      "description": "beautiful paver patio with charcoal border."
+    },
+    {
+      "_id": 40,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158711/gallery40_ovkik2.jpg",
+      "role": "gallery",
+      "location": "Buford, GA",
+      "category": "Patio",
+      "description": "beautiful paver patio with charcoal border."
+    },
+    {
+      "_id": 41,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158712/gallery41_s2wqph.jpg",
+      "role": "home-hero",
+      "location": "Buford, GA",
+      "category": "Pool Deck",
+      "description": ""
+    },
+    {
+      "_id": 42,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158712/gallery42_cjfmoq.jpg",
+      "role": "ourservices-carousel",
+      "location": "Buford, GA",
+      "category": "Wall",
+      "description": "beautiful paver patio with charcoal border."
+    },
+    {
+      "_id": 43,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158726/gallery43_bxefg6.png",
+      "role": "home-hero",
+      "location": "Buford, GA",
+      "category": "Pool Deck",
+      "description": ""
+    },
+    {
+      "_id": 44,
+      "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158724/gallery44_nqw13s.png",
+      "role": "home-hero",
+      "location": "Buford, GA",
+      "category": "Pool Deck",
+      "description": "beautiful paver patio with charcoal border."
+    }
+  ]
+}

@@ -5,7 +5,6 @@ import { ContentContext } from "../context/ContentContext"
 import CPOCertification from '../Assets/CPOCertification.svg'
 import ICPICertification from '../Assets/ICPICertification.svg'
 import CBPCertification from '../Assets/CBPCertification.svg'
-import DefaultCertification from '../Assets/DefaultCertification.svg'
 
 const Certifications = ({ certifications = [], className }) => {
     const { data, loading, error } = useContext(ContentContext);

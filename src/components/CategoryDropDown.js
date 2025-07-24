@@ -3,15 +3,15 @@ import { GalleryContext } from "../context/GalleryContext";
 import Arrow from '../Assets/DropdownIcon'
 
 const CategoryDropdown = () => {
-    const { selectedImages, galleryCategory, setGalleryCategory } = useContext(GalleryContext);
+    const { value, galleryCategory, setGalleryCategory } = useContext(GalleryContext);
     const [isOpen, setIsOpen] = useState(false);
     const [hovered, setHovered] = useState('');
 
     const categories = useMemo(() => {
-        const allCategories = selectedImages.map(img => img.category);
+        const allCategories = value.media.map(img => img.category);
         const unique = Array.from(new Set(allCategories));
         return ['All', ...unique.filter(cat => cat !== 'All')]; // Ensure 'All' is always at the top
-    }, [selectedImages]);
+    }, [value.media]);
 
     const filteredCategories = categories.filter(cat => cat !== galleryCategory);
     return (
@@ -35,9 +35,9 @@ const CategoryDropdown = () => {
                                 onClick={() => {
                                     setGalleryCategory(cat);
                                     setIsOpen(false);
-                                    if (window.scrollY > 138) {
+                                    if (window.scrollY > 90) {
                                         window.scrollTo({
-                                            top: 138,
+                                            top: 90,
                                             behavior: 'smooth'
                                         });
                                     }

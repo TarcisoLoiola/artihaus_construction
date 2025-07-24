@@ -41,5 +41,5 @@ src/Assets/tax_deductions_expenses.json
 src/Assets/taxdeduction.json
 src/Assets/earnings.json
 src/Assets/videos.json
-src/Assets/icons.json
+# src/Assets/icons.json
 src/Assets/lottery.json
