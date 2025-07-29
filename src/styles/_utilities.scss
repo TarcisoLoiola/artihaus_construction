@@ -69,7 +69,6 @@
     flex: 1;
     width: $width-full;
     margin-top: $margin-md;
-    height: auto;
     object-fit: cover;
     border-radius: $radius-sm;
   }
@@ -77,7 +76,7 @@
 
 .page-content-container {
   padding: $padding-xl $padding-vw-xl $padding-xl $padding-vw-xl;
-
+  
   @include respond-to(laptop) { padding: $padding-lg $padding-xl $padding-lg $padding-xl }
   @include respond-to(tablet) { padding: $padding-md $padding-lg $padding-md $padding-lg }
   @include respond-to(mobile) { padding: $padding-sm $padding-sm $padding-sm $padding-sm }
@@ -139,6 +138,7 @@
 
 //MARGIN
 .marginTop--xs {margin-top: -5px};
+.marginTop-xxs { margin-top: $margin-xxs };
 .marginTop-xs { margin-top: $margin-xs };
 .marginTop-sm { margin-top: $margin-sm };
 .marginTop-md { margin-top: $margin-md };

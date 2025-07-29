@@ -19,16 +19,25 @@ const Contact = () => {
                 <h1 className='text-center h1 color-blue marginBottom-md'>
                     Would like to hire us? Let's talk!
                 </h1>
-                <section className='flex-row gap-lg marginBottom-lg'>
+                <section className='flex-row gap-md marginBottom-md'>
                     <div className='image-role-handler flex-1'>
                         <ImageHandler src={image.url} alt='who we are image' role='image-role' />
                     </div>
-                    <div className='flex-1 marginTop-md'>
-                        <InputField label="Name" name="name" />
-                        <InputField label="Contact Number" name="contactNumber" type="number" />
-                        <InputField label="Email" name="email" type="email" />
+                    <div className='flex-2 marginTop-md'>
+                        <div className="flex-row gap-md">
+                            <InputField label="Name" name="name" />
+                            <InputField label="Last Name" name="lastname" />
+                        </div>
+                        <div className="flex-row gap-md">
+                            <InputField label="Contact Number" name="contactNumber" type="number" />
+                            <InputField label="Email" name="email" type="email" />
+                        </div>
+                        <div className="flex-row gap-md">
+                            <InputField label="Project" name="project_type" type="text" />
+                            <InputField label="Location" name="location" type="text" />
+                        </div>
                         <InputField label="Message" name="message" textarea />
-                        <Link text='Send' className='button-lg' color='white' backgroundColor='gold' icon='arrow' onClick={e => handleSubmit(e)} />
+                        <Link text='Send' className='button-xl justify-center' color='white' backgroundColor='gold' onClick={e => handleSubmit(e)} direction="right" />
                     </div>
                 </section>
 

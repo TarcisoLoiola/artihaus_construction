@@ -6,8 +6,8 @@ const InputField = ({ label, name, type = "text", textarea = false }) => {
     const [focused, setFocused] = useState(false);
 
     return (
-        <div className="input padding-sm radius-xs backgroundColor-white marginBottom-md border-softgray">
-            <label htmlFor={name} className={`absolute p color-softgray ${focused || formData[name]?.trim() !== '' ? 'small-text marginTop--xs' : 'marginTop-xs'}`}>{label}</label>
+        <div className="flex-1 input padding-sm radius-xs backgroundColor-white marginBottom-sm border-softgray">
+            <label htmlFor={name} className={`absolute p color-softgray ${focused || formData[name]?.trim() !== '' ? 'small-text marginTop--xs' : 'marginTop-xxs'}`}>{label}</label>
             {textarea ? (
                 <textarea
                     id={name}

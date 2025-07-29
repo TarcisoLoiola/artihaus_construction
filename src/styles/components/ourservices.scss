@@ -1,56 +1,7 @@
-
-.carousel-container {
-    overflow: hidden;
-    width: 100%;
-    padding-right: 15px;
-    position: relative;
-  }
-  
-  .carousel-track {
-    display: flex;
-    transition: transform 2s ease-in-out;
-    width: fit-content;
-  }
-  
-  .carousel-slide {
-    flex: 0 0 calc(100% / 3); /* 3 items per view */
-    padding-left: 1rem;
-    box-sizing: border-box;
-  }
-
-  .carousel-slide img {
-    width: 100%;
-    min-height: 25rem;
-    height: 25rem;
-    object-fit: cover;
-    border-radius: 0.5rem;
-  }
   .ourservices-carousel-button {
     position: absolute;
     width: 8rem;
     text-align: -webkit-center;
     bottom: 1rem;
     margin-left: 1rem;
-  }
-
-  .carousel-dots {
-    bottom: 2rem;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  .dot {
-    transition: background-color 0.3s;
-  }
-
-  .carousel-arrow{
-    position: absolute;
-    bottom: 50%;
-    z-index: 100;
-  }
-
-  .left{
-    left: 0;
-  }
-  .right{
-    right: 0;
   }

@@ -11,14 +11,12 @@ import Reviews from '../components/Reviews';
 
 const Home = () => {
   const { value } = useContext(ContentContext)
-  const { imageURL } = value.pages.home.hero
-
   return (
     <main className='home'>
-      <Hero heroImageURL={imageURL} />
+      <Hero value={value} />
       <WhoWeAre value={value} />
       {/* <OurServices images={value.media} /> */}
-      <OurCommitment />
+      <OurCommitment value={value} />
       {/* <Certifications /> */}
       {/* <Reviews /> */}
     </main>

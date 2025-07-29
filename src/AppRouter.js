@@ -1,6 +1,5 @@
-import React, { useState }from 'react'
+import React, { useState } from 'react'
 import { Route, Routes, useLocation, useMatch } from "react-router-dom"
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 import ScrollTop from './components/ScrollTop'
 import NavBar from './components/NavBar'
@@ -12,6 +11,7 @@ import PublicRoute from './components/PublicRoute'
 
 import Home from './pages/Home'
 import About from './pages/About'
+import Services from './pages/Services'
 import Contact from './pages/Contact'
 import Gallery from './pages/Gallery'
 import FullScreenImage from './pages/FullScreenImage'
@@ -26,26 +26,23 @@ const AppRouter = () => {
   return (
     <div>
       <ScrollTop />
-      { !isGalleryIndex && <NavBar /> }
+      {!isGalleryIndex && <NavBar />}
       <main className='paddingTop-xl'>
-        <TransitionGroup>
-          <CSSTransition key={location.key} timeout={100}>
-            <Routes location={location}>
-              <Route path="/" element={<Home /> } />
-              <Route path="/about" element={<About />} />
-              <Route path="/gallery" element={<Gallery />} />
-              <Route path="/gallery/:_id" element={<FullScreenImage />} />
-              <Route path="/contact" element={<Contact />} />
-              {/*
+        <Routes location={location}>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/gallery/:_id" element={<FullScreenImage />} />
+          <Route path="/contact" element={<Contact />} />
+          {/*
               <Route path='/admin' element={<Admin />} />
               */}
-              <Route path='*' element={<PageNotFound />} />
+          <Route path='*' element={<PageNotFound />} />
 
-            </Routes>
-          </CSSTransition>
-        </TransitionGroup>
+        </Routes>
       </main>
-      { !isGalleryIndex && <Footer /> }
+      {!isGalleryIndex && <Footer />}
     </div>
   )
 }

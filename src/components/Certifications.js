@@ -18,10 +18,10 @@ const Certifications = ({ certifications = [], className }) => {
     }
 
     return (
-        <section className='certifications backgroundColor-blue'>
+        <section className='certifications backgroundColor-white'>
             <div className='page-content-container'>
-                <h1 className='h1 color-white text-center marginBottom-lg'>Certifications</h1>
-                <div className='certifications-container flex-row gap-xl'>
+                <h1 className='h1 color-blue text-center marginBottom-lg'>Certifications</h1>
+                <div className='certifications-container flex-row space-between'>
                         {certifications.map((certification, index) => (
                             <div className='certification' key={index}>
                                 <img src={certification.image} alt='our commitment card icon' />

@@ -1,6 +1,6 @@
 import { useContext, useState, useMemo } from "react";
 import { GalleryContext } from "../context/GalleryContext";
-import Arrow from '../Assets/DropdownIcon'
+import Arrow from '../Assets/ArrowIcon'
 
 const CategoryDropdown = () => {
     const { value, galleryCategory, setGalleryCategory } = useContext(GalleryContext);
@@ -23,7 +23,7 @@ const CategoryDropdown = () => {
             >
                 <div className="grid grid-1fr-auto">
                     <div className='text-center'>{galleryCategory}</div>
-                    <div className='borderLeft-white paddingLeft-sm paddingRight-sm'><Arrow color='white' /></div>
+                    <div className='borderLeft-white paddingLeft-sm paddingRight-sm'><Arrow color='white' direction='downRight' /></div>
                 </div>
                 {isOpen && (
                     <div

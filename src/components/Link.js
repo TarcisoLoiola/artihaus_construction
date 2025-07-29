@@ -1,6 +1,6 @@
+import React, { useState } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import Arrow from '../Assets/ArrowIcon'
-import Dropdown from '../Assets/DropdownIcon'
 import Facebook from '../Assets/FacebookIcon'
 import Instagram from '../Assets/InstagramIcon'
 
@@ -16,12 +16,9 @@ const getColor = {
     warning: '#f1c40f',
 }
 
-const getIcon = (icon, color) => {
+const getIcon = (icon, color, direction) => {
     if (icon === 'arrow') {
-        return <Arrow alt='button arrow' color={getColor[color]} />
-    }
-    else if (icon === 'dropdown') {
-        return <Dropdown alt='dropdown icon' color={getColor[color]} />
+        return <Arrow alt='button arrow' color={getColor[color]} direction={direction} />
     }
     else if (icon === 'facebook') {
         return <Facebook alt='facebook icon' color={getColor[color]} />
@@ -33,8 +30,7 @@ const getIcon = (icon, color) => {
 }
 
 
-const Link = ({ to, text, color, backgroundColor = 'none', border = 'none', size = 'small', onClick, className, icon = true, external = false, showActive = true, button = true, ...props }) => {
-
+const Link = ({ to, text, color, direction, backgroundColor = 'none', border = 'none', size = 'small', onClick, className, icon, external = false, showActive = true, button = true, ...props }) => {
     return (
         to && external ?
             <div className={className}>
@@ -51,7 +47,7 @@ const Link = ({ to, text, color, backgroundColor = 'none', border = 'none', size
                             {text}
                         </div>}
                     {
-                        getIcon(icon, color)
+                        getIcon(icon, color, direction)
                     }
                 </a>
             </div>
@@ -70,23 +66,22 @@ const Link = ({ to, text, color, backgroundColor = 'none', border = 'none', size
                             </div>
                         }
                         {
-                            getIcon(icon, color)
+                            getIcon(icon, color, direction)
                         }
                     </NavLink>
                 </div>
                 :
-                <div className={className}
+                <div className={`${className} cursor-pointer`}
                     style={{
                         backgroundColor: getColor[backgroundColor],
                         border: `1px solid ${getColor[border]}`,
                         borderRadius: '.5rem'
                     }}
+                    onClick={onClick}
                 >
                     <button
-                        to={to}
                         {...props}
-                        className={button ? 'button' : ''}
-                        onClick={onClick}
+                        className='submitButton'
                     >
                         {text &&
                             <div style={{ color: getColor[color] }}>
@@ -94,7 +89,7 @@ const Link = ({ to, text, color, backgroundColor = 'none', border = 'none', size
                             </div>
                         }
                         {
-                            getIcon(icon, color)
+                            getIcon(icon, color, direction)
                         }
                     </button>
                 </div>

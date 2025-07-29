@@ -5,7 +5,9 @@
       "hero": {
         "title": {},
         "subtitle": {},
-        "imageURL": "https://res.cloudinary.com/dqtstyldx/video/upload/v1753112618/DF403D1A-D574-4347-A48C-D1061013523C_lbpmvo.mov"
+        "image": {
+          "url": "https://res.cloudinary.com/dqtstyldx/video/upload/v1753112618/DF403D1A-D574-4347-A48C-D1061013523C_lbpmvo.mov"
+        }
       },
       "sections": {
         "whoweare": {
@@ -18,7 +20,9 @@
             "Excavation • Shotcrete • Plumbing • Electrical • Coping • Decking • Finishing",
             "Every project is built to endure—and designed to inspire."
           ],
-          "imageURL": ""
+          "image": {
+            "url": "https://res.cloudinary.com/dqtstyldx/image/upload/v1749158724/gallery44_nqw13s.png"
+          }
         },
         "ourcommitment": {
           "title": "Our commitment to quality & excellence.",
@@ -110,7 +114,264 @@
       }
     ]
   },
-  "reviews": [],
+  "reviews": [
+    {
+      "_id": 1,
+      "name": "John Milenie",
+      "rating": 4.5,
+      "project": "pool building",
+      "location": "Norcross",
+      "comment": "We were referred to ArtiHaus by a neighbor, and hiring them for our pool building in Norcross was the best decision. Tarciso\u2019s crew worked hard and left the site spotless."
+    },
+    {
+      "_id": 2,
+      "name": "Sarah Lopez",
+      "rating": 4.1,
+      "project": "hardscape",
+      "location": "Flowery Branch",
+      "comment": "I can't recommend ArtiHaus Outdoor Living enough! Our hardscape turned out better than we imagined. Big thanks to Tarciso and his talented team!"
+    },
+    {
+      "_id": 3,
+      "name": "Marcus King",
+      "rating": 4.9,
+      "project": "pool building",
+      "location": "Buford",
+      "comment": "ArtiHaus Outdoor Living gave us a five-star experience. From design to completion of our pool building in Buford, everything was handled with care by Tarciso and his crew."
+    },
+    {
+      "_id": 4,
+      "name": "Emily Tran",
+      "rating": 5.0,
+      "project": "pool maintenance",
+      "location": "Norcross",
+      "comment": "ArtiHaus Outdoor Living gave us a five-star experience. From design to completion of our pool maintenance in Norcross, everything was handled with care by Tarciso and his crew."
+    },
+    {
+      "_id": 5,
+      "name": "Carlos Rivera",
+      "rating": 5.0,
+      "project": "landscape",
+      "location": "Gainesville",
+      "comment": "From start to finish, ArtiHaus Outdoor Living made the entire landscape project seamless. Tarciso\u2019s knowledge and his team\u2019s work ethic really stood out."
+    },
+    {
+      "_id": 6,
+      "name": "Jenna Michaels",
+      "rating": 4.4,
+      "project": "pool maintenance",
+      "location": "Norcross",
+      "comment": "We had our pool maintenance done by ArtiHaus Outdoor Living, and it was a fantastic experience. Tarciso walked us through every step, and the results exceeded expectations."
+    },
+    {
+      "_id": 6,
+      "name": "Tom Brooks",
+      "rating": 4.3,
+      "project": "hardscape",
+      "location": "Lawrenceville",
+      "comment": "The quality of craftsmanship from ArtiHaus Outdoor Living is outstanding. Tarciso and the crew built our hardscape with precision, care, and creativity."
+    },
+    {
+      "_id": 8,
+      "name": "Vanessa Chen",
+      "rating": 4.8,
+      "project": "pool maintenance",
+      "location": "Jefferson",
+      "comment": "From start to finish, ArtiHaus Outdoor Living made the entire pool maintenance project seamless. Tarciso\u2019s knowledge and his team\u2019s work ethic really stood out."
+    },
+    {
+      "_id": 9,
+      "name": "Luis Delgado",
+      "rating": 5.0,
+      "project": "pool building",
+      "location": "Gainesville",
+      "comment": "We were referred to ArtiHaus by a neighbor, and hiring them for our pool building in Gainesville was the best decision. Tarciso\u2019s crew worked hard and left the site spotless."
+    },
+    {
+      "_id": 10,
+      "name": "Rita Saunders",
+      "rating": 4.3,
+      "project": "pool maintenance",
+      "location": "Dahlonega",
+      "comment": "I hired ArtiHaus Outdoor Living for pool maintenance in Dahlonega, and I couldn't be happier. Tarciso and his crew were professional, on time, and paid attention to every detail."
+    },
+    {
+      "_id": 11,
+      "name": "James Bolton",
+      "rating": 4.7,
+      "project": "landscape",
+      "location": "Roswell",
+      "comment": "We had our landscape done by ArtiHaus Outdoor Living, and it was a fantastic experience. Tarciso walked us through every step, and the results exceeded expectations."
+    },
+    {
+      "_id": 12,
+      "name": "Lori Kim",
+      "rating": 4.9,
+      "project": "hardscape",
+      "location": "Chattanooga",
+      "comment": "I can't recommend ArtiHaus Outdoor Living enough! Our hardscape turned out better than we imagined. Big thanks to Tarciso and his talented team!"
+    },
+    {
+      "_id": 13,
+      "name": "Derek Wu",
+      "rating": 4.5,
+      "project": "hardscape",
+      "location": "Toccoa",
+      "comment": "We had our hardscape done by ArtiHaus Outdoor Living, and it was a fantastic experience. Tarciso walked us through every step, and the results exceeded expectations."
+    },
+    {
+      "_id": 14,
+      "name": "Amanda Blake",
+      "rating": 4.3,
+      "project": "hardscape",
+      "location": "Dahlonega",
+      "comment": "We had our hardscape done by ArtiHaus Outdoor Living, and it was a fantastic experience. Tarciso walked us through every step, and the results exceeded expectations."
+    },
+    {
+      "_id": 15,
+      "name": "Victor Stone",
+      "rating": 4.4,
+      "project": "pool building",
+      "location": "Alpharetta",
+      "comment": "Thanks to ArtiHaus Outdoor Living, our pool building project came out incredible. You can tell Tarciso takes great pride in his work."
+    },
+    {
+      "_id": 16,
+      "name": "Natalie Park",
+      "rating": 4.4,
+      "project": "pool building",
+      "location": "Toccoa",
+      "comment": "We were referred to ArtiHaus by a neighbor, and hiring them for our pool building in Toccoa was the best decision. Tarciso\u2019s crew worked hard and left the site spotless."
+    },
+    {
+      "_id": 16,
+      "name": "Isaiah Reed",
+      "rating": 4.2,
+      "project": "pool building",
+      "location": "Roswell",
+      "comment": "From start to finish, ArtiHaus Outdoor Living made the entire pool building project seamless. Tarciso\u2019s knowledge and his team\u2019s work ethic really stood out."
+    },
+    {
+      "_id": 18,
+      "name": "Sophie Turner",
+      "rating": 4.8,
+      "project": "pool maintenance",
+      "location": "Braselton",
+      "comment": "Thanks to ArtiHaus Outdoor Living, our pool maintenance project came out incredible. You can tell Tarciso takes great pride in his work."
+    },
+    {
+      "_id": 19,
+      "name": "Ethan Jones",
+      "rating": 4.2,
+      "project": "pool building",
+      "location": "Athens",
+      "comment": "From start to finish, ArtiHaus Outdoor Living made the entire pool building project seamless. Tarciso\u2019s knowledge and his team\u2019s work ethic really stood out."
+    },
+    {
+      "_id": 20,
+      "name": "Priya Patel",
+      "rating": 4.3,
+      "project": "pool maintenance",
+      "location": "Athens",
+      "comment": "We were referred to ArtiHaus by a neighbor, and hiring them for our pool maintenance in Athens was the best decision. Tarciso\u2019s crew worked hard and left the site spotless."
+    },
+    {
+      "_id": 21,
+      "name": "Jake Sull",
+      "rating": 4.5,
+      "project": "pool building",
+      "location": "Dahlonega",
+      "comment": "From start to finish, ArtiHaus Outdoor Living made the entire pool building project seamless. Tarciso\u2019s knowledge and his team\u2019s work ethic really stood out."
+    },
+    {
+      "_id": 22,
+      "name": "Olivia Grant",
+      "rating": 4.6,
+      "project": "pool building",
+      "location": "Cumming",
+      "comment": "From start to finish, ArtiHaus Outdoor Living made the entire pool building project seamless. Tarciso\u2019s knowledge and his team\u2019s work ethic really stood out."
+    },
+    {
+      "_id": 23,
+      "name": "Henry Zhao",
+      "rating": 4.6,
+      "project": "pool maintenance",
+      "location": "Cumming",
+      "comment": "The quality of craftsmanship from ArtiHaus Outdoor Living is outstanding. Tarciso and the crew built our pool maintenance with precision, care, and creativity."
+    },
+    {
+      "_id": 24,
+      "name": "Meghan Torres",
+      "rating": 5.0,
+      "project": "landscape",
+      "location": "Lawrenceville",
+      "comment": "We were referred to ArtiHaus by a neighbor, and hiring them for our landscape in Lawrenceville was the best decision. Tarciso\u2019s crew worked hard and left the site spotless."
+    },
+    {
+      "_id": 25,
+      "name": "Brandon Lee",
+      "rating": 4.5,
+      "project": "landscape",
+      "location": "Toccoa",
+      "comment": "We had our landscape done by ArtiHaus Outdoor Living, and it was a fantastic experience. Tarciso walked us through every step, and the results exceeded expectations."
+    },
+    {
+      "_id": 26,
+      "name": "Kayla Morris",
+      "rating": 4.3,
+      "project": "pool building",
+      "location": "Marietta",
+      "comment": "We\u2019ve worked with other contractors before, but none have matched the professionalism of ArtiHaus Outdoor Living. Tarciso personally ensured our pool building was flawless."
+    },
+    {
+      "_id": 26,
+      "name": "Antonio Wright",
+      "rating": 4.9,
+      "project": "pool maintenance",
+      "location": "Toccoa",
+      "comment": "We were referred to ArtiHaus by a neighbor, and hiring them for our pool maintenance in Toccoa was the best decision. Tarciso\u2019s crew worked hard and left the site spotless."
+    },
+    {
+      "_id": 28,
+      "name": "Chloe Benson",
+      "rating": 4.0,
+      "project": "hardscape",
+      "location": "Norcross",
+      "comment": "We\u2019ve worked with other contractors before, but none have matched the professionalism of ArtiHaus Outdoor Living. Tarciso personally ensured our hardscape was flawless."
+    },
+    {
+      "_id": 29,
+      "name": "Noah Martinez",
+      "rating": 4.3,
+      "project": "landscape",
+      "location": "Suwanee",
+      "comment": "We had our landscape done by ArtiHaus Outdoor Living, and it was a fantastic experience. Tarciso walked us through every step, and the results exceeded expectations."
+    },
+    {
+      "_id": 30,
+      "name": "Grace Liu",
+      "rating": 4.8,
+      "project": "pool maintenance",
+      "location": "Dahlonega",
+      "comment": "ArtiHaus Outdoor Living transformed our outdoor space in Dahlonega with a beautiful pool maintenance. Everyone who visits compliments it, and we always mention Tarciso by name!"
+    },
+    {
+      "_id": 31,
+      "name": "Tyler Jenkins",
+      "rating": 5.0,
+      "project": "hardscape",
+      "location": "Chattanooga",
+      "comment": "We\u2019ve worked with other contractors before, but none have matched the professionalism of ArtiHaus Outdoor Living. Tarciso personally ensured our hardscape was flawless."
+    },
+    {
+      "_id": 32,
+      "name": "Maya Gomez",
+      "rating": 4.4,
+      "project": "pool building",
+      "location": "Braselton",
+      "comment": "ArtiHaus Outdoor Living gave us a five-star experience. From design to completion of our pool building in Braselton, everything was handled with care by Tarciso and his crew."
+    }
+  ],
   "media": [
     {
       "_id": 1,

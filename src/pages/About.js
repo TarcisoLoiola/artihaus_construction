@@ -20,7 +20,7 @@ const About = () => {
                         </p>
                     </div>
                     <div className='image-role-handler flex-1'>
-                        <ImageHandler src={image01.url} alt='who we are image' role='home--whoweare' />
+                        <ImageHandler src={image01.url} alt='who we are image' role='about--aboutus' />
                     </div>
                 </section>
                 <section className='marginBottom-md'>
@@ -31,7 +31,7 @@ const About = () => {
                 </section>
                 <section className='flex-row gap-lg marginBottom-lg'>
                     <div className='image-role-handler flex-1'>
-                        <ImageHandler src={image02.url} alt='who we are image' role='home--whoweare' />
+                        <ImageHandler src={image02.url} alt='who we are image' role='about--aboutus' />
                     </div>
                     <div className='flex-1'>
                         <h4 className='h4 color-gray marginBottom-md paddingTop-md'>Why Choose Artihaus</h4>

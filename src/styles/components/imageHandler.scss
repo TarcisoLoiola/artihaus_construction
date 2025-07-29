@@ -1,10 +1,8 @@
 .image-role {
   width: auto;
-  height: auto;
 }
 .image-role-handler {
   width: auto;
-  height: auto;
 }
   // Role-specific styles
 .image-hero {
@@ -13,13 +11,15 @@
   object-position: center;
 }
 
-.image-home--carousel {
+.image-services--carousel {
   width: auto;
-  height: auto
+  height: 5rem;
 }
 .image-home--whoweare {
-  height: auto;
-  width: auto;
+  height: 30rem;
+}
+.image-about--aboutus {
+  height: 20rem;
 }
 
 .image-gallery {

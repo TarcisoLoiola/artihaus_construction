@@ -5,8 +5,11 @@ export const ContactContext = createContext();
 export const ContactProvider = ({ children }) => {
     const [formData, setFormData] = useState({
         name: '',
+        lastname: '',
         contactNumber: '',
         email: '',
+        project_type: '',
+        location: '',
         message: ''
     });
 
@@ -21,8 +24,11 @@ export const ContactProvider = ({ children }) => {
     const resetForm = () => {
         setFormData({
             name: '',
+            lastname: '',
             contact_number: '',
             email: '',
+            project_type: '',
+            location: '',
             message: ''
         });
     };
