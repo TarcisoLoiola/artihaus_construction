@@ -20,8 +20,8 @@ jobs:
       - name: FTP Deploy to Locaweb
         uses: locaweb/ftp-deploy@1.0.0
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USER }}
+          host: ${{ secrets.FTP_SERVER }}
+          user: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASS }}
-          server-dir: public_html/   # React build should go here
-          local-dir: build/
+          remoteDir: public_html/   # React build should go here
+          localDir: build/
