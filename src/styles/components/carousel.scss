@@ -8,12 +8,12 @@
     display: flex;
     transition: transform 0.3s ease-in-out;
     will-change: transform;
+    justify-content: space-between;
     // display: flex;
     // width: fit-content;
   }
 
-  .carousel-slide {
-    flex: 0 0 calc(100% / 3); /* Show 3 slides */
+  .carousel-slide { /* Show 3 slides */
     box-sizing: border-box;
     padding: 0 10px; /* Optional for spacing */
   }

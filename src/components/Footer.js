@@ -6,7 +6,7 @@ const Footer = () => {
     const location = useLocation();
     const { pathname } = location
     return (
-        <footer className='footer backgroundColor-darkgray'>
+        <footer className='footer backgroundColor-darkgray minVHHeight'>
             {/* this first block stay on top of block 2 and a border-bottom separates them */}
             <div className='page-content-container borderBottom-lightgray'>
                 {/* //this first row is flex. h1 and button take one space each */}
@@ -20,7 +20,7 @@ const Footer = () => {
                 <div className='flex-row gap-lg space-between borderBottom-lightgray paddingBottom-lg'>
                     {/* this is a block or flex column img on top of the p */}
                     <div className='flex-column flex-2'>
-                        <Logo logo='secondaryLogo' className='marginBottom-xs' />
+                        <Logo logo='artihaus2' className='marginBottom-xs' />
                         <p className='p color-white'>Serving Georgia from Augusta to Chattanooga and everywhere in between.</p>
                     </div>
                     {/* this is a block or flex column */}
@@ -42,7 +42,7 @@ const Footer = () => {
                     </div>
                     <div className='flex-column'>
                         <h4 className='h4 color-gold marginBottom-xs'>Contact Us</h4>
-                        <p className='p color-white marginBottom-xs'><a href="mailto:artihausconstruction@gmail.com">artihausoutdoorliving@gmail.com</a></p>
+                        <p className='p color-white marginBottom-xs'><a href="mailto:artihausconstruction@gmail.com">artihaus@gmail.com</a></p>
                         <p className='p color-white marginBottom-xs'><a href="tel:+1234567890">+1(678) 260-5968</a></p>
                         <p className='p color-white marginBottom-xs'>Buford GA 30518, United States</p>
                         <div className='flex-row gap-lg'>

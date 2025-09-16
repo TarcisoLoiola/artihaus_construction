@@ -12,8 +12,8 @@ const Reviews = ({ className }) => {
             <div className='page-content-container'>
                 <h1 className='h1 color-white text-center marginBottom-lg'>What Our Clients Say</h1>
                 {/* <div className='reviews'> */}
-                <div className='cards-container'>
-                    <Carousel data={reviews} isImage={false} role='ourservices-carousel' itemsPerView={3} interval={4000} />
+                <div className='cards-container marginBottom-md'>
+                    <Carousel data={reviews} isImage={false} role='ourservices-carousel' itemsPerView={2} interval={4000} />
                 </div>
                 {/* </div> */}
             </div>

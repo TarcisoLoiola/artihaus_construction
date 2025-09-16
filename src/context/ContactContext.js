@@ -3,38 +3,46 @@ import { createContext, useState } from "react";
 export const ContactContext = createContext();
 
 export const ContactProvider = ({ children }) => {
+
+    const [formDataValidation, setFormDataValidation] = useState(false)
     const [formData, setFormData] = useState({
         name: '',
-        lastname: '',
-        contactNumber: '',
+        phone: '',
         email: '',
-        project_type: '',
+        project: '',
+        areacode: '',
         location: '',
         message: ''
     });
 
+
     const updateField = (field, value) => {
-        setFormData(prev => ({ ...prev, [field]: value }));
+        setFormData(prev => {
+            return ({ ...prev, [field]: value }, () => {
+                if (field === 'areacode' && formData.areacode.length === 5) {
+                    console.log(formData.areacode)
+                }
+            })
+        });
     };
 
-    const submitContactForm = () => {
-        console.log(formData);
-    };
+
+
 
     const resetForm = () => {
         setFormData({
             name: '',
-            lastname: '',
-            contact_number: '',
+            phone: '',
             email: '',
-            project_type: '',
+            project: '',
+            areacode: '',
             location: '',
             message: ''
         });
     };
 
     return (
-        <ContactContext.Provider value={{ formData, updateField, resetForm }}>
+        <ContactContext.Provider value={{ formData, formDataValidation, setFormDataValidation, updateField, resetForm }}>
             {children}
         </ContactContext.Provider>
     );

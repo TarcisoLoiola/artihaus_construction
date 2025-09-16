@@ -8,7 +8,7 @@ const NavBar = () => {
     return (
         <nav className="navBar backgroundColor-white">
             <div className="navBar-container">
-                <Logo logo='primaryLogo' />
+                <Logo logo='artihaus' />
                 <div className="navMenu color-gray">
                     <Link to='/' text="Home" button={false} />
                     <Link to='/about' text="About" button={false} />

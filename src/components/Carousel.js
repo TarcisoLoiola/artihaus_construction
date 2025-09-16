@@ -38,11 +38,11 @@ const Carousel = ({ data, isImage = true, role, dots = true, interval = 3000, it
 
   useEffect(() => {
     clearInterval(intervalRef.current);
-    if (isVisible && document.visibilityState === 'visible') {
+    if (isVisible && document.visibilityState === 'visible' && !isHovered) {
       startInterval();
     }
     return () => clearInterval(intervalRef.current);
-  }, [location.pathname, isVisible]);
+  }, [location.pathname, isVisible, isHovered]);
 
   useEffect(() => {
     setIsTransitioning(true);
@@ -54,52 +54,6 @@ const Carousel = ({ data, isImage = true, role, dots = true, interval = 3000, it
       if (document.visibilityState !== 'visible') clearInterval(intervalRef.current);
     });
   }, []);
-  // useEffect(() => {
-  //   console.log(carouselRef)
-  //   const observer = new IntersectionObserver(
-  //     ([entry]) => setIsVisible(entry.isIntersecting),
-  //     { threshold: 0.4 }
-  //   );
-
-  //   if (carouselRef.current) observer.observe(carouselRef.current);
-
-  //   return () => {
-  //     if (carouselRef.current) observer.unobserve(carouselRef.current);
-  //   };
-  // }, []);
-
-  // // Clone first few slides to end for seamless loop
-  // const extendedData = [...data, ...data.slice(0, itemsPerView)];
-
-  // const startInterval = () => {
-  //   clearInterval(intervalRef.current);
-  //   intervalRef.current = setInterval(() => {
-  //     setIndex((prev) => prev + 1);
-  //   }, interval);
-  // };
-
-  // useEffect(() => {
-  //   clearInterval(intervalRef.current);
-  //   if (isVisible && document.visibilityState === 'visible') {
-  //     startInterval();
-  //   }
-  //   return () => clearInterval(intervalRef.current);
-  // }, [location.pathname, isVisible]);
-
-
-  // useEffect(() => {
-  //   // When reaching the fake end, reset without animation
-  //   if (index === totalItems) {
-  //     setTimeout(() => {
-  //       setIsTransitioning(false);
-  //       settransitionSpeed(1.2)
-  //       setIndex(0);
-  //     }, 500); // Wait for current transition to finish
-  //   } else {
-  //     setIsTransitioning(true);
-  //     settransitionSpeed(1.2)
-  //   }
-  // }, [index, totalItems]);
 
   const handlePrev = () => {
     // If at the start, jump to last visible set
@@ -113,6 +67,11 @@ const Carousel = ({ data, isImage = true, role, dots = true, interval = 3000, it
       setIndex((prev) => prev - 1);
       startInterval();
     }
+    clearInterval(intervalRef.current);
+    if (isVisible && document.visibilityState === 'visible' && !isHovered) {
+      startInterval();
+    }
+    return () => clearInterval(intervalRef.current);
   };
 
   const handleNext = () => {
@@ -120,15 +79,33 @@ const Carousel = ({ data, isImage = true, role, dots = true, interval = 3000, it
     settransitionSpeed(.3)
     setIndex((prev) => prev + 1);
     startInterval();
+    clearInterval(intervalRef.current);
+    if (isVisible && document.visibilityState === 'visible' && !isHovered) {
+      startInterval();
+    }
+    return () => clearInterval(intervalRef.current);
   };
 
 
   return (
-    <div className="carousel-container" ref={carouselRef}>
+    <div
+      ref={carouselRef}
+      className="carousel-container"
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
       {/* Left Arrow */}
-      <CarouselArrow className="carousel-arrow left cursor-pointer" direction='left' onClick={handlePrev} />
+      <CarouselArrow
+        className="carousel-arrow left cursor-pointer"
+        direction='left'
+        onClick={handlePrev}
+      />
       {/* Right Arrow */}
-      <CarouselArrow className="carousel-arrow right cursor-pointer" direction='right' onClick={handleNext} />
+      <CarouselArrow
+        className="carousel-arrow right cursor-pointer"
+        direction='right'
+        onClick={handleNext}
+      />
 
       <div
         ref={trackRef}
@@ -142,7 +119,11 @@ const Carousel = ({ data, isImage = true, role, dots = true, interval = 3000, it
           isImage ?
             (
               extendedData.map((img, i) => (
-                <div className="carousel-slide cursor-pointer" key={i}>
+                <div
+                  key={i}
+                  className="carousel-slide cursor-pointer"
+                  style={{ flex: `0 0 calc(100% / ${itemsPerView})` }}
+                >
                   <img src={img.url} alt={`Slide ${i}`} />
                   <div className={`${role}-button btn-xl`}>
                     <Button text={img.category} color='blue' backgroundColor='white' icon='plus' />
@@ -154,7 +135,11 @@ const Carousel = ({ data, isImage = true, role, dots = true, interval = 3000, it
             :
             (
               extendedData.map((item, i) => (
-                <div className="carousel-slide cursor-pointer" key={i}>
+                <div
+                  key={i}
+                  className="carousel-slide cursor-pointer"
+                  style={{ flex: `0 0 calc(100% / ${itemsPerView})` }}
+                >
                   <div className='card'>
                     <div className='review-rating'><RatingStarHandler rating={item.rating} /></div>
                     <h3 className='h3 review-project'>{item.project}</h3>
@@ -316,3 +301,49 @@ export default Carousel;
 // };
 
 // export default Carousel;
+// useEffect(() => {
+//   console.log(carouselRef)
+//   const observer = new IntersectionObserver(
+//     ([entry]) => setIsVisible(entry.isIntersecting),
+//     { threshold: 0.4 }
+//   );
+
+//   if (carouselRef.current) observer.observe(carouselRef.current);
+
+//   return () => {
+//     if (carouselRef.current) observer.unobserve(carouselRef.current);
+//   };
+// }, []);
+
+// // Clone first few slides to end for seamless loop
+// const extendedData = [...data, ...data.slice(0, itemsPerView)];
+
+// const startInterval = () => {
+//   clearInterval(intervalRef.current);
+//   intervalRef.current = setInterval(() => {
+//     setIndex((prev) => prev + 1);
+//   }, interval);
+// };
+
+// useEffect(() => {
+//   clearInterval(intervalRef.current);
+//   if (isVisible && document.visibilityState === 'visible') {
+//     startInterval();
+//   }
+//   return () => clearInterval(intervalRef.current);
+// }, [location.pathname, isVisible]);
+
+
+// useEffect(() => {
+//   // When reaching the fake end, reset without animation
+//   if (index === totalItems) {
+//     setTimeout(() => {
+//       setIsTransitioning(false);
+//       settransitionSpeed(1.2)
+//       setIndex(0);
+//     }, 500); // Wait for current transition to finish
+//   } else {
+//     setIsTransitioning(true);
+//     settransitionSpeed(1.2)
+//   }
+// }, [index, totalItems]);

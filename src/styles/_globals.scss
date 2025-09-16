@@ -53,11 +53,12 @@ button {
   box-sizing: border-box; // optional but often helpful
   cursor: pointer; // re-add pointer cursor
 }
-input, textarea{
+input, textarea, select{
   border: none; /* optional, if you want no border at all */
   resize: vertical;
+  width: 100%;
 }
-input:focus, textarea:focus {
+input:focus, textarea:focus, select:focus {
   outline: none;
   box-shadow: none;
   border: none; /* optional, if you want no border at all */

@@ -76,11 +76,14 @@
 
 .page-content-container {
   padding: $padding-xl $padding-vw-xl $padding-xl $padding-vw-xl;
-  
   @include respond-to(laptop) { padding: $padding-lg $padding-xl $padding-lg $padding-xl }
   @include respond-to(tablet) { padding: $padding-md $padding-lg $padding-md $padding-lg }
   @include respond-to(mobile) { padding: $padding-sm $padding-sm $padding-sm $padding-sm }
 }
+.minVHHeight {
+  min-height: calc(100vh - 60px);
+}
+
 .button-height-sm {
   height: $button-height-sm;
 }
@@ -197,6 +200,7 @@
 .borderBottom-lightgray { border-bottom: $border-light }
 .border-lightgray { border: $border-lightgray }
 .border-gray { border: $border-gray }
+.border-error { border: $border-error }
 .border-softgray { border: $border-softgray }
 // .u-border-gold { border: $border-gold }
 .borderLeft-white { border-left: $border-white }
