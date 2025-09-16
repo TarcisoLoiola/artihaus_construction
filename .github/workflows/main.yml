@@ -1,16 +1,27 @@
-ame: Deploy via ftp
-      on: push
-      jobs:
-        deploy:
-          name: Deploy
-          runs-on: ubuntu-latest
-          steps:
-          - uses: actions/checkout@v2
+name: Deploy React App to Locaweb
+on:
+  push:
+    branches:
+      - main   # change if your repo uses "master" instead
 
-          - name: FTP Deploy Locaweb
-            uses: locaweb/ftp-deploy@1.0.0
-            with:
-              host: ${{ secrets.HOST }} 
-              user: ${{ secrets.USER }}
-              password: ${{ secrets.PASS }}
-              localDir: "dist"
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Install dependencies and build
+        run: |
+          npm install
+          npm run build
+
+      - name: FTP Deploy to Locaweb
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASS }}
+          server-dir: public_html/   # React build should go here
+          local-dir: build/
